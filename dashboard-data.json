@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T18:14:59.452820+00:00",
+  "generated_at": "2026-09-20T19:21:55.747648+00:00",
   "mlb": {
     "summary": {
       "predictions": 12,
@@ -1834,6 +1834,211 @@
         "pnl": 7.2
       }
     ]
+  },
+  "football_leagues": {
+    "date_taipei": "2026-09-21",
+    "total_games": 10,
+    "leagues": [
+      {
+        "key": "soccer_epl",
+        "name": "英超",
+        "games": [],
+        "game_count": 0,
+        "stage": "paper_model",
+        "stage_label": "模擬模型"
+      },
+      {
+        "key": "soccer_spain_la_liga",
+        "name": "西甲",
+        "games": [
+          {
+            "event_id": "d05fb9feb5722b2f2cedb8bbe7c33a1d",
+            "commence_time": "2026-09-20T19:02:00Z",
+            "home_team": "Valencia",
+            "away_team": "Real Sociedad"
+          }
+        ],
+        "game_count": 1,
+        "stage": "collecting",
+        "stage_label": "資料收集中"
+      },
+      {
+        "key": "soccer_france_ligue_one",
+        "name": "法甲",
+        "games": [
+          {
+            "event_id": "2b9e09738f8627da46e42d85e4ccb478",
+            "commence_time": "2026-09-20T18:45:00Z",
+            "home_team": "Marseille",
+            "away_team": "Paris Saint Germain"
+          }
+        ],
+        "game_count": 1,
+        "stage": "collecting",
+        "stage_label": "資料收集中"
+      },
+      {
+        "key": "soccer_italy_serie_a",
+        "name": "義甲",
+        "games": [
+          {
+            "event_id": "32989e446cccc9a7f71ece00c93da57c",
+            "commence_time": "2026-09-20T18:45:00Z",
+            "home_team": "AC Milan",
+            "away_team": "Lecce"
+          }
+        ],
+        "game_count": 1,
+        "stage": "collecting",
+        "stage_label": "資料收集中"
+      },
+      {
+        "key": "soccer_germany_bundesliga",
+        "name": "德甲",
+        "games": [
+          {
+            "event_id": "9f5cd3de78cf482a77b4571fe363d04c",
+            "commence_time": "2026-09-20T17:30:00Z",
+            "home_team": "SC Paderborn",
+            "away_team": "TSG Hoffenheim"
+          }
+        ],
+        "game_count": 1,
+        "stage": "collecting",
+        "stage_label": "資料收集中"
+      },
+      {
+        "key": "soccer_usa_mls",
+        "name": "MLS",
+        "games": [
+          {
+            "event_id": "dc92a5925fcf4c94c17a4278a5e6a419",
+            "commence_time": "2026-09-20T23:00:00Z",
+            "home_team": "Inter Miami CF",
+            "away_team": "San Diego FC"
+          }
+        ],
+        "game_count": 1,
+        "stage": "collecting",
+        "stage_label": "資料收集中"
+      },
+      {
+        "key": "soccer_brazil_campeonato",
+        "name": "巴西甲",
+        "games": [
+          {
+            "event_id": "be4c4561539054ffaf9df37b6b97d172",
+            "commence_time": "2026-09-20T19:00:00Z",
+            "home_team": "Corinthians",
+            "away_team": "Fluminense"
+          },
+          {
+            "event_id": "9e38573d505a1032a783cb512651228d",
+            "commence_time": "2026-09-20T19:00:00Z",
+            "home_team": "Vitoria",
+            "away_team": "Cruzeiro"
+          },
+          {
+            "event_id": "17ea7d51531d204d729dceb01d784128",
+            "commence_time": "2026-09-20T21:30:00Z",
+            "home_team": "Flamengo",
+            "away_team": "Bragantino-SP"
+          },
+          {
+            "event_id": "685679306bf8c11fb575f337d506a8c1",
+            "commence_time": "2026-09-20T22:30:00Z",
+            "home_team": "Atletico Paranaense",
+            "away_team": "Bahia"
+          }
+        ],
+        "game_count": 4,
+        "stage": "collecting",
+        "stage_label": "資料收集中"
+      },
+      {
+        "key": "soccer_netherlands_eredivisie",
+        "name": "荷甲",
+        "games": [],
+        "game_count": 0,
+        "stage": "collecting",
+        "stage_label": "資料收集中"
+      },
+      {
+        "key": "soccer_portugal_primeira_liga",
+        "name": "葡超",
+        "games": [
+          {
+            "event_id": "908d70dec433245627941151e5ab8ecc",
+            "commence_time": "2026-09-20T19:30:00Z",
+            "home_team": "FC Porto",
+            "away_team": "Benfica"
+          }
+        ],
+        "game_count": 1,
+        "stage": "collecting",
+        "stage_label": "資料收集中"
+      },
+      {
+        "key": "soccer_uefa_europa_league",
+        "name": "歐霸",
+        "games": [],
+        "game_count": 0,
+        "stage": "collecting",
+        "stage_label": "資料收集中"
+      },
+      {
+        "key": "soccer_spl",
+        "name": "蘇超",
+        "games": [],
+        "game_count": 0,
+        "stage": "collecting",
+        "stage_label": "資料收集中"
+      }
+    ],
+    "validated_models": 1,
+    "configured_leagues": 11
+  },
+  "asia_baseball": {
+    "npb": {
+      "status": "回補待修復",
+      "games": 4238,
+      "starter_coverage_pct": 80.72,
+      "model": "regularized_compact_starter",
+      "upgrade_gate": true,
+      "validation": {
+        "log_loss": 0.6922,
+        "brier": 0.2493,
+        "accuracy_pct": 53.4,
+        "auc": 0.5293
+      }
+    },
+    "kbo": {
+      "status": "準備模擬測試",
+      "games": 3907,
+      "starter_coverage_pct": 99.36,
+      "model": "regularized_compact_starter",
+      "upgrade_gate": true,
+      "validation": {
+        "log_loss": 0.6915,
+        "brier": 0.2483,
+        "accuracy_pct": 54.79,
+        "auc": 0.5504
+      }
+    }
+  },
+  "nfl": {
+    "status": "資料收集中",
+    "model_status": "模型尚未建立",
+    "mode": "paper_only",
+    "markets": [
+      "h2h",
+      "totals"
+    ],
+    "events": 15,
+    "snapshot_rows": 438,
+    "remaining_credits": 418,
+    "updated_at": "2026-09-20T18:59:24.656975+00:00",
+    "note": "僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "model_health": {
     "mlb": {
