@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-20T19:47:28.555636+00:00",
+  "generated_at": "2026-09-20T20:32:51.607627+00:00",
   "mlb": {
     "summary": {
       "predictions": 12,
-      "settled": 0,
-      "open": 12,
-      "wins": 0,
-      "losses": 0,
-      "hit_rate_pct": null
+      "settled": 2,
+      "open": 10,
+      "wins": 1,
+      "losses": 1,
+      "hit_rate_pct": 50.0
     },
     "history": [
       {
@@ -126,9 +126,26 @@
         "odds": 1.69,
         "edge_pct": 3.2,
         "model_prob_pct": 61.1,
-        "status": "OPEN",
-        "pnl": 0.0,
-        "postgame": null
+        "status": "WIN",
+        "pnl": 6.8999999999999995,
+        "postgame": {
+          "game_pk": 822922,
+          "status": "WIN",
+          "facts": {
+            "selected_runs": 5,
+            "opponent_runs": 1,
+            "selected_hits": 4,
+            "opponent_hits": 6,
+            "selected_hr": 1,
+            "selected_left_on_base": 4,
+            "selected_pitching_era": "3.70",
+            "opponent_pitching_era": "3.59"
+          },
+          "reasons": [
+            "推薦隊實際得分 5：1，賽前優勢最終兌現。",
+            "推薦隊擊出 1 支全壘打，提供實際得分貢獻。"
+          ]
+        }
       },
       {
         "time": "2026-09-20T17:36:00Z",
@@ -150,9 +167,26 @@
         "odds": 2.4,
         "edge_pct": 6.8,
         "model_prob_pct": 47.5,
-        "status": "OPEN",
-        "pnl": 0.0,
-        "postgame": null
+        "status": "LOSS",
+        "pnl": -10.0,
+        "postgame": {
+          "game_pk": 823570,
+          "status": "LOSS",
+          "facts": {
+            "selected_runs": 2,
+            "opponent_runs": 7,
+            "selected_hits": 10,
+            "opponent_hits": 7,
+            "selected_hr": 1,
+            "selected_left_on_base": 16,
+            "selected_pitching_era": "4.17",
+            "opponent_pitching_era": "4.00"
+          },
+          "reasons": [
+            "推薦隊最終以 2：7 落敗，賽前模型優勢未兌現。",
+            "推薦隊殘壘 16 人，得分轉換效率偏低。"
+          ]
+        }
       },
       {
         "time": "2026-09-20T01:38:00Z",
@@ -333,18 +367,6 @@
     ],
     "picks": [
       {
-        "time": "2026-09-20T17:11:00Z",
-        "home": "New York Mets",
-        "away": "Philadelphia Phillies",
-        "selection": "New York Mets",
-        "odds": 2.4,
-        "edge_pct": 6.8,
-        "model_prob_pct": 47.5,
-        "status": "OPEN",
-        "pnl": 0.0,
-        "postgame": null
-      },
-      {
         "time": "2026-09-20T17:36:00Z",
         "home": "Pittsburgh Pirates",
         "away": "Kansas City Royals",
@@ -352,18 +374,6 @@
         "odds": 2.05,
         "edge_pct": 22.4,
         "model_prob_pct": 70.2,
-        "status": "OPEN",
-        "pnl": 0.0,
-        "postgame": null
-      },
-      {
-        "time": "2026-09-20T17:40:00Z",
-        "home": "Tampa Bay Rays",
-        "away": "Boston Red Sox",
-        "selection": "Tampa Bay Rays",
-        "odds": 1.69,
-        "edge_pct": 3.2,
-        "model_prob_pct": 61.1,
         "status": "OPEN",
         "pnl": 0.0,
         "postgame": null
@@ -475,6 +485,64 @@
         "status": "OPEN",
         "pnl": 0.0,
         "postgame": null
+      },
+      {
+        "time": "2026-09-20T17:40:00Z",
+        "home": "Tampa Bay Rays",
+        "away": "Boston Red Sox",
+        "selection": "Tampa Bay Rays",
+        "odds": 1.69,
+        "edge_pct": 3.2,
+        "model_prob_pct": 61.1,
+        "status": "WIN",
+        "pnl": 6.8999999999999995,
+        "postgame": {
+          "game_pk": 822922,
+          "status": "WIN",
+          "facts": {
+            "selected_runs": 5,
+            "opponent_runs": 1,
+            "selected_hits": 4,
+            "opponent_hits": 6,
+            "selected_hr": 1,
+            "selected_left_on_base": 4,
+            "selected_pitching_era": "3.70",
+            "opponent_pitching_era": "3.59"
+          },
+          "reasons": [
+            "推薦隊實際得分 5：1，賽前優勢最終兌現。",
+            "推薦隊擊出 1 支全壘打，提供實際得分貢獻。"
+          ]
+        }
+      },
+      {
+        "time": "2026-09-20T17:11:00Z",
+        "home": "New York Mets",
+        "away": "Philadelphia Phillies",
+        "selection": "New York Mets",
+        "odds": 2.4,
+        "edge_pct": 6.8,
+        "model_prob_pct": 47.5,
+        "status": "LOSS",
+        "pnl": -10.0,
+        "postgame": {
+          "game_pk": 823570,
+          "status": "LOSS",
+          "facts": {
+            "selected_runs": 2,
+            "opponent_runs": 7,
+            "selected_hits": 10,
+            "opponent_hits": 7,
+            "selected_hr": 1,
+            "selected_left_on_base": 16,
+            "selected_pitching_era": "4.17",
+            "opponent_pitching_era": "4.00"
+          },
+          "reasons": [
+            "推薦隊最終以 2：7 落敗，賽前模型優勢未兌現。",
+            "推薦隊殘壘 16 人，得分轉換效率偏低。"
+          ]
+        }
       },
       {
         "time": "2026-09-20T01:38:00Z",
@@ -2043,9 +2111,9 @@
   "model_health": {
     "mlb": {
       "status": "累積樣本中",
-      "settled": 6,
+      "settled": 8,
       "review_at": 100,
-      "progress_pct": 6.0,
+      "progress_pct": 8.0,
       "note": "至少累積 100 筆已結算預測後，再進行正式 drift / calibration 檢查。",
       "validation": {
         "folds": 4,
