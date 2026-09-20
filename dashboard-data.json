@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T20:57:15.553229+00:00",
+  "generated_at": "2026-09-20T20:58:45.535155+00:00",
   "mlb": {
     "summary": {
       "predictions": 12,
@@ -2148,8 +2148,8 @@
         "settled": 2,
         "wins": 0,
         "losses": 2,
-        "pnl_units": -2.0,
-        "roi": -1.0
+        "pnl_units": 0.0,
+        "roi": null
       },
       "picks": [
         {
@@ -2273,8 +2273,8 @@
         "settled": 2,
         "wins": 0,
         "losses": 2,
-        "pnl_units": -2.0,
-        "roi": -1.0
+        "pnl_units": 0.0,
+        "roi": null
       },
       "picks": [
         {
