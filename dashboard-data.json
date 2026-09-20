@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T20:58:45.535155+00:00",
+  "generated_at": "2026-09-20T21:00:50.603628+00:00",
   "mlb": {
     "summary": {
       "predictions": 12,
@@ -2385,9 +2385,9 @@
       "progress_pct": 22.0,
       "note": "目前 Production 維持 football_dc_v1；需有足夠 forward 結算樣本才評估更新。",
       "validation": {
-        "n": 800,
-        "brier": 0.6236,
-        "log_loss": 1.0388,
+        "n": 717,
+        "brier": 0.6129,
+        "log_loss": 1.0214,
         "leakage_free": true
       }
     }
