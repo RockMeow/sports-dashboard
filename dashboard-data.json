@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T05:15:11.741127+00:00",
+  "generated_at": "2026-09-20T05:26:27.197323+00:00",
   "mlb": {
     "summary": {
       "predictions": 6,
@@ -430,9 +430,10 @@
   },
   "football": {
     "summary": {
-      "predictions": 17,
+      "predictions": 4,
       "settled": 0,
-      "open": 17,
+      "open": 4,
+      "recommendations": 17,
       "results": {
         "WIN": 0,
         "HALF_WIN": 0,
