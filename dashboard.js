@@ -1,4 +1,4 @@
-const DATA_URL="dashboard-data.json?v=20260920-0535";
+const DATA_URL="dashboard-data.json?v=20260920-0540";
 const zhMarket={h2h:"勝負",spreads:"讓球",totals:"大小球"};
 const mlbLogo={ "Arizona Diamondbacks":"ari","Atlanta Braves":"atl","Baltimore Orioles":"bal","Boston Red Sox":"bos","Chicago Cubs":"chc","Chicago White Sox":"chw","Cincinnati Reds":"cin","Cleveland Guardians":"cle","Colorado Rockies":"col","Detroit Tigers":"det","Houston Astros":"hou","Kansas City Royals":"kc","Los Angeles Angels":"laa","Los Angeles Dodgers":"lad","Miami Marlins":"mia","Milwaukee Brewers":"mil","Minnesota Twins":"min","New York Mets":"nym","New York Yankees":"nyy","Athletics":"ath","Philadelphia Phillies":"phi","Pittsburgh Pirates":"pit","San Diego Padres":"sd","San Francisco Giants":"sf","Seattle Mariners":"sea","St. Louis Cardinals":"stl","Tampa Bay Rays":"tb","Texas Rangers":"tex","Toronto Blue Jays":"tor","Washington Nationals":"wsh" };
 function tw(s){if(!s)return"";return new Intl.DateTimeFormat("zh-TW",{timeZone:"Asia/Taipei",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).format(new Date(s))}
