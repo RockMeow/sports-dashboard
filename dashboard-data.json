@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-20T03:16:01.536706+00:00",
+  "generated_at": "2026-09-20T03:25:48.097806+00:00",
   "mlb": {
     "summary": {
       "predictions": 10,
-      "settled": 2,
-      "open": 8,
-      "wins": 1,
+      "settled": 3,
+      "open": 7,
+      "wins": 2,
       "losses": 1,
-      "hit_rate_pct": 50.0
+      "hit_rate_pct": 66.7
     },
     "history": [
       {
@@ -19,7 +19,8 @@
         "edge_pct": 3.4,
         "model_prob_pct": 38.8,
         "status": "OPEN",
-        "pnl": 0.0
+        "pnl": 0.0,
+        "postgame": null
       },
       {
         "time": "2026-09-20T20:11:00Z",
@@ -30,7 +31,8 @@
         "edge_pct": 4.5,
         "model_prob_pct": 55.4,
         "status": "OPEN",
-        "pnl": 0.0
+        "pnl": 0.0,
+        "postgame": null
       },
       {
         "time": "2026-09-20T17:41:00Z",
@@ -41,7 +43,8 @@
         "edge_pct": 5.2,
         "model_prob_pct": 38.0,
         "status": "OPEN",
-        "pnl": 0.0
+        "pnl": 0.0,
+        "postgame": null
       },
       {
         "time": "2026-09-20T17:11:00Z",
@@ -52,7 +55,8 @@
         "edge_pct": 6.8,
         "model_prob_pct": 47.5,
         "status": "OPEN",
-        "pnl": 0.0
+        "pnl": 0.0,
+        "postgame": null
       },
       {
         "time": "2026-09-20T01:38:00Z",
@@ -63,7 +67,8 @@
         "edge_pct": 10.6,
         "model_prob_pct": 61.2,
         "status": "OPEN",
-        "pnl": 0.0
+        "pnl": 0.0,
+        "postgame": null
       },
       {
         "time": "2026-09-20T00:40:00Z",
@@ -74,7 +79,8 @@
         "edge_pct": 5.5,
         "model_prob_pct": 46.8,
         "status": "OPEN",
-        "pnl": 0.0
+        "pnl": 0.0,
+        "postgame": null
       },
       {
         "time": "2026-09-20T00:10:00Z",
@@ -85,7 +91,8 @@
         "edge_pct": 5.8,
         "model_prob_pct": 46.0,
         "status": "OPEN",
-        "pnl": 0.0
+        "pnl": 0.0,
+        "postgame": null
       },
       {
         "time": "2026-09-19T23:16:00Z",
@@ -95,8 +102,26 @@
         "odds": 1.99,
         "edge_pct": 5.0,
         "model_prob_pct": 54.3,
-        "status": "OPEN",
-        "pnl": 0.0
+        "status": "WIN",
+        "pnl": 9.9,
+        "postgame": {
+          "game_pk": 823003,
+          "status": "WIN",
+          "facts": {
+            "selected_runs": 8,
+            "opponent_runs": 5,
+            "selected_hits": 12,
+            "opponent_hits": 14,
+            "selected_hr": 1,
+            "selected_left_on_base": 24,
+            "selected_pitching_era": "4.66",
+            "opponent_pitching_era": "4.30"
+          },
+          "reasons": [
+            "推薦隊實際得分 8：5，賽前優勢最終兌現。",
+            "推薦隊擊出 1 支全壘打，提供實際得分貢獻。"
+          ]
+        }
       },
       {
         "time": "2026-09-19T23:11:00Z",
@@ -107,7 +132,26 @@
         "edge_pct": 5.1,
         "model_prob_pct": 60.8,
         "status": "LOSS",
-        "pnl": -10.0
+        "pnl": -10.0,
+        "postgame": {
+          "game_pk": 824137,
+          "status": "LOSS",
+          "facts": {
+            "selected_runs": 3,
+            "opponent_runs": 6,
+            "selected_hits": 10,
+            "opponent_hits": 11,
+            "selected_hr": 1,
+            "selected_left_on_base": 10,
+            "selected_pitching_era": "4.53",
+            "opponent_pitching_era": "3.62"
+          },
+          "reasons": [
+            "推薦隊最終以 3：6 落敗，賽前模型優勢未兌現。",
+            "推薦隊安打 10 支，少於對手 11 支。",
+            "推薦隊殘壘 10 人，得分轉換效率偏低。"
+          ]
+        }
       },
       {
         "time": "2026-09-19T20:06:00Z",
@@ -118,21 +162,27 @@
         "edge_pct": 10.9,
         "model_prob_pct": 61.5,
         "status": "WIN",
-        "pnl": 9.5
+        "pnl": 9.5,
+        "postgame": {
+          "game_pk": 824788,
+          "status": "WIN",
+          "facts": {
+            "selected_runs": 1,
+            "opponent_runs": 0,
+            "selected_hits": 3,
+            "opponent_hits": 4,
+            "selected_hr": 0,
+            "selected_left_on_base": 7,
+            "selected_pitching_era": "3.56",
+            "opponent_pitching_era": "4.12"
+          },
+          "reasons": [
+            "推薦隊實際得分 1：0，賽前優勢最終兌現。"
+          ]
+        }
       }
     ],
     "picks": [
-      {
-        "time": "2026-09-19T23:16:00Z",
-        "home": "St. Louis Cardinals",
-        "away": "Washington Nationals",
-        "selection": "Washington Nationals",
-        "odds": 1.99,
-        "edge_pct": 5.0,
-        "model_prob_pct": 54.3,
-        "status": "OPEN",
-        "pnl": 0.0
-      },
       {
         "time": "2026-09-20T00:10:00Z",
         "home": "Arizona Diamondbacks",
@@ -142,7 +192,8 @@
         "edge_pct": 5.8,
         "model_prob_pct": 46.0,
         "status": "OPEN",
-        "pnl": 0.0
+        "pnl": 0.0,
+        "postgame": null
       },
       {
         "time": "2026-09-20T00:40:00Z",
@@ -153,7 +204,8 @@
         "edge_pct": 5.5,
         "model_prob_pct": 46.8,
         "status": "OPEN",
-        "pnl": 0.0
+        "pnl": 0.0,
+        "postgame": null
       },
       {
         "time": "2026-09-20T01:38:00Z",
@@ -164,7 +216,8 @@
         "edge_pct": 10.6,
         "model_prob_pct": 61.2,
         "status": "OPEN",
-        "pnl": 0.0
+        "pnl": 0.0,
+        "postgame": null
       },
       {
         "time": "2026-09-20T17:11:00Z",
@@ -175,7 +228,8 @@
         "edge_pct": 6.8,
         "model_prob_pct": 47.5,
         "status": "OPEN",
-        "pnl": 0.0
+        "pnl": 0.0,
+        "postgame": null
       },
       {
         "time": "2026-09-20T17:41:00Z",
@@ -186,7 +240,8 @@
         "edge_pct": 5.2,
         "model_prob_pct": 38.0,
         "status": "OPEN",
-        "pnl": 0.0
+        "pnl": 0.0,
+        "postgame": null
       },
       {
         "time": "2026-09-20T20:11:00Z",
@@ -197,7 +252,8 @@
         "edge_pct": 4.5,
         "model_prob_pct": 55.4,
         "status": "OPEN",
-        "pnl": 0.0
+        "pnl": 0.0,
+        "postgame": null
       },
       {
         "time": "2026-09-20T23:21:00Z",
@@ -208,7 +264,37 @@
         "edge_pct": 3.4,
         "model_prob_pct": 38.8,
         "status": "OPEN",
-        "pnl": 0.0
+        "pnl": 0.0,
+        "postgame": null
+      },
+      {
+        "time": "2026-09-19T23:16:00Z",
+        "home": "St. Louis Cardinals",
+        "away": "Washington Nationals",
+        "selection": "Washington Nationals",
+        "odds": 1.99,
+        "edge_pct": 5.0,
+        "model_prob_pct": 54.3,
+        "status": "WIN",
+        "pnl": 9.9,
+        "postgame": {
+          "game_pk": 823003,
+          "status": "WIN",
+          "facts": {
+            "selected_runs": 8,
+            "opponent_runs": 5,
+            "selected_hits": 12,
+            "opponent_hits": 14,
+            "selected_hr": 1,
+            "selected_left_on_base": 24,
+            "selected_pitching_era": "4.66",
+            "opponent_pitching_era": "4.30"
+          },
+          "reasons": [
+            "推薦隊實際得分 8：5，賽前優勢最終兌現。",
+            "推薦隊擊出 1 支全壘打，提供實際得分貢獻。"
+          ]
+        }
       },
       {
         "time": "2026-09-19T23:11:00Z",
@@ -219,7 +305,26 @@
         "edge_pct": 5.1,
         "model_prob_pct": 60.8,
         "status": "LOSS",
-        "pnl": -10.0
+        "pnl": -10.0,
+        "postgame": {
+          "game_pk": 824137,
+          "status": "LOSS",
+          "facts": {
+            "selected_runs": 3,
+            "opponent_runs": 6,
+            "selected_hits": 10,
+            "opponent_hits": 11,
+            "selected_hr": 1,
+            "selected_left_on_base": 10,
+            "selected_pitching_era": "4.53",
+            "opponent_pitching_era": "3.62"
+          },
+          "reasons": [
+            "推薦隊最終以 3：6 落敗，賽前模型優勢未兌現。",
+            "推薦隊安打 10 支，少於對手 11 支。",
+            "推薦隊殘壘 10 人，得分轉換效率偏低。"
+          ]
+        }
       },
       {
         "time": "2026-09-19T20:06:00Z",
@@ -230,7 +335,24 @@
         "edge_pct": 10.9,
         "model_prob_pct": 61.5,
         "status": "WIN",
-        "pnl": 9.5
+        "pnl": 9.5,
+        "postgame": {
+          "game_pk": 824788,
+          "status": "WIN",
+          "facts": {
+            "selected_runs": 1,
+            "opponent_runs": 0,
+            "selected_hits": 3,
+            "opponent_hits": 4,
+            "selected_hr": 0,
+            "selected_left_on_base": 7,
+            "selected_pitching_era": "3.56",
+            "opponent_pitching_era": "4.12"
+          },
+          "reasons": [
+            "推薦隊實際得分 1：0，賽前優勢最終兌現。"
+          ]
+        }
       }
     ]
   },
