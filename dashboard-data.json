@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-20T05:01:07.379036+00:00",
+  "generated_at": "2026-09-20T05:15:11.741127+00:00",
   "mlb": {
     "summary": {
-      "predictions": 10,
+      "predictions": 6,
       "settled": 5,
-      "open": 5,
+      "open": 1,
       "wins": 3,
       "losses": 2,
       "hit_rate_pct": 60.0
@@ -430,9 +430,9 @@
   },
   "football": {
     "summary": {
-      "predictions": 38,
+      "predictions": 17,
       "settled": 0,
-      "open": 38,
+      "open": 17,
       "results": {
         "WIN": 0,
         "HALF_WIN": 0,
