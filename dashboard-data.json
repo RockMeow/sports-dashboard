@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T06:46:25.682315+00:00",
+  "generated_at": "2026-09-21T06:55:10.015415+00:00",
   "mlb": {
     "summary": {
       "predictions": 12,
@@ -1098,9 +1098,12 @@
   },
   "football": {
     "summary": {
-      "games_today": 0,
+      "games_today": 10,
       "model_predictions": 71,
-      "settled": 0,
+      "today_recommendations": 0,
+      "today_open": 0,
+      "future_recommendations": 44,
+      "settled_today": 0,
       "open": 0,
       "recommendations": 0,
       "results": {
