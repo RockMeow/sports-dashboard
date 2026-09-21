@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T19:34:26.718086+00:00",
+  "generated_at": "2026-09-21T21:09:37.842472+00:00",
   "mlb": {
     "summary": {
       "predictions": 1,
@@ -4859,9 +4859,9 @@
       "totals"
     ],
     "events": 17,
-    "snapshot_rows": 464,
-    "remaining_credits": 347,
-    "updated_at": "2026-09-21T08:43:57.702342+00:00",
+    "snapshot_rows": 540,
+    "remaining_credits": 311,
+    "updated_at": "2026-09-21T20:12:22.823621+00:00",
     "note": "僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "model_health": {
