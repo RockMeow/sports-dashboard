@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-21T01:20:26.938319+00:00",
+  "generated_at": "2026-09-21T01:31:59.513209+00:00",
   "mlb": {
     "summary": {
       "predictions": 12,
-      "settled": 10,
-      "open": 2,
-      "wins": 1,
+      "settled": 11,
+      "open": 1,
+      "wins": 2,
       "losses": 9,
-      "hit_rate_pct": 10.0
+      "hit_rate_pct": 18.2
     },
     "history": [
       {
@@ -218,9 +218,27 @@
         "odds": 1.9,
         "edge_pct": 3.2,
         "model_prob_pct": 54.9,
-        "status": "OPEN",
-        "pnl": 0.0,
-        "postgame": null
+        "status": "WIN",
+        "pnl": 9.0,
+        "postgame": {
+          "game_pk": 824546,
+          "status": "WIN",
+          "facts": {
+            "selected_runs": 8,
+            "opponent_runs": 1,
+            "selected_hits": 10,
+            "opponent_hits": 6,
+            "selected_hr": 1,
+            "selected_left_on_base": 21,
+            "selected_pitching_era": "4.11",
+            "opponent_pitching_era": "3.66"
+          },
+          "reasons": [
+            "推薦隊實際得分 8：1，賽前優勢最終兌現。",
+            "推薦隊安打 10 支，高於對手 6 支。",
+            "推薦隊擊出 1 支全壘打，提供實際得分貢獻。"
+          ]
+        }
       },
       {
         "time": "2026-09-20T17:41:00Z",
@@ -518,18 +536,6 @@
     ],
     "picks": [
       {
-        "time": "2026-09-20T18:11:00Z",
-        "home": "Chicago White Sox",
-        "away": "Detroit Tigers",
-        "selection": "Chicago White Sox",
-        "odds": 1.9,
-        "edge_pct": 3.2,
-        "model_prob_pct": 54.9,
-        "status": "OPEN",
-        "pnl": 0.0,
-        "postgame": null
-      },
-      {
         "time": "2026-09-20T23:21:00Z",
         "home": "Baltimore Orioles",
         "away": "Milwaukee Brewers",
@@ -726,6 +732,36 @@
           },
           "reasons": [
             "推薦隊最終以 3：5 落敗，賽前模型優勢未兌現。"
+          ]
+        }
+      },
+      {
+        "time": "2026-09-20T18:11:00Z",
+        "home": "Chicago White Sox",
+        "away": "Detroit Tigers",
+        "selection": "Chicago White Sox",
+        "odds": 1.9,
+        "edge_pct": 3.2,
+        "model_prob_pct": 54.9,
+        "status": "WIN",
+        "pnl": 9.0,
+        "postgame": {
+          "game_pk": 824546,
+          "status": "WIN",
+          "facts": {
+            "selected_runs": 8,
+            "opponent_runs": 1,
+            "selected_hits": 10,
+            "opponent_hits": 6,
+            "selected_hr": 1,
+            "selected_left_on_base": 21,
+            "selected_pitching_era": "4.11",
+            "opponent_pitching_era": "3.66"
+          },
+          "reasons": [
+            "推薦隊實際得分 8：1，賽前優勢最終兌現。",
+            "推薦隊安打 10 支，高於對手 6 支。",
+            "推薦隊擊出 1 支全壘打，提供實際得分貢獻。"
           ]
         }
       },
@@ -2586,9 +2622,9 @@
   "model_health": {
     "mlb": {
       "status": "累積樣本中",
-      "settled": 16,
+      "settled": 17,
       "review_at": 100,
-      "progress_pct": 16.0,
+      "progress_pct": 17.0,
       "note": "至少累積 100 筆已結算預測後，再進行正式 drift / calibration 檢查。",
       "validation": {
         "folds": 4,
