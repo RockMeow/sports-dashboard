@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T08:13:38.909381+00:00",
+  "generated_at": "2026-09-21T09:20:26.034167+00:00",
   "mlb": {
     "summary": {
       "predictions": 12,
@@ -7,7 +7,18 @@
       "open": 0,
       "wins": 2,
       "losses": 10,
-      "hit_rate_pct": 16.7
+      "hit_rate_pct": 16.7,
+      "current_gate": {
+        "predictions": 11,
+        "settled": 11,
+        "wins": 2,
+        "losses": 9,
+        "hit_rate_pct": 18.2
+      },
+      "legacy_or_blocked": {
+        "predictions": 1,
+        "settled": 1
+      }
     },
     "history": [
       {
@@ -22,6 +33,7 @@
         "model_prob_pct": 56.2,
         "status": "OPEN",
         "pnl": 0.0,
+        "gate_version": "current",
         "postgame": null
       },
       {
@@ -36,6 +48,7 @@
         "model_prob_pct": 38.8,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 824789,
           "status": "LOSS",
@@ -68,6 +81,7 @@
         "model_prob_pct": 45.9,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 823247,
           "status": "LOSS",
@@ -99,6 +113,7 @@
         "model_prob_pct": 55.4,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 825028,
           "status": "LOSS",
@@ -131,6 +146,7 @@
         "model_prob_pct": 57.3,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 823975,
           "status": "LOSS",
@@ -163,6 +179,7 @@
         "model_prob_pct": 46.8,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 824300,
           "status": "LOSS",
@@ -194,6 +211,7 @@
         "model_prob_pct": 68.9,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 822844,
           "status": "LOSS",
@@ -226,6 +244,7 @@
         "model_prob_pct": 51.7,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 823001,
           "status": "LOSS",
@@ -256,6 +275,7 @@
         "model_prob_pct": 54.9,
         "status": "WIN",
         "pnl": 9.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 824546,
           "status": "WIN",
@@ -288,6 +308,7 @@
         "model_prob_pct": 38.0,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 824381,
           "status": "LOSS",
@@ -320,6 +341,7 @@
         "model_prob_pct": 61.1,
         "status": "WIN",
         "pnl": 6.9,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 822922,
           "status": "WIN",
@@ -351,6 +373,7 @@
         "model_prob_pct": 70.2,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "legacy_or_blocked",
         "postgame": {
           "game_pk": 823329,
           "status": "LOSS",
@@ -382,6 +405,7 @@
         "model_prob_pct": 47.5,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 823570,
           "status": "LOSS",
@@ -413,6 +437,7 @@
         "model_prob_pct": 61.2,
         "status": "WIN",
         "pnl": 9.6,
+        "gate_version": "legacy_or_blocked",
         "postgame": {
           "game_pk": 823976,
           "status": "WIN",
@@ -444,6 +469,7 @@
         "model_prob_pct": 46.8,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 823249,
           "status": "LOSS",
@@ -476,6 +502,7 @@
         "model_prob_pct": 46.0,
         "status": "WIN",
         "pnl": 15.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 825029,
           "status": "WIN",
@@ -508,6 +535,7 @@
         "model_prob_pct": 54.3,
         "status": "WIN",
         "pnl": 9.9,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 823003,
           "status": "WIN",
@@ -539,6 +567,7 @@
         "model_prob_pct": 60.8,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 824137,
           "status": "LOSS",
@@ -571,6 +600,7 @@
         "model_prob_pct": 61.5,
         "status": "WIN",
         "pnl": 9.5,
+        "gate_version": "legacy_or_blocked",
         "postgame": {
           "game_pk": 824788,
           "status": "WIN",
@@ -603,6 +633,7 @@
         "model_prob_pct": 56.2,
         "status": "OPEN",
         "pnl": 0.0,
+        "gate_version": "current",
         "postgame": null
       },
       {
@@ -617,6 +648,7 @@
         "model_prob_pct": 38.8,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 824789,
           "status": "LOSS",
@@ -649,6 +681,7 @@
         "model_prob_pct": 45.9,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 823247,
           "status": "LOSS",
@@ -680,6 +713,7 @@
         "model_prob_pct": 55.4,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 825028,
           "status": "LOSS",
@@ -712,6 +746,7 @@
         "model_prob_pct": 57.3,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 823975,
           "status": "LOSS",
@@ -744,6 +779,7 @@
         "model_prob_pct": 46.8,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 824300,
           "status": "LOSS",
@@ -775,6 +811,7 @@
         "model_prob_pct": 68.9,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 822844,
           "status": "LOSS",
@@ -807,6 +844,7 @@
         "model_prob_pct": 51.7,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 823001,
           "status": "LOSS",
@@ -837,6 +875,7 @@
         "model_prob_pct": 54.9,
         "status": "WIN",
         "pnl": 9.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 824546,
           "status": "WIN",
@@ -869,6 +908,7 @@
         "model_prob_pct": 38.0,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 824381,
           "status": "LOSS",
@@ -901,6 +941,7 @@
         "model_prob_pct": 61.1,
         "status": "WIN",
         "pnl": 6.9,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 822922,
           "status": "WIN",
@@ -932,6 +973,7 @@
         "model_prob_pct": 70.2,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "legacy_or_blocked",
         "postgame": {
           "game_pk": 823329,
           "status": "LOSS",
@@ -963,6 +1005,7 @@
         "model_prob_pct": 47.5,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 823570,
           "status": "LOSS",
@@ -994,6 +1037,7 @@
         "model_prob_pct": 61.2,
         "status": "WIN",
         "pnl": 9.6,
+        "gate_version": "legacy_or_blocked",
         "postgame": {
           "game_pk": 823976,
           "status": "WIN",
@@ -1025,6 +1069,7 @@
         "model_prob_pct": 46.8,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 823249,
           "status": "LOSS",
@@ -1057,6 +1102,7 @@
         "model_prob_pct": 46.0,
         "status": "WIN",
         "pnl": 15.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 825029,
           "status": "WIN",
@@ -1089,6 +1135,7 @@
         "model_prob_pct": 54.3,
         "status": "WIN",
         "pnl": 9.9,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 823003,
           "status": "WIN",
@@ -1120,6 +1167,7 @@
         "model_prob_pct": 60.8,
         "status": "LOSS",
         "pnl": -10.0,
+        "gate_version": "current",
         "postgame": {
           "game_pk": 824137,
           "status": "LOSS",
@@ -1152,6 +1200,7 @@
         "model_prob_pct": 61.5,
         "status": "WIN",
         "pnl": 9.5,
+        "gate_version": "legacy_or_blocked",
         "postgame": {
           "game_pk": 824788,
           "status": "WIN",
@@ -4377,10 +4426,10 @@
       "h2h",
       "totals"
     ],
-    "events": 15,
-    "snapshot_rows": 438,
-    "remaining_credits": 418,
-    "updated_at": "2026-09-20T18:59:24.656975+00:00",
+    "events": 17,
+    "snapshot_rows": 464,
+    "remaining_credits": 347,
+    "updated_at": "2026-09-21T08:43:57.702342+00:00",
     "note": "僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "model_health": {
