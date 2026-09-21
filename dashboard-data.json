@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T23:50:30.849110+00:00",
+  "generated_at": "2026-09-21T00:37:21.726425+00:00",
   "mlb": {
     "summary": {
       "predictions": 12,
@@ -73,7 +73,25 @@
         "model_prob_pct": 55.4,
         "status": "LOSS",
         "pnl": -10.0,
-        "postgame": null
+        "postgame": {
+          "game_pk": 825028,
+          "status": "LOSS",
+          "facts": {
+            "selected_runs": 4,
+            "opponent_runs": 8,
+            "selected_hits": 8,
+            "opponent_hits": 11,
+            "selected_hr": 3,
+            "selected_left_on_base": 13,
+            "selected_pitching_era": "3.22",
+            "opponent_pitching_era": "4.11"
+          },
+          "reasons": [
+            "推薦隊最終以 4：8 落敗，賽前模型優勢未兌現。",
+            "推薦隊安打 8 支，少於對手 11 支。",
+            "推薦隊殘壘 13 人，得分轉換效率偏低。"
+          ]
+        }
       },
       {
         "time": "2026-09-20T20:08:00Z",
@@ -574,7 +592,25 @@
         "model_prob_pct": 55.4,
         "status": "LOSS",
         "pnl": -10.0,
-        "postgame": null
+        "postgame": {
+          "game_pk": 825028,
+          "status": "LOSS",
+          "facts": {
+            "selected_runs": 4,
+            "opponent_runs": 8,
+            "selected_hits": 8,
+            "opponent_hits": 11,
+            "selected_hr": 3,
+            "selected_left_on_base": 13,
+            "selected_pitching_era": "3.22",
+            "opponent_pitching_era": "4.11"
+          },
+          "reasons": [
+            "推薦隊最終以 4：8 落敗，賽前模型優勢未兌現。",
+            "推薦隊安打 8 支，少於對手 11 支。",
+            "推薦隊殘壘 13 人，得分轉換效率偏低。"
+          ]
+        }
       },
       {
         "time": "2026-09-20T20:08:00Z",
@@ -2344,7 +2380,7 @@
       "summary": {
         "today_recommendations": 0,
         "total_bets": 3,
-        "open": 1,
+        "open": 0,
         "settled": 2,
         "wins": 0,
         "losses": 2,
@@ -2352,23 +2388,6 @@
         "roi": -1.0
       },
       "picks": [
-        {
-          "event_id": "33db4d154aae28c4d5ee936345219b71",
-          "time": "2026-09-20T09:00:00Z",
-          "home": "Chiba Lotte Marines",
-          "away": "Saitama Seibu Lions",
-          "side": "home",
-          "selection": "Chiba Lotte Marines",
-          "odds": 2.19,
-          "model_prob_pct": 53.8,
-          "market_prob_pct": 45.3,
-          "edge_pct": 8.6,
-          "ev_pct": 17.9,
-          "stake_units": 1.0,
-          "status": "OPEN",
-          "result": "",
-          "pnl_units": 0
-        },
         {
           "event_id": "b9c38daffc4e49e8b20cbf50ab9b6cde",
           "time": "2026-09-20T09:00:00Z",
@@ -2452,9 +2471,9 @@
           "edge_pct": 8.6,
           "ev_pct": 17.9,
           "stake_units": 1.0,
-          "status": "OPEN",
-          "result": "",
-          "pnl_units": 0
+          "status": "VOID",
+          "result": "CANCELLED",
+          "pnl_units": 0.0
         }
       ]
     },
