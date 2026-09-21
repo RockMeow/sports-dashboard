@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T06:43:30.154595+00:00",
+  "generated_at": "2026-09-21T06:46:25.682315+00:00",
   "mlb": {
     "summary": {
       "predictions": 12,
@@ -1098,7 +1098,8 @@
   },
   "football": {
     "summary": {
-      "predictions": 0,
+      "games_today": 0,
+      "model_predictions": 71,
       "settled": 0,
       "open": 0,
       "recommendations": 0,
@@ -2743,14 +2744,6 @@
         "stage_label": "模擬模型"
       },
       {
-        "key": "soccer_uefa_europa_league",
-        "name": "歐霸",
-        "games": [],
-        "game_count": 0,
-        "stage": "collecting",
-        "stage_label": "資料收集中"
-      },
-      {
         "key": "soccer_spl",
         "name": "蘇超",
         "games": [],
@@ -2998,12 +2991,12 @@
       "progress_pct": 22.0,
       "note": "10 聯賽 league-aware Dixon-Coles v1 已完成驗證與訓練；持續累積 forward paper 結算樣本。",
       "validation": {
-        "leagues": null,
-        "n": null,
-        "brier": 0,
-        "log_loss": 0,
+        "leagues": 10,
+        "n": 6933,
+        "brier": 0.6071,
+        "log_loss": 1.0163,
         "leakage_free": true,
-        "design": null
+        "design": "league_aware_independent_parameters"
       }
     }
   }
