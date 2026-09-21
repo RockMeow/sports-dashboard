@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T06:55:10.015415+00:00",
+  "generated_at": "2026-09-21T07:00:45.213341+00:00",
   "mlb": {
     "summary": {
       "predictions": 12,
@@ -2999,7 +2999,79 @@
         "brier": 0.6071,
         "log_loss": 1.0163,
         "leakage_free": true,
-        "design": "league_aware_independent_parameters"
+        "design": "league_aware_independent_parameters",
+        "by_league": {
+          "E0": {
+            "n": 717,
+            "brier": 0.6194,
+            "log_loss": 1.0315,
+            "folds": 0,
+            "optimizer_all_success": true
+          },
+          "SP1": {
+            "n": 690,
+            "brier": 0.5846,
+            "log_loss": 0.9837,
+            "folds": 0,
+            "optimizer_all_success": true
+          },
+          "F1": {
+            "n": 576,
+            "brier": 0.6019,
+            "log_loss": 1.0115,
+            "folds": 0,
+            "optimizer_all_success": true
+          },
+          "I1": {
+            "n": 654,
+            "brier": 0.5861,
+            "log_loss": 0.9835,
+            "folds": 0,
+            "optimizer_all_success": true
+          },
+          "D1": {
+            "n": 533,
+            "brier": 0.6016,
+            "log_loss": 1.0134,
+            "folds": 0,
+            "optimizer_all_success": true
+          },
+          "N1": {
+            "n": 560,
+            "brier": 0.586,
+            "log_loss": 0.9805,
+            "folds": 0,
+            "optimizer_all_success": true
+          },
+          "P1": {
+            "n": 527,
+            "brier": 0.5565,
+            "log_loss": 0.9419,
+            "folds": 0,
+            "optimizer_all_success": true
+          },
+          "SC0": {
+            "n": 454,
+            "brier": 0.5842,
+            "log_loss": 0.9843,
+            "folds": 0,
+            "optimizer_all_success": true
+          },
+          "USA": {
+            "n": 1395,
+            "brier": 0.6534,
+            "log_loss": 1.0865,
+            "folds": 0,
+            "optimizer_all_success": true
+          },
+          "BRA": {
+            "n": 827,
+            "brier": 0.6199,
+            "log_loss": 1.0321,
+            "folds": 0,
+            "optimizer_all_success": true
+          }
+        }
       }
     }
   }
