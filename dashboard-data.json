@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T08:03:25.790431+00:00",
+  "generated_at": "2026-09-21T08:13:38.909381+00:00",
   "mlb": {
     "summary": {
       "predictions": 12,
@@ -4175,6 +4175,7 @@
       "model_features": 26,
       "live_feature_compatible": true,
       "starter_features_deferred": true,
+      "training_population": "full",
       "summary": {
         "today_recommendations": 0,
         "total_bets": 3,
@@ -4279,10 +4280,11 @@
       "status": "模擬推薦運行中",
       "mode": "paper_only",
       "real_money": false,
-      "model": "complete_starters_team_form",
+      "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
       "starter_features_deferred": true,
+      "training_population": "full",
       "summary": {
         "today_recommendations": 0,
         "total_bets": 2,
