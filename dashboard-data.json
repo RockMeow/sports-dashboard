@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T06:18:27.501369+00:00",
+  "generated_at": "2026-09-22T06:32:07.686120+00:00",
   "mlb": {
     "scheduled_events": 16,
     "upcoming": [
@@ -8323,9 +8323,9 @@
     ],
     "latest_collector_events_returned": 0,
     "snapshot_rows": 0,
-    "remaining_credits": null,
+    "remaining_credits": 197,
     "schedule_updated_at": "2026-09-22T03:30:41.096782+00:00",
-    "collector_updated_at": "2026-09-22T03:48:07.295521+00:00",
+    "collector_updated_at": "2026-09-22T06:17:49.395674+00:00",
     "updated_at": "2026-09-22T03:30:41.096782+00:00",
     "note": "賽程場數來自免費 /events；盤口僅在 T-30 視窗由 collector 抓取。僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
@@ -8623,7 +8623,7 @@
     "pending": 10,
     "success_pct": 0.0,
     "latest_run_paid_api_calls": 0,
-    "remaining_credits": null,
+    "remaining_credits": 197,
     "issue_count": 0,
     "issues": [],
     "sports": {
@@ -8690,10 +8690,10 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T06:18:27.533401+00:00",
-    "source_latest_updated_at": "2026-09-22T06:18:02.729507+00:00",
-    "source_to_payload_lag_seconds": 25,
+    "payload_generated_at": "2026-09-22T06:32:07.694530+00:00",
+    "source_latest_updated_at": "2026-09-22T06:32:07.636203+00:00",
+    "source_to_payload_lag_seconds": 0,
     "frontend_expected_refresh_seconds": 60,
-    "watched_sources": 11
+    "watched_sources": 12
   }
 }
