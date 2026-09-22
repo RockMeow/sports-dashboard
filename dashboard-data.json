@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T05:01:06.541898+00:00",
+  "generated_at": "2026-09-22T05:05:42.531858+00:00",
   "mlb": {
     "summary": {
       "predictions": 1,
@@ -4825,11 +4825,101 @@
       "h2h",
       "totals"
     ],
-    "events": 0,
+    "events": 14,
+    "scheduled_events": 14,
+    "upcoming": [
+      {
+        "event_id": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+        "commence_time": "2026-09-25T00:15:00Z",
+        "home_team": "Green Bay Packers",
+        "away_team": "Atlanta Falcons"
+      },
+      {
+        "event_id": "b225458a282e140c44c45651255f2f6c",
+        "commence_time": "2026-09-27T17:00:00Z",
+        "home_team": "Buffalo Bills",
+        "away_team": "Los Angeles Chargers"
+      },
+      {
+        "event_id": "613b8cd3a5fab58f7be4e3fd6f76223e",
+        "commence_time": "2026-09-27T17:00:00Z",
+        "home_team": "Cleveland Browns",
+        "away_team": "Carolina Panthers"
+      },
+      {
+        "event_id": "71123be049587b6facce3a20c53e5d09",
+        "commence_time": "2026-09-27T17:00:00Z",
+        "home_team": "Pittsburgh Steelers",
+        "away_team": "Cincinnati Bengals"
+      },
+      {
+        "event_id": "07f552badfa8a565d1be22123713e4da",
+        "commence_time": "2026-09-27T17:00:00Z",
+        "home_team": "Detroit Lions",
+        "away_team": "New York Jets"
+      },
+      {
+        "event_id": "17a730b7d399feeab6a78c30767c29d2",
+        "commence_time": "2026-09-27T17:00:00Z",
+        "home_team": "Indianapolis Colts",
+        "away_team": "Houston Texans"
+      },
+      {
+        "event_id": "1f3cfd315a24d1a7dd5859a8e6b88e18",
+        "commence_time": "2026-09-27T17:00:00Z",
+        "home_team": "Jacksonville Jaguars",
+        "away_team": "New England Patriots"
+      },
+      {
+        "event_id": "0339a0e41bcee12820eb3e64bb5fadb4",
+        "commence_time": "2026-09-27T17:00:00Z",
+        "home_team": "Miami Dolphins",
+        "away_team": "Kansas City Chiefs"
+      },
+      {
+        "event_id": "2a529c108305ffa049d8b6cfdbaa4d36",
+        "commence_time": "2026-09-27T17:00:00Z",
+        "home_team": "Washington Commanders",
+        "away_team": "Seattle Seahawks"
+      },
+      {
+        "event_id": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+        "commence_time": "2026-09-27T20:05:00Z",
+        "home_team": "San Francisco 49ers",
+        "away_team": "Arizona Cardinals"
+      },
+      {
+        "event_id": "f1724dead3eab61546033032fc782375",
+        "commence_time": "2026-09-27T20:05:00Z",
+        "home_team": "Tampa Bay Buccaneers",
+        "away_team": "Minnesota Vikings"
+      },
+      {
+        "event_id": "84cfca14efc21363fd605508404cf1ff",
+        "commence_time": "2026-09-27T20:25:00Z",
+        "home_team": "Dallas Cowboys",
+        "away_team": "Baltimore Ravens"
+      },
+      {
+        "event_id": "2e523fcb0497aa689473e290eb2b97de",
+        "commence_time": "2026-09-27T20:25:00Z",
+        "home_team": "New Orleans Saints",
+        "away_team": "Las Vegas Raiders"
+      },
+      {
+        "event_id": "47dc7baa254659f3beb2ed2b38c207b6",
+        "commence_time": "2026-09-29T00:15:00Z",
+        "home_team": "Chicago Bears",
+        "away_team": "Philadelphia Eagles"
+      }
+    ],
+    "latest_collector_events_returned": 0,
     "snapshot_rows": 0,
     "remaining_credits": null,
-    "updated_at": "2026-09-22T03:48:07.295521+00:00",
-    "note": "僅 NFL 勝負盤與大小分；不含讓分盤。"
+    "schedule_updated_at": "2026-09-22T03:30:41.096782+00:00",
+    "collector_updated_at": "2026-09-22T03:48:07.295521+00:00",
+    "updated_at": "2026-09-22T03:30:41.096782+00:00",
+    "note": "賽程場數來自免費 /events；盤口僅在 T-30 視窗由 collector 抓取。僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "model_health": {
     "mlb": {
@@ -5099,7 +5189,7 @@
         "mapping_matched": 0,
         "mapping_rejected": 0,
         "safe_for_live_join": false,
-        "starter_mode": "missing_until_announced_source",
+        "starter_mode": "pregame_announced_only",
         "status": "waiting"
       },
       "KBO": {
@@ -5110,7 +5200,7 @@
         "mapping_matched": 0,
         "mapping_rejected": 0,
         "safe_for_live_join": false,
-        "starter_mode": "missing_until_announced_source",
+        "starter_mode": "pregame_announced_only",
         "status": "waiting"
       }
     }
@@ -5192,8 +5282,8 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T05:01:06.548635+00:00",
-    "source_latest_updated_at": "2026-09-22T05:01:06.454118+00:00",
+    "payload_generated_at": "2026-09-22T05:05:42.543360+00:00",
+    "source_latest_updated_at": "2026-09-22T05:05:42.421963+00:00",
     "source_to_payload_lag_seconds": 0,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 11
