@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T03:51:56.712367+00:00",
+  "generated_at": "2026-09-22T04:01:23.720166+00:00",
   "mlb": {
     "summary": {
       "predictions": 1,
@@ -5004,6 +5004,66 @@
           }
         }
       }
+    },
+    "asia_baseball": {
+      "NPB": {
+        "status": "validated",
+        "games": 4129,
+        "validation_n": 3829,
+        "brier": 0.2517,
+        "log_loss": 0.6969,
+        "accuracy_pct": 52.6,
+        "roc_auc": 0.5094,
+        "leakage_free": true,
+        "forward_calibration": {
+          "n": 2,
+          "status": "累積樣本中",
+          "review_at": 100,
+          "brier": 0.2132,
+          "log_loss": 0.6193,
+          "calibration_gap_pct": 46.2,
+          "buckets": [
+            {
+              "range": "40–50%",
+              "n": 2,
+              "avg_model_prob_pct": 46.2,
+              "actual_win_pct": 0.0
+            }
+          ]
+        }
+      },
+      "KBO": {
+        "status": "validated",
+        "games": 3476,
+        "validation_n": 3176,
+        "brier": 0.2495,
+        "log_loss": 0.7004,
+        "accuracy_pct": 54.6,
+        "roc_auc": 0.5482,
+        "leakage_free": true,
+        "forward_calibration": {
+          "n": 2,
+          "status": "累積樣本中",
+          "review_at": 100,
+          "brier": 0.2503,
+          "log_loss": 0.6937,
+          "calibration_gap_pct": 50.0,
+          "buckets": [
+            {
+              "range": "40–50%",
+              "n": 1,
+              "avg_model_prob_pct": 48.4,
+              "actual_win_pct": 0.0
+            },
+            {
+              "range": "50–60%",
+              "n": 1,
+              "avg_model_prob_pct": 51.6,
+              "actual_win_pct": 0.0
+            }
+          ]
+        }
+      }
     }
   },
   "collection_health": {
@@ -5083,8 +5143,8 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T03:51:56.730256+00:00",
-    "source_latest_updated_at": "2026-09-22T03:51:56.592541+00:00",
+    "payload_generated_at": "2026-09-22T04:01:23.728971+00:00",
+    "source_latest_updated_at": "2026-09-22T04:01:23.636401+00:00",
     "source_to_payload_lag_seconds": 0,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 11
