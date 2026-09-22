@@ -18,7 +18,7 @@
 </style></head>
 <body><main class="app">
 <header class="topbar"><div class="brand"><div><h1>賽事儀表板</h1><div class="muted">多球種模型・賽程・模擬推薦</div></div><div><div id="updated" class="muted">資料載入中…</div><div id="sync-health" class="muted" style="font-size:12px;margin-top:3px">同步狀態：檢查中…</div></div></div>
-<nav class="sportnav"><button class="navbtn active" data-view="overview">總覽</button><button class="navbtn" data-view="mlb">⚾ 美職</button><button class="navbtn" data-view="asia">🌏 日職 / 韓職</button><button class="navbtn" data-view="football">⚽ 足球</button><button class="navbtn" data-view="nfl">🏈 美足</button><button class="navbtn" data-view="history">📚 紀錄</button></nav></header>
+<nav class="sportnav"><button class="navbtn active" data-view="overview">總覽</button><button class="navbtn" data-view="baseball">⚾ 棒球</button><button class="navbtn" data-view="football">⚽ 足球</button><button class="navbtn" data-view="nfl">🏈 美足</button><button class="navbtn" data-view="history">📚 紀錄</button></nav></header>
 
 <section class="view active" id="view-overview">
 <div class="section-title"><h2>今日總覽</h2></div><div class="grid"><section class="card"><h3>⚾ 美職</h3><div class="stats" id="mlb-summary"></div></section><section class="card"><h3>⚽ 足球</h3><div class="stats" id="football-summary"></div></section></div>
@@ -28,13 +28,11 @@
 <div class="section-title"><h2>模型健康度</h2></div><section class="card"><div class="grid" id="model-health"></div></section>
 </section>
 
-<section class="view" id="view-mlb"><div class="section-title"><h2>⚾ 美職</h2><span class="muted">預測與模型狀態</span></div><section class="card"><div class="stats" id="mlb-summary-detail"></div></section><div class="section-title"><h2>待觀察賽事</h2></div><div class="matchcards" id="mlb-picks-detail"></div></section>
-
-<section class="view" id="view-asia"><div class="section-title"><h2>🌏 亞洲職棒</h2><span class="muted">日職 / 韓職</span></div><div class="grid" id="asia-baseball"></div></section>
+<section class="view" id="view-baseball"><div class="section-title"><h2>⚾ 棒球</h2><span class="muted">MLB・NPB・KBO</span></div><div class="section-title"><h2>🇺🇸 美職 MLB</h2></div><section class="card"><div class="stats" id="mlb-summary-detail"></div></section><div class="section-title"><h2>美職待觀察賽事</h2></div><div class="matchcards" id="mlb-picks-detail"></div><div class="section-title"><h2>🇯🇵 日職 / 🇰🇷 韓職</h2></div><div class="grid" id="asia-baseball"></div></section>
 
 <section class="view" id="view-football"><div class="section-title"><h2>⚽ 足球</h2><span class="muted">賽程、資料與模型覆蓋</span></div><section class="card"><div id="football-leagues"></div></section><div class="section-title"><h2>模型待觀察</h2></div><div class="matchcards" id="football-picks-detail"></div></section>
 
 <section class="view" id="view-nfl"><div class="section-title"><h2>🏈 美足</h2><span class="muted">勝負・大小分</span></div><div id="nfl-status"></div></section>
 
 <section class="view" id="view-history"><div class="section-title"><h2>📚 歷史預測紀錄</h2></div><section class="card"><div class="legend"><button class="pill filter active" data-sport="mlb">⚾ 美職</button><button class="pill filter" data-sport="football">⚽ 足球</button><button class="pill status active" data-status="all">全部</button><button class="pill status" data-status="open">待結算</button><button class="pill status" data-status="settled">已結算</button></div><div class="matchcards section-gap" id="history-picks"></div></section></section>
-</main><script src="dashboard.js?v=20260922-collection-health1"></script></body></html>
+</main><script src="dashboard.js?v=20260922-baseball-nav1"></script></body></html>
