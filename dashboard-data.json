@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T02:57:38.765138+00:00",
+  "generated_at": "2026-09-22T03:06:36.365820+00:00",
   "mlb": {
     "summary": {
       "predictions": 1,
@@ -4837,7 +4837,6 @@
       "settled": 19,
       "review_at": 100,
       "progress_pct": 19.0,
-      "note": "至少累積 100 筆已結算預測後，再進行正式 drift / calibration 檢查。",
       "validation": {
         "folds": 4,
         "n": 2678,
@@ -4850,7 +4849,6 @@
       "settled": 22,
       "review_at": 100,
       "progress_pct": 22.0,
-      "note": "10 聯賽 league-aware Dixon-Coles v1 已完成驗證與訓練；持續累積 forward paper 結算樣本。",
       "settled_by_league": {
         "E0": 22
       },
