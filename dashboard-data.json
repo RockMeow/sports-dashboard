@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T03:50:43.436066+00:00",
+  "generated_at": "2026-09-22T03:51:56.712367+00:00",
   "mlb": {
     "summary": {
       "predictions": 1,
@@ -4875,6 +4875,38 @@
             "avg_model_prob_pct": 70.2,
             "actual_win_pct": 0.0
           }
+        ],
+        "edge_buckets": [
+          {
+            "range": "3–5%",
+            "n": 5,
+            "wins": 2,
+            "losses": 3,
+            "hit_rate_pct": 40.0,
+            "avg_edge_pct": 3.6,
+            "pnl_units": -14.1,
+            "roi_pct": -28.2
+          },
+          {
+            "range": "5–7%",
+            "n": 9,
+            "wins": 3,
+            "losses": 6,
+            "hit_rate_pct": 33.3,
+            "avg_edge_pct": 5.7,
+            "pnl_units": -25.6,
+            "roi_pct": -28.4
+          },
+          {
+            "range": "7–10%",
+            "n": 2,
+            "wins": 0,
+            "losses": 2,
+            "hit_rate_pct": 0.0,
+            "avg_edge_pct": 8.1,
+            "pnl_units": -20.0,
+            "roi_pct": -100.0
+          }
         ]
       },
       "validation": {
@@ -5051,8 +5083,8 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T03:50:43.449209+00:00",
-    "source_latest_updated_at": "2026-09-22T03:50:43.335099+00:00",
+    "payload_generated_at": "2026-09-22T03:51:56.730256+00:00",
+    "source_latest_updated_at": "2026-09-22T03:51:56.592541+00:00",
     "source_to_payload_lag_seconds": 0,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 11
