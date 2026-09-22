@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T05:05:42.531858+00:00",
+  "generated_at": "2026-09-22T05:08:32.931747+00:00",
   "mlb": {
     "summary": {
       "predictions": 1,
@@ -4528,91 +4528,1205 @@
   },
   "football_leagues": {
     "date_taipei": "2026-09-22",
-    "total_games": 0,
+    "total_games": 156,
+    "today_games": 0,
     "leagues": [
       {
-        "key": "soccer_epl",
-        "name": "英超",
-        "games": [],
-        "game_count": 0,
-        "stage": "paper_model",
-        "stage_label": "模擬模型"
+        "key": "soccer_brazil_campeonato",
+        "name": "soccer_brazil_campeonato",
+        "games": [
+          {
+            "event_id": "bf5e804636b32bc84559397755275753",
+            "commence_time": "2026-10-02T23:00:00Z",
+            "home_team": "Sao Paulo",
+            "away_team": "Santos",
+            "date_taipei": "2026-10-03"
+          },
+          {
+            "event_id": "06ec8fc327d7d28f601dc60796a20c65",
+            "commence_time": "2026-10-03T21:30:00Z",
+            "home_team": "Atletico Mineiro",
+            "away_team": "Bragantino-SP",
+            "date_taipei": "2026-10-04"
+          },
+          {
+            "event_id": "133633d4bf9de886a1a7f87849db6541",
+            "commence_time": "2026-10-07T22:30:00Z",
+            "home_team": "Bragantino-SP",
+            "away_team": "Mirassol",
+            "date_taipei": "2026-10-08"
+          },
+          {
+            "event_id": "24acf540ec0fb31c95969ac3a2f7fad7",
+            "commence_time": "2026-10-07T22:30:00Z",
+            "home_team": "Internacional",
+            "away_team": "Corinthians",
+            "date_taipei": "2026-10-08"
+          },
+          {
+            "event_id": "242d16c03cc1ccbca226d07eabbb65e3",
+            "commence_time": "2026-10-07T22:30:00Z",
+            "home_team": "Remo",
+            "away_team": "Grêmio",
+            "date_taipei": "2026-10-08"
+          },
+          {
+            "event_id": "403ddf40d72d5dd09cd109c237884af9",
+            "commence_time": "2026-10-07T23:00:00Z",
+            "home_team": "Vitoria",
+            "away_team": "Chapecoense",
+            "date_taipei": "2026-10-08"
+          },
+          {
+            "event_id": "d319757a9b81c976a0677b8cc6c7abad",
+            "commence_time": "2026-10-07T23:30:00Z",
+            "home_team": "Botafogo",
+            "away_team": "Vasco da Gama",
+            "date_taipei": "2026-10-08"
+          },
+          {
+            "event_id": "160b49afa70ce1312a6ba4cf93a47ee0",
+            "commence_time": "2026-10-08T00:30:00Z",
+            "home_team": "Cruzeiro",
+            "away_team": "Sao Paulo",
+            "date_taipei": "2026-10-08"
+          },
+          {
+            "event_id": "0730f5688a304703da1240d69f1e5cc4",
+            "commence_time": "2026-10-08T22:30:00Z",
+            "home_team": "Santos",
+            "away_team": "Flamengo",
+            "date_taipei": "2026-10-09"
+          },
+          {
+            "event_id": "61d9f8c88fe17a59b75af74b21f7e8c8",
+            "commence_time": "2026-10-08T23:00:00Z",
+            "home_team": "Atletico Paranaense",
+            "away_team": "Atletico Mineiro",
+            "date_taipei": "2026-10-09"
+          },
+          {
+            "event_id": "f662003f9942401f40a1f127500f0ac7",
+            "commence_time": "2026-10-09T00:30:00Z",
+            "home_team": "Palmeiras",
+            "away_team": "Bahia",
+            "date_taipei": "2026-10-09"
+          },
+          {
+            "event_id": "38a335b265e15cadc748cd78a866bcaf",
+            "commence_time": "2026-10-09T00:30:00Z",
+            "home_team": "Fluminense",
+            "away_team": "Coritiba",
+            "date_taipei": "2026-10-09"
+          }
+        ],
+        "modeled": false,
+        "game_count": 12,
+        "today_game_count": 0,
+        "stage": "schedule_only",
+        "stage_label": "顯示賽程／目前無推薦模型"
       },
       {
-        "key": "soccer_spain_la_liga",
-        "name": "西甲",
-        "games": [],
-        "game_count": 0,
-        "stage": "paper_model",
-        "stage_label": "模擬模型"
+        "key": "soccer_epl",
+        "name": "soccer_epl",
+        "games": [
+          {
+            "event_id": "b870dcfba5e5920d3f1551a3aa1ea435",
+            "commence_time": "2026-10-10T11:30:00Z",
+            "home_team": "Arsenal",
+            "away_team": "Leeds United",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "02e6c0ccb11bb7ce78989ce49d67110b",
+            "commence_time": "2026-10-10T14:00:00Z",
+            "home_team": "Aston Villa",
+            "away_team": "Brentford",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "45d4a466e32cd2b4ea535207923ceaf5",
+            "commence_time": "2026-10-10T14:00:00Z",
+            "home_team": "Chelsea",
+            "away_team": "Bournemouth",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "380b8f24ec5430fb545a7490c1017285",
+            "commence_time": "2026-10-10T14:00:00Z",
+            "home_team": "Sunderland",
+            "away_team": "Brighton and Hove Albion",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "288b4ff00c79daa712c911c564fe1be7",
+            "commence_time": "2026-10-10T14:00:00Z",
+            "home_team": "Ipswich Town",
+            "away_team": "Fulham",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "22c9b2c43cbe1334381269550dab78e6",
+            "commence_time": "2026-10-10T16:30:00Z",
+            "home_team": "Manchester United",
+            "away_team": "Tottenham Hotspur",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "86effab5c6e7bfd58c8e88b1fb7c6ba9",
+            "commence_time": "2026-10-11T13:00:00Z",
+            "home_team": "Crystal Palace",
+            "away_team": "Nottingham Forest",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "0bdae4d304810578e47386606bff7106",
+            "commence_time": "2026-10-11T13:00:00Z",
+            "home_team": "Hull City",
+            "away_team": "Everton",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "6dbab232dd8d2aed0cb1d6f7978fb7b1",
+            "commence_time": "2026-10-11T15:30:00Z",
+            "home_team": "Liverpool",
+            "away_team": "Manchester City",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "acd5bd945dd953ad1e300df5bfe696f9",
+            "commence_time": "2026-10-12T19:00:00Z",
+            "home_team": "Coventry City",
+            "away_team": "Newcastle United",
+            "date_taipei": "2026-10-13"
+          },
+          {
+            "event_id": "764e6513cb3f348881503df70ccb90e0",
+            "commence_time": "2026-10-17T11:30:00Z",
+            "home_team": "Everton",
+            "away_team": "Chelsea",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "8f1945e7272bc7e89016439f5ab321c7",
+            "commence_time": "2026-10-17T14:00:00Z",
+            "home_team": "Brentford",
+            "away_team": "Liverpool",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "7895f97f2f9577f3b13287a3d086859d",
+            "commence_time": "2026-10-17T14:00:00Z",
+            "home_team": "Fulham",
+            "away_team": "Hull City",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "bf2142d1ca76ba2fc9e61afce80f86c0",
+            "commence_time": "2026-10-17T14:00:00Z",
+            "home_team": "Manchester City",
+            "away_team": "Ipswich Town",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "d1bbbdcd3d430e70091b518369b559cf",
+            "commence_time": "2026-10-17T16:30:00Z",
+            "home_team": "Newcastle United",
+            "away_team": "Aston Villa",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "dfd5d6648be46426e418801584d46a68",
+            "commence_time": "2026-10-18T13:00:00Z",
+            "home_team": "Bournemouth",
+            "away_team": "Sunderland",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "9fc08b390a49c4434f7cf631a0bb88fb",
+            "commence_time": "2026-10-18T13:00:00Z",
+            "home_team": "Brighton and Hove Albion",
+            "away_team": "Crystal Palace",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "676b3b0b609e9cf565da450786618d26",
+            "commence_time": "2026-10-18T13:00:00Z",
+            "home_team": "Leeds United",
+            "away_team": "Manchester United",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "f696a248965373d9071dc0662e5c58a8",
+            "commence_time": "2026-10-18T15:30:00Z",
+            "home_team": "Nottingham Forest",
+            "away_team": "Arsenal",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "9baaf4e48b041cfef04e70e42532502e",
+            "commence_time": "2026-10-19T19:00:00Z",
+            "home_team": "Tottenham Hotspur",
+            "away_team": "Coventry City",
+            "date_taipei": "2026-10-20"
+          }
+        ],
+        "modeled": false,
+        "game_count": 20,
+        "today_game_count": 0,
+        "stage": "schedule_only",
+        "stage_label": "顯示賽程／目前無推薦模型"
       },
       {
         "key": "soccer_france_ligue_one",
-        "name": "法甲",
-        "games": [],
-        "game_count": 0,
-        "stage": "paper_model",
-        "stage_label": "模擬模型"
-      },
-      {
-        "key": "soccer_italy_serie_a",
-        "name": "義甲",
-        "games": [],
-        "game_count": 0,
-        "stage": "paper_model",
-        "stage_label": "模擬模型"
+        "name": "soccer_france_ligue_one",
+        "games": [
+          {
+            "event_id": "17694e68f399fdf9c5030021ec9bb595",
+            "commence_time": "2026-10-09T18:45:00Z",
+            "home_team": "RC Lens",
+            "away_team": "Lyon",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "2c173b3bd3a1491f17fcad1012019c4f",
+            "commence_time": "2026-10-10T15:15:00Z",
+            "home_team": "Lille",
+            "away_team": "Le Havre",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "c2c64ebfc5810226f807c1920d580392",
+            "commence_time": "2026-10-10T18:45:00Z",
+            "home_team": "AS Monaco",
+            "away_team": "Toulouse",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "007dc2ff845c33e3e18f2bd2bc126304",
+            "commence_time": "2026-10-10T18:45:00Z",
+            "home_team": "Brest",
+            "away_team": "Angers",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "2849460eb4d15adbb20ec15927a0fd4a",
+            "commence_time": "2026-10-10T18:45:00Z",
+            "home_team": "Paris Saint Germain",
+            "away_team": "Le Mans FC",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "3aa72885e0aa107c62843749f7930a9a",
+            "commence_time": "2026-10-10T18:45:00Z",
+            "home_team": "Lorient",
+            "away_team": "Paris FC",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "5d3606630a2d3a218a6340d082c1bdc6",
+            "commence_time": "2026-10-11T13:00:00Z",
+            "home_team": "Nice",
+            "away_team": "Strasbourg",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "34f584ab922e220dc4f3b81217959d6d",
+            "commence_time": "2026-10-11T15:15:00Z",
+            "home_team": "Rennes",
+            "away_team": "Auxerre",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "cb7067ac191abf32ad49dad45e46f639",
+            "commence_time": "2026-10-11T18:45:00Z",
+            "home_team": "Troyes",
+            "away_team": "Marseille",
+            "date_taipei": "2026-10-12"
+          },
+          {
+            "event_id": "66c168c030f3faad3983fcadc3060009",
+            "commence_time": "2026-10-16T18:45:00Z",
+            "home_team": "Le Mans FC",
+            "away_team": "Toulouse",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "f3034246520a2ee4ff0ac0d5074966f8",
+            "commence_time": "2026-10-17T15:15:00Z",
+            "home_team": "Strasbourg",
+            "away_team": "Paris Saint Germain",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "ad25a350c89b64715e15c59cde5653d3",
+            "commence_time": "2026-10-17T18:45:00Z",
+            "home_team": "Lille",
+            "away_team": "Brest",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "b077aa049133c0358bcd643bfee48da3",
+            "commence_time": "2026-10-17T18:45:00Z",
+            "home_team": "Troyes",
+            "away_team": "RC Lens",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "c7a60aa94470fe959fbf6b0c68060fc1",
+            "commence_time": "2026-10-18T13:00:00Z",
+            "home_team": "Angers",
+            "away_team": "Marseille",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "53f5fe7ed0ba0fbf6345c73270e4cd00",
+            "commence_time": "2026-10-18T15:15:00Z",
+            "home_team": "Lorient",
+            "away_team": "AS Monaco",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "d637845b9760bb02b55bbbaa32b5c21e",
+            "commence_time": "2026-10-18T15:15:00Z",
+            "home_team": "Le Havre",
+            "away_team": "Auxerre",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "27f7222d2abde93fc6e8d17b5b05b272",
+            "commence_time": "2026-10-18T15:15:00Z",
+            "home_team": "Paris FC",
+            "away_team": "Rennes",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "471f891b1f6516a864ad94c8eb649f5e",
+            "commence_time": "2026-10-18T18:45:00Z",
+            "home_team": "Lyon",
+            "away_team": "Nice",
+            "date_taipei": "2026-10-19"
+          }
+        ],
+        "modeled": false,
+        "game_count": 18,
+        "today_game_count": 0,
+        "stage": "schedule_only",
+        "stage_label": "顯示賽程／目前無推薦模型"
       },
       {
         "key": "soccer_germany_bundesliga",
-        "name": "德甲",
-        "games": [],
-        "game_count": 0,
-        "stage": "paper_model",
-        "stage_label": "模擬模型"
+        "name": "soccer_germany_bundesliga",
+        "games": [
+          {
+            "event_id": "3fb63658405d468954f57745cd115118",
+            "commence_time": "2026-10-09T18:30:00Z",
+            "home_team": "Borussia Dortmund",
+            "away_team": "Werder Bremen",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "3b71160ad20dba786c4f92e33c987d80",
+            "commence_time": "2026-10-10T13:30:00Z",
+            "home_team": "Augsburg",
+            "away_team": "Bayern Munich",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "418f8c26d46eaabd829f2e265673b855",
+            "commence_time": "2026-10-10T13:30:00Z",
+            "home_team": "FSV Mainz 05",
+            "away_team": "Bayer Leverkusen",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "2fd48be0a24ed906187067d4170bf010",
+            "commence_time": "2026-10-10T13:30:00Z",
+            "home_team": "Union Berlin",
+            "away_team": "Elversberg",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "f03c08c0ae5fd66c2d2df2053115bb94",
+            "commence_time": "2026-10-10T13:30:00Z",
+            "home_team": "TSG Hoffenheim",
+            "away_team": "Hamburger SV",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "9aade3e736c3d113dab19e641c43e272",
+            "commence_time": "2026-10-10T13:30:00Z",
+            "home_team": "SC Paderborn",
+            "away_team": "VfB Stuttgart",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "01cb7a67c8ae71201ec27297455fc0e8",
+            "commence_time": "2026-10-10T16:30:00Z",
+            "home_team": "RB Leipzig",
+            "away_team": "Eintracht Frankfurt",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "a8801462cb97a43570956e4b3ef4aedf",
+            "commence_time": "2026-10-11T13:30:00Z",
+            "home_team": "1. FC Köln",
+            "away_team": "Borussia Monchengladbach",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "eaf509fb37413b7d055cd394667792b3",
+            "commence_time": "2026-10-11T15:30:00Z",
+            "home_team": "SC Freiburg",
+            "away_team": "FC Schalke 04",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "947bd5d924835af090d9cdc7bbdf10f6",
+            "commence_time": "2026-10-16T18:30:00Z",
+            "home_team": "Eintracht Frankfurt",
+            "away_team": "1. FC Köln",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "0bf757f3bd903496ce2fa27bd0481869",
+            "commence_time": "2026-10-17T13:30:00Z",
+            "home_team": "Elversberg",
+            "away_team": "Augsburg",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "d8eac776adb07b0e7f01d8736d097291",
+            "commence_time": "2026-10-17T13:30:00Z",
+            "home_team": "Union Berlin",
+            "away_team": "Borussia Dortmund",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "606d65d57a9a6d8f9b53faee1ad10009",
+            "commence_time": "2026-10-17T13:30:00Z",
+            "home_team": "FC Schalke 04",
+            "away_team": "FSV Mainz 05",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "221916b8b36706ec52aa655a64e5f1d2",
+            "commence_time": "2026-10-17T13:30:00Z",
+            "home_team": "Hamburger SV",
+            "away_team": "VfB Stuttgart",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "9a422e1aad1053828eaf629a58d901de",
+            "commence_time": "2026-10-17T13:30:00Z",
+            "home_team": "Werder Bremen",
+            "away_team": "SC Paderborn",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "9a64448205fdc4b95f45641bb946706c",
+            "commence_time": "2026-10-17T16:30:00Z",
+            "home_team": "Bayern Munich",
+            "away_team": "RB Leipzig",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "096d800bcc95c547ef592cbef624d080",
+            "commence_time": "2026-10-18T13:30:00Z",
+            "home_team": "Bayer Leverkusen",
+            "away_team": "SC Freiburg",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "fd9b8c185737a15615aa0c9daaa3dfbf",
+            "commence_time": "2026-10-18T15:30:00Z",
+            "home_team": "Borussia Monchengladbach",
+            "away_team": "TSG Hoffenheim",
+            "date_taipei": "2026-10-18"
+          }
+        ],
+        "modeled": false,
+        "game_count": 18,
+        "today_game_count": 0,
+        "stage": "schedule_only",
+        "stage_label": "顯示賽程／目前無推薦模型"
       },
       {
-        "key": "soccer_usa_mls",
-        "name": "MLS",
-        "games": [],
-        "game_count": 0,
-        "stage": "paper_model",
-        "stage_label": "模擬模型"
-      },
-      {
-        "key": "soccer_brazil_campeonato",
-        "name": "巴西甲",
-        "games": [],
-        "game_count": 0,
-        "stage": "paper_model",
-        "stage_label": "模擬模型"
+        "key": "soccer_italy_serie_a",
+        "name": "soccer_italy_serie_a",
+        "games": [
+          {
+            "event_id": "2f8e871a0f7f66ae22938028645e1066",
+            "commence_time": "2026-10-10T13:00:00Z",
+            "home_team": "Genoa",
+            "away_team": "Fiorentina",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "1a01b0611dacd334e1558a5097e05023",
+            "commence_time": "2026-10-10T16:00:00Z",
+            "home_team": "Inter Milan",
+            "away_team": "Parma",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "40c1bd70fee927f9bfa8901edab02b48",
+            "commence_time": "2026-10-10T18:45:00Z",
+            "home_team": "Napoli",
+            "away_team": "Frosinone",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "2547c0dbddd26d23fa532228e36348cb",
+            "commence_time": "2026-10-11T10:30:00Z",
+            "home_team": "Como",
+            "away_team": "AS Roma",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "946716d7e5e52822f08be8cb95193d9d",
+            "commence_time": "2026-10-11T13:00:00Z",
+            "home_team": "Lecce",
+            "away_team": "Bologna",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "c0f72699f32ec193b64fd54092fe268d",
+            "commence_time": "2026-10-11T13:00:00Z",
+            "home_team": "Lazio",
+            "away_team": "Monza",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "1cf64166dda1e0da8b325161deb39662",
+            "commence_time": "2026-10-11T16:00:00Z",
+            "home_team": "Sassuolo",
+            "away_team": "AC Milan",
+            "date_taipei": "2026-10-12"
+          },
+          {
+            "event_id": "407f7d03157d1dfad384876e6a6bc910",
+            "commence_time": "2026-10-11T18:45:00Z",
+            "home_team": "Cagliari",
+            "away_team": "Juventus",
+            "date_taipei": "2026-10-12"
+          },
+          {
+            "event_id": "0f2e7ff90b994f31d5cd48a9680943e1",
+            "commence_time": "2026-10-12T16:30:00Z",
+            "home_team": "Atalanta BC",
+            "away_team": "Venezia",
+            "date_taipei": "2026-10-13"
+          },
+          {
+            "event_id": "f4a28510bb0c835280a2aca709c19d50",
+            "commence_time": "2026-10-12T18:45:00Z",
+            "home_team": "Torino",
+            "away_team": "Udinese",
+            "date_taipei": "2026-10-13"
+          },
+          {
+            "event_id": "7d3160040958fe21778fd5ee485666c3",
+            "commence_time": "2026-10-16T18:45:00Z",
+            "home_team": "Frosinone",
+            "away_team": "Sassuolo",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "907639dade64cca45d1ab639195d201e",
+            "commence_time": "2026-10-17T13:00:00Z",
+            "home_team": "Venezia",
+            "away_team": "Napoli",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "bfefc309177723410230fee52f650315",
+            "commence_time": "2026-10-17T16:00:00Z",
+            "home_team": "Bologna",
+            "away_team": "Inter Milan",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "18d478f469da3bcc654dd4555b85c7e3",
+            "commence_time": "2026-10-17T18:45:00Z",
+            "home_team": "AS Roma",
+            "away_team": "Genoa",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "367da93aa21a1e13eeafb94fd2263c75",
+            "commence_time": "2026-10-18T10:30:00Z",
+            "home_team": "Udinese",
+            "away_team": "Lecce",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "3ea32a0aa44a5f0ef7fd088155430087",
+            "commence_time": "2026-10-18T13:00:00Z",
+            "home_team": "Fiorentina",
+            "away_team": "Como",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "f9403dd597edbfaa73abdc974e55344c",
+            "commence_time": "2026-10-18T16:00:00Z",
+            "home_team": "AC Milan",
+            "away_team": "Atalanta BC",
+            "date_taipei": "2026-10-19"
+          },
+          {
+            "event_id": "4c4026e2782f09d6f0ff2bde2a390513",
+            "commence_time": "2026-10-18T18:45:00Z",
+            "home_team": "Juventus",
+            "away_team": "Lazio",
+            "date_taipei": "2026-10-19"
+          },
+          {
+            "event_id": "ce94aca384a20f6af459366da6e1dd21",
+            "commence_time": "2026-10-19T16:30:00Z",
+            "home_team": "Monza",
+            "away_team": "Cagliari",
+            "date_taipei": "2026-10-20"
+          },
+          {
+            "event_id": "07014d9adc65ca39710bd9f0c7c0d3f0",
+            "commence_time": "2026-10-19T18:45:00Z",
+            "home_team": "Parma",
+            "away_team": "Torino",
+            "date_taipei": "2026-10-20"
+          }
+        ],
+        "modeled": false,
+        "game_count": 20,
+        "today_game_count": 0,
+        "stage": "schedule_only",
+        "stage_label": "顯示賽程／目前無推薦模型"
       },
       {
         "key": "soccer_netherlands_eredivisie",
-        "name": "荷甲",
-        "games": [],
-        "game_count": 0,
-        "stage": "paper_model",
-        "stage_label": "模擬模型"
+        "name": "soccer_netherlands_eredivisie",
+        "games": [
+          {
+            "event_id": "217aec5dbea235fb2716756cd089c458",
+            "commence_time": "2026-10-09T18:00:00Z",
+            "home_team": "PSV Eindhoven",
+            "away_team": "Heerenveen",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "883135d737b3dce356ccd04a9e6d2124",
+            "commence_time": "2026-10-10T14:30:00Z",
+            "home_team": "Go Ahead Eagles",
+            "away_team": "Sparta Rotterdam",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "a8273db43fe2d76ba5342e37a10f9e93",
+            "commence_time": "2026-10-10T16:45:00Z",
+            "home_team": "Feyenoord",
+            "away_team": "AZ Alkmaar",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "f5f8b64c3c4062dfaf01b6d09e4e15c1",
+            "commence_time": "2026-10-10T18:00:00Z",
+            "home_team": "Fortuna Sittard",
+            "away_team": "FC Twente Enschede",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "5d3dff37b4525ccc6f8dd17248a05917",
+            "commence_time": "2026-10-10T19:00:00Z",
+            "home_team": "Ajax",
+            "away_team": "NEC Nijmegen",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "f3f0ca7293ea22fd29623c8d82b8ecfb",
+            "commence_time": "2026-10-11T10:15:00Z",
+            "home_team": "FC Utrecht",
+            "away_team": "Willem II",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "ac89f943c22fc8634ca573a77548615a",
+            "commence_time": "2026-10-11T12:30:00Z",
+            "home_team": "SC Telstar",
+            "away_team": "ADO Den Haag",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "77c21a6fdd5be6d774addfacd8964d49",
+            "commence_time": "2026-10-11T12:30:00Z",
+            "home_team": "FC Zwolle",
+            "away_team": "SC Cambuur",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "d1d3c9da05a1c64da18dd5e5ee3e820e",
+            "commence_time": "2026-10-11T14:45:00Z",
+            "home_team": "Excelsior",
+            "away_team": "Groningen",
+            "date_taipei": "2026-10-11"
+          }
+        ],
+        "modeled": false,
+        "game_count": 9,
+        "today_game_count": 0,
+        "stage": "schedule_only",
+        "stage_label": "顯示賽程／目前無推薦模型"
       },
       {
-        "key": "soccer_portugal_primeira_liga",
-        "name": "葡超",
-        "games": [],
-        "game_count": 0,
-        "stage": "paper_model",
-        "stage_label": "模擬模型"
+        "key": "soccer_spain_la_liga",
+        "name": "soccer_spain_la_liga",
+        "games": [
+          {
+            "event_id": "4e4c6763037ffc0e1dfe92ed16287b6d",
+            "commence_time": "2026-10-09T19:00:00Z",
+            "home_team": "Málaga",
+            "away_team": "Espanyol",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "349c47668fdd909039a9408c14cad8bc",
+            "commence_time": "2026-10-10T12:00:00Z",
+            "home_team": "Rayo Vallecano",
+            "away_team": "Athletic Bilbao",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "3869391e3dbdcaa74153b11df56a3fe5",
+            "commence_time": "2026-10-10T14:15:00Z",
+            "home_team": "Alavés",
+            "away_team": "Atlético Madrid",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "edb80d633a1906e5865ab70cc9b540ea",
+            "commence_time": "2026-10-10T16:30:00Z",
+            "home_team": "Barcelona",
+            "away_team": "Getafe",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "551f242223b1625f458d1a2ea212a0c3",
+            "commence_time": "2026-10-10T19:00:00Z",
+            "home_team": "Real Madrid",
+            "away_team": "Villarreal",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "7daf7edaf572eba3ac86196c663d67d3",
+            "commence_time": "2026-10-11T12:00:00Z",
+            "home_team": "Elche CF",
+            "away_team": "Celta Vigo",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "2997b68cc93f62d8a1dee9f06bedbefd",
+            "commence_time": "2026-10-11T14:15:00Z",
+            "home_team": "Real Sociedad",
+            "away_team": "Deportivo La Coruña",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "984691837d31fd0c59c088f377f55f75",
+            "commence_time": "2026-10-11T16:30:00Z",
+            "home_team": "Real Betis",
+            "away_team": "CA Osasuna",
+            "date_taipei": "2026-10-12"
+          },
+          {
+            "event_id": "66a4f4201806b928c9007116727fdd61",
+            "commence_time": "2026-10-11T19:00:00Z",
+            "home_team": "Real Racing Club de Santander",
+            "away_team": "Valencia",
+            "date_taipei": "2026-10-12"
+          },
+          {
+            "event_id": "529fc26c7774d5b469932e275c668921",
+            "commence_time": "2026-10-12T19:00:00Z",
+            "home_team": "Levante",
+            "away_team": "Sevilla",
+            "date_taipei": "2026-10-13"
+          },
+          {
+            "event_id": "19ee731602634e5c9e3106630e087464",
+            "commence_time": "2026-10-16T19:00:00Z",
+            "home_team": "Deportivo La Coruña",
+            "away_team": "Levante",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "6436925dd15916d7041ba32b60000d48",
+            "commence_time": "2026-10-17T12:00:00Z",
+            "home_team": "Espanyol",
+            "away_team": "Atlético Madrid",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "aef660734585649651415961a9d177c6",
+            "commence_time": "2026-10-17T14:15:00Z",
+            "home_team": "Villarreal",
+            "away_team": "Elche CF",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "846e496fc232b2fc20214754836727d0",
+            "commence_time": "2026-10-17T16:30:00Z",
+            "home_team": "Real Betis",
+            "away_team": "Barcelona",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "f00cd1ea41fa39149729d14ebc07aa6c",
+            "commence_time": "2026-10-17T19:00:00Z",
+            "home_team": "Valencia",
+            "away_team": "Athletic Bilbao",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "1f566f17c50fe5162724ec2863d2207b",
+            "commence_time": "2026-10-18T12:00:00Z",
+            "home_team": "CA Osasuna",
+            "away_team": "Real Racing Club de Santander",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "aabe899ecc4c19a1fafe5440151b62e4",
+            "commence_time": "2026-10-18T14:15:00Z",
+            "home_team": "Celta Vigo",
+            "away_team": "Alavés",
+            "date_taipei": "2026-10-18"
+          },
+          {
+            "event_id": "1051298b4aca6f07113309bff598a5c1",
+            "commence_time": "2026-10-18T16:30:00Z",
+            "home_team": "Málaga",
+            "away_team": "Real Sociedad",
+            "date_taipei": "2026-10-19"
+          },
+          {
+            "event_id": "eccd63bf768e2f2a358b871d3f33a63d",
+            "commence_time": "2026-10-18T19:00:00Z",
+            "home_team": "Real Madrid",
+            "away_team": "Sevilla",
+            "date_taipei": "2026-10-19"
+          },
+          {
+            "event_id": "4a88bc4de574d43ef34677fd8d78722f",
+            "commence_time": "2026-10-19T19:00:00Z",
+            "home_team": "Getafe",
+            "away_team": "Rayo Vallecano",
+            "date_taipei": "2026-10-20"
+          }
+        ],
+        "modeled": false,
+        "game_count": 20,
+        "today_game_count": 0,
+        "stage": "schedule_only",
+        "stage_label": "顯示賽程／目前無推薦模型"
       },
       {
         "key": "soccer_spl",
-        "name": "蘇超",
-        "games": [],
-        "game_count": 0,
-        "stage": "paper_model",
-        "stage_label": "模擬模型"
+        "name": "soccer_spl",
+        "games": [
+          {
+            "event_id": "2ea2ad084a23df9b8efc76bc9e5d7811",
+            "commence_time": "2026-10-10T14:00:00Z",
+            "home_team": "Falkirk F.C.",
+            "away_team": "Dundee FC",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "6e6ba2e883c5bda81a3f3c073e347e93",
+            "commence_time": "2026-10-10T14:00:00Z",
+            "home_team": "Dundee United",
+            "away_team": "Hibernian",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "53fe5171e2c7a834388133b06b571727",
+            "commence_time": "2026-10-10T14:00:00Z",
+            "home_team": "Hearts",
+            "away_team": "St Mirren",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "672b72aadaf61287e9a244945c61d0d8",
+            "commence_time": "2026-10-10T14:00:00Z",
+            "home_team": "Rangers",
+            "away_team": "Kilmarnock",
+            "date_taipei": "2026-10-10"
+          },
+          {
+            "event_id": "1a9cae480abd2c5e487d431ee1c331fb",
+            "commence_time": "2026-10-11T11:00:00Z",
+            "home_team": "Motherwell",
+            "away_team": "Celtic",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "70ec22b3cd559dd3b8eda7df486a266c",
+            "commence_time": "2026-10-11T13:00:00Z",
+            "home_team": "Aberdeen",
+            "away_team": "St Johnstone",
+            "date_taipei": "2026-10-11"
+          }
+        ],
+        "modeled": false,
+        "game_count": 6,
+        "today_game_count": 0,
+        "stage": "schedule_only",
+        "stage_label": "顯示賽程／目前無推薦模型"
+      },
+      {
+        "key": "soccer_usa_mls",
+        "name": "soccer_usa_mls",
+        "games": [
+          {
+            "event_id": "721002a07455851d44ee87a608fbd3e3",
+            "commence_time": "2026-09-24T01:30:00Z",
+            "home_team": "Seattle Sounders FC",
+            "away_team": "Real Salt Lake",
+            "date_taipei": "2026-09-24"
+          },
+          {
+            "event_id": "fc27ddecdbf725e6878b23d2fbac96d9",
+            "commence_time": "2026-09-26T23:30:00Z",
+            "home_team": "Atlanta United FC",
+            "away_team": "New York City FC",
+            "date_taipei": "2026-09-27"
+          },
+          {
+            "event_id": "249e21ae92c7049220cee334c4fd6868",
+            "commence_time": "2026-09-26T23:30:00Z",
+            "home_team": "CF Montreal",
+            "away_team": "FC Cincinnati",
+            "date_taipei": "2026-09-27"
+          },
+          {
+            "event_id": "2a754d105ccf495bfaaef9a83c6d59fc",
+            "commence_time": "2026-09-26T23:30:00Z",
+            "home_team": "Charlotte FC",
+            "away_team": "Chicago Fire",
+            "date_taipei": "2026-09-27"
+          },
+          {
+            "event_id": "100d634ff8a0f99befe1dd72ab97c506",
+            "commence_time": "2026-09-26T23:30:00Z",
+            "home_team": "New York Red Bulls",
+            "away_team": "St. Louis City SC",
+            "date_taipei": "2026-09-27"
+          },
+          {
+            "event_id": "a52987908b4656274e814c7d2579b9ca",
+            "commence_time": "2026-09-26T23:30:00Z",
+            "home_team": "Philadelphia Union",
+            "away_team": "Orlando City SC",
+            "date_taipei": "2026-09-27"
+          },
+          {
+            "event_id": "6cdd0470f4d9a8203545204db4fb70fa",
+            "commence_time": "2026-09-27T00:30:00Z",
+            "home_team": "Austin FC",
+            "away_team": "San Diego FC",
+            "date_taipei": "2026-09-27"
+          },
+          {
+            "event_id": "1939426b2ba9d98c1142822d3187a776",
+            "commence_time": "2026-09-27T00:30:00Z",
+            "home_team": "FC Dallas",
+            "away_team": "Los Angeles FC",
+            "date_taipei": "2026-09-27"
+          },
+          {
+            "event_id": "90aa497bc4133c692471f90b436075cd",
+            "commence_time": "2026-09-27T00:30:00Z",
+            "home_team": "Houston Dynamo",
+            "away_team": "Sporting Kansas City",
+            "date_taipei": "2026-09-27"
+          },
+          {
+            "event_id": "003eff33b6407de9fa90cb8eb8272628",
+            "commence_time": "2026-09-27T00:30:00Z",
+            "home_team": "Seattle Sounders FC",
+            "away_team": "Minnesota United FC",
+            "date_taipei": "2026-09-27"
+          },
+          {
+            "event_id": "046d92538ee40254a71e318686a3c763",
+            "commence_time": "2026-09-27T00:30:00Z",
+            "home_team": "Nashville SC",
+            "away_team": "Toronto FC",
+            "date_taipei": "2026-09-27"
+          },
+          {
+            "event_id": "be348231972e17a0d75d59153aa75225",
+            "commence_time": "2026-09-27T01:30:00Z",
+            "home_team": "Real Salt Lake",
+            "away_team": "New England Revolution",
+            "date_taipei": "2026-09-27"
+          },
+          {
+            "event_id": "ffee22065f771f8a39a3747e685a85f6",
+            "commence_time": "2026-09-27T02:30:00Z",
+            "home_team": "LA Galaxy",
+            "away_team": "Colorado Rapids",
+            "date_taipei": "2026-09-27"
+          },
+          {
+            "event_id": "fd1a6834aea1edff868993431abda226",
+            "commence_time": "2026-09-27T02:30:00Z",
+            "home_team": "Vancouver Whitecaps FC",
+            "away_team": "D.C. United",
+            "date_taipei": "2026-09-27"
+          },
+          {
+            "event_id": "749a4f184bc096e5924d732f368203e5",
+            "commence_time": "2026-09-27T02:30:00Z",
+            "home_team": "San Jose Earthquakes",
+            "away_team": "Portland Timbers",
+            "date_taipei": "2026-09-27"
+          },
+          {
+            "event_id": "b3136965b6a29690033e3b2989bc8ad7",
+            "commence_time": "2026-09-27T23:00:00Z",
+            "home_team": "Columbus Crew SC",
+            "away_team": "Inter Miami CF",
+            "date_taipei": "2026-09-28"
+          },
+          {
+            "event_id": "c68442e0bfc400d8e7ee97ec662e13e0",
+            "commence_time": "2026-10-02T01:30:00Z",
+            "home_team": "Seattle Sounders FC",
+            "away_team": "Sporting Kansas City",
+            "date_taipei": "2026-10-02"
+          },
+          {
+            "event_id": "0d9ff865c4599c72a746da08260279b3",
+            "commence_time": "2026-10-07T00:30:00Z",
+            "home_team": "Chicago Fire",
+            "away_team": "Vancouver Whitecaps FC",
+            "date_taipei": "2026-10-07"
+          },
+          {
+            "event_id": "fbed9e8f16fe7532998d46a4276e706c",
+            "commence_time": "2026-10-10T17:00:00Z",
+            "home_team": "Toronto FC",
+            "away_team": "CF Montreal",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "e1ea9930c10116a19a87a37cfb048757",
+            "commence_time": "2026-10-10T18:30:00Z",
+            "home_team": "Chicago Fire",
+            "away_team": "New York City FC",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "2793c97e3a0354a231d182df3a3968dd",
+            "commence_time": "2026-10-10T23:30:00Z",
+            "home_team": "Atlanta United FC",
+            "away_team": "FC Cincinnati",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "e923e7caf339e76d705060afb4b5606e",
+            "commence_time": "2026-10-10T23:30:00Z",
+            "home_team": "Charlotte FC",
+            "away_team": "FC Dallas",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "09a2b919c3133594273ffbc5a4fa7ba2",
+            "commence_time": "2026-10-10T23:30:00Z",
+            "home_team": "Orlando City SC",
+            "away_team": "Columbus Crew SC",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "fa36c2f60be6cb1dba4fad4e755a18cb",
+            "commence_time": "2026-10-10T23:30:00Z",
+            "home_team": "Inter Miami CF",
+            "away_team": "D.C. United",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "585d4356cd06fc3b25975c32388d71b1",
+            "commence_time": "2026-10-10T23:30:00Z",
+            "home_team": "New England Revolution",
+            "away_team": "Seattle Sounders FC",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "99f6f6c45309f9e80baa01f99a7a84cc",
+            "commence_time": "2026-10-10T23:30:00Z",
+            "home_team": "New York Red Bulls",
+            "away_team": "San Diego FC",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "9ea179b94f97b5ab62469564ac823b7c",
+            "commence_time": "2026-10-10T23:30:00Z",
+            "home_team": "Philadelphia Union",
+            "away_team": "Real Salt Lake",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "840fae5fbb92577c705bcb94e98a8094",
+            "commence_time": "2026-10-11T00:30:00Z",
+            "home_team": "Austin FC",
+            "away_team": "Nashville SC",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "a32e431d88dc9e94017ef329c927cf0b",
+            "commence_time": "2026-10-11T00:30:00Z",
+            "home_team": "Minnesota United FC",
+            "away_team": "Houston Dynamo",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "75b1c7b44d698d3bacd9a233634654c9",
+            "commence_time": "2026-10-11T00:30:00Z",
+            "home_team": "Sporting Kansas City",
+            "away_team": "Portland Timbers",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "338dc360cd187885fe4bb319b82dce2e",
+            "commence_time": "2026-10-11T01:30:00Z",
+            "home_team": "Colorado Rapids",
+            "away_team": "San Jose Earthquakes",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "ca3575b85cfe58c71464e24d24a819ef",
+            "commence_time": "2026-10-11T02:30:00Z",
+            "home_team": "Los Angeles FC",
+            "away_team": "Vancouver Whitecaps FC",
+            "date_taipei": "2026-10-11"
+          },
+          {
+            "event_id": "e4e822bb1af02fe54b255ec4df70291d",
+            "commence_time": "2026-10-11T23:00:00Z",
+            "home_team": "St. Louis City SC",
+            "away_team": "LA Galaxy",
+            "date_taipei": "2026-10-12"
+          }
+        ],
+        "modeled": false,
+        "game_count": 33,
+        "today_game_count": 0,
+        "stage": "schedule_only",
+        "stage_label": "顯示賽程／目前無推薦模型"
       }
     ],
-    "validated_models": 10,
-    "configured_leagues": 10
+    "validated_models": 0,
+    "configured_leagues": 9,
+    "display_scope": "all_active_soccer_competitions",
+    "recommendation_scope": "modeled_leagues_only"
   },
   "asia_baseball": {
     "npb": {
@@ -5282,8 +6396,8 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T05:05:42.543360+00:00",
-    "source_latest_updated_at": "2026-09-22T05:05:42.421963+00:00",
+    "payload_generated_at": "2026-09-22T05:08:32.944238+00:00",
+    "source_latest_updated_at": "2026-09-22T05:08:32.833333+00:00",
     "source_to_payload_lag_seconds": 0,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 11
