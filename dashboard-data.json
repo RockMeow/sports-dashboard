@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-22T02:38:26.900058+00:00",
+  "generated_at": "2026-09-22T02:57:38.765138+00:00",
   "mlb": {
     "summary": {
       "predictions": 1,
-      "settled": 0,
-      "open": 1,
-      "wins": 0,
+      "settled": 1,
+      "open": 0,
+      "wins": 1,
       "losses": 0,
-      "hit_rate_pct": null,
+      "hit_rate_pct": 100.0,
       "current_gate": {
         "predictions": 1,
-        "settled": 0,
-        "wins": 0,
+        "settled": 1,
+        "wins": 1,
         "losses": 0,
-        "hit_rate_pct": null
+        "hit_rate_pct": 100.0
       },
       "legacy_or_blocked": {
         "predictions": 0,
@@ -31,10 +31,27 @@
         "odds": 1.95,
         "edge_pct": 5.9,
         "model_prob_pct": 56.2,
-        "status": "OPEN",
-        "pnl": 0.0,
+        "status": "WIN",
+        "pnl": 9.5,
         "gate_version": "current",
-        "postgame": null
+        "postgame": {
+          "game_pk": 824787,
+          "status": "WIN",
+          "facts": {
+            "selected_runs": 4,
+            "opponent_runs": 3,
+            "selected_hits": 6,
+            "opponent_hits": 6,
+            "selected_hr": 3,
+            "selected_left_on_base": 8,
+            "selected_pitching_era": "4.11",
+            "opponent_pitching_era": "3.92"
+          },
+          "reasons": [
+            "推薦隊實際得分 4：3，賽前優勢最終兌現。",
+            "推薦隊擊出 3 支全壘打，提供實際得分貢獻。"
+          ]
+        }
       },
       {
         "time": "2026-09-20T23:21:00Z",
@@ -631,10 +648,27 @@
         "odds": 1.95,
         "edge_pct": 5.9,
         "model_prob_pct": 56.2,
-        "status": "OPEN",
-        "pnl": 0.0,
+        "status": "WIN",
+        "pnl": 9.5,
         "gate_version": "current",
-        "postgame": null
+        "postgame": {
+          "game_pk": 824787,
+          "status": "WIN",
+          "facts": {
+            "selected_runs": 4,
+            "opponent_runs": 3,
+            "selected_hits": 6,
+            "opponent_hits": 6,
+            "selected_hr": 3,
+            "selected_left_on_base": 8,
+            "selected_pitching_era": "4.11",
+            "opponent_pitching_era": "3.92"
+          },
+          "reasons": [
+            "推薦隊實際得分 4：3，賽前優勢最終兌現。",
+            "推薦隊擊出 3 支全壘打，提供實際得分貢獻。"
+          ]
+        }
       },
       {
         "time": "2026-09-20T23:21:00Z",
@@ -4786,23 +4820,23 @@
   "nfl": {
     "status": "資料收集中",
     "model_status": "模型尚未建立",
-    "mode": "paper_only",
+    "mode": "event_driven_t_minus_30m",
     "markets": [
       "h2h",
       "totals"
     ],
-    "events": 17,
-    "snapshot_rows": 540,
-    "remaining_credits": 311,
-    "updated_at": "2026-09-21T20:12:22.823621+00:00",
+    "events": 0,
+    "snapshot_rows": 0,
+    "remaining_credits": null,
+    "updated_at": "2026-09-22T02:54:46.986395+00:00",
     "note": "僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "model_health": {
     "mlb": {
       "status": "累積樣本中",
-      "settled": 18,
+      "settled": 19,
       "review_at": 100,
-      "progress_pct": 18.0,
+      "progress_pct": 19.0,
       "note": "至少累積 100 筆已結算預測後，再進行正式 drift / calibration 檢查。",
       "validation": {
         "folds": 4,
