@@ -1,14 +1,8 @@
 {
-  "generated_at": "2026-09-22T20:30:20.994123+00:00",
+  "generated_at": "2026-09-22T22:20:50.974221+00:00",
   "mlb": {
-    "scheduled_events": 15,
+    "scheduled_events": 23,
     "upcoming": [
-      {
-        "event_id": "7fafa79a573ac098f38c8c6c4293b93e",
-        "commence_time": "2026-09-22T22:36:00Z",
-        "home_team": "Baltimore Orioles",
-        "away_team": "Toronto Blue Jays"
-      },
       {
         "event_id": "e1693becb4cbacb4b30e46c1c960d9a5",
         "commence_time": "2026-09-22T22:41:00Z",
@@ -92,9 +86,63 @@
         "commence_time": "2026-09-23T02:11:00Z",
         "home_team": "Los Angeles Dodgers",
         "away_team": "San Diego Padres"
+      },
+      {
+        "event_id": "ad00c94ceb671349678549cf07c393d5",
+        "commence_time": "2026-09-23T17:11:00Z",
+        "home_team": "Detroit Tigers",
+        "away_team": "Washington Nationals"
+      },
+      {
+        "event_id": "6de7fdec72dbabadc09e788561c89a32",
+        "commence_time": "2026-09-23T22:41:00Z",
+        "home_team": "Philadelphia Phillies",
+        "away_team": "Milwaukee Brewers"
+      },
+      {
+        "event_id": "8a7f796244408c6c830bfc2be2edb9a9",
+        "commence_time": "2026-09-23T23:06:00Z",
+        "home_team": "New York Yankees",
+        "away_team": "Tampa Bay Rays"
+      },
+      {
+        "event_id": "c2e9498aaeb076eb5c7ec70719c85b49",
+        "commence_time": "2026-09-23T23:11:00Z",
+        "home_team": "Boston Red Sox",
+        "away_team": "Cleveland Guardians"
+      },
+      {
+        "event_id": "24e2844ddd06b300f6491b2912fa652c",
+        "commence_time": "2026-09-23T23:16:00Z",
+        "home_team": "Atlanta Braves",
+        "away_team": "Cincinnati Reds"
+      },
+      {
+        "event_id": "abd20077e0d7c1491fcc361d264cbc3d",
+        "commence_time": "2026-09-23T23:41:00Z",
+        "home_team": "Chicago Cubs",
+        "away_team": "Miami Marlins"
+      },
+      {
+        "event_id": "67a95b403897bde4e3f38d5448f9c94c",
+        "commence_time": "2026-09-23T23:41:00Z",
+        "home_team": "Kansas City Royals",
+        "away_team": "Chicago White Sox"
+      },
+      {
+        "event_id": "4e1d4c17ae27eeb2388a146c248b5fb6",
+        "commence_time": "2026-09-24T00:41:00Z",
+        "home_team": "Colorado Rockies",
+        "away_team": "Arizona Diamondbacks"
+      },
+      {
+        "event_id": "9537e2c00a118edc54c7b2b5ed0c6f55",
+        "commence_time": "2026-09-24T01:41:00Z",
+        "home_team": "Athletics",
+        "away_team": "Los Angeles Angels"
       }
     ],
-    "schedule_updated_at": "2026-09-22T18:03:35.758372+00:00",
+    "schedule_updated_at": "2026-09-22T21:14:59.311397+00:00",
     "summary": {
       "predictions": 0,
       "settled": 0,
@@ -4622,8 +4670,8 @@
   },
   "football_leagues": {
     "date_taipei": "2026-09-23",
-    "total_games": 533,
-    "today_games": 10,
+    "total_games": 524,
+    "today_games": 1,
     "leagues": [
       {
         "key": "soccer_argentina_primera_division",
@@ -5943,59 +5991,6 @@
         "today_game_count": 0,
         "stage": "paper_model",
         "stage_label": "有模型／依條件產生推薦"
-      },
-      {
-        "key": "soccer_fa_cup",
-        "name": "🏴 英格蘭足總盃",
-        "games": [
-          {
-            "event_id": "5a99ef18684426edb0cc36277f85f2b5",
-            "commence_time": "2026-09-22T18:45:00Z",
-            "home_team": "Worksop Town FC",
-            "away_team": "AFC Telford United",
-            "date_taipei": "2026-09-23"
-          },
-          {
-            "event_id": "b7689a7dd6f68038c8b93ca72ea59b89",
-            "commence_time": "2026-09-22T18:45:00Z",
-            "home_team": "Chippenham Town FC",
-            "away_team": "Yate Town FC",
-            "date_taipei": "2026-09-23"
-          },
-          {
-            "event_id": "8de05deeb30c51a937c443b306c7e857",
-            "commence_time": "2026-09-22T18:45:00Z",
-            "home_team": "Dagenham and Redbridge FC",
-            "away_team": "Waltham Abbey FC",
-            "date_taipei": "2026-09-23"
-          },
-          {
-            "event_id": "ea9b56a8938a81af41c703dbda6222e3",
-            "commence_time": "2026-09-22T18:45:00Z",
-            "home_team": "Gainsborough Trinity FC",
-            "away_team": "Leamington FC",
-            "date_taipei": "2026-09-23"
-          },
-          {
-            "event_id": "0231c3f686b1c6d82b7bb47c8324adc2",
-            "commence_time": "2026-09-22T18:45:00Z",
-            "home_team": "Wingate and Finchley FC",
-            "away_team": "Hemel Hempstead Town FC",
-            "date_taipei": "2026-09-23"
-          },
-          {
-            "event_id": "8ebb8590fd94af1080694d4733de0c34",
-            "commence_time": "2026-09-22T18:45:00Z",
-            "home_team": "Truro City FC",
-            "away_team": "Merthyr Town FC",
-            "date_taipei": "2026-09-23"
-          }
-        ],
-        "modeled": false,
-        "game_count": 6,
-        "today_game_count": 6,
-        "stage": "schedule_only",
-        "stage_label": "顯示賽程／目前無推薦模型"
       },
       {
         "key": "soccer_finland_veikkausliiga",
@@ -7921,27 +7916,6 @@
         "name": "🇪🇺 歐洲女子冠軍聯賽",
         "games": [
           {
-            "event_id": "bb1937f4166799c7f39b366e4c3ef4a4",
-            "commence_time": "2026-09-22T19:00:00Z",
-            "home_team": "Arsenal",
-            "away_team": "HB Køge",
-            "date_taipei": "2026-09-23"
-          },
-          {
-            "event_id": "a9234308f8a6ca9c725f0a91f784b940",
-            "commence_time": "2026-09-22T19:00:00Z",
-            "home_team": "Juventus",
-            "away_team": "Benfica",
-            "date_taipei": "2026-09-23"
-          },
-          {
-            "event_id": "6320fed00a4050370553e8b210e0e912",
-            "commence_time": "2026-09-22T19:00:00Z",
-            "home_team": "Real Madrid",
-            "away_team": "Paris Saint Germain",
-            "date_taipei": "2026-09-23"
-          },
-          {
             "event_id": "ed1e48c3198923dec3e3990c3c8b899a",
             "commence_time": "2026-09-23T16:45:00Z",
             "home_team": "Leuven",
@@ -7971,8 +7945,8 @@
           }
         ],
         "modeled": false,
-        "game_count": 7,
-        "today_game_count": 3,
+        "game_count": 4,
+        "today_game_count": 0,
         "stage": "schedule_only",
         "stage_label": "顯示賽程／目前無推薦模型"
       },
@@ -8820,7 +8794,7 @@
       }
     ],
     "validated_models": 10,
-    "configured_leagues": 42,
+    "configured_leagues": 41,
     "display_scope": "all_active_soccer_competitions",
     "recommendation_scope": "modeled_leagues_only"
   },
@@ -8868,7 +8842,7 @@
           "away_team": "Tohoku Rakuten Golden Eagles"
         }
       ],
-      "schedule_updated_at": "2026-09-22T18:03:35.758372+00:00",
+      "schedule_updated_at": "2026-09-22T21:14:59.311397+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -8999,7 +8973,7 @@
           "away_team": "NC Dinos"
         }
       ],
-      "schedule_updated_at": "2026-09-22T18:03:35.758372+00:00",
+      "schedule_updated_at": "2026-09-22T21:14:59.311397+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -9165,8 +9139,8 @@
       "h2h",
       "totals"
     ],
-    "events": 16,
-    "scheduled_events": 16,
+    "events": 32,
+    "scheduled_events": 32,
     "upcoming": [
       {
         "event_id": "e5fbd3b3953b896b1bf897ddadb3cc4b",
@@ -9263,14 +9237,110 @@
         "commence_time": "2026-09-29T00:15:00Z",
         "home_team": "Chicago Bears",
         "away_team": "Philadelphia Eagles"
+      },
+      {
+        "event_id": "d55cb69fed50a09170560b5b75d8de86",
+        "commence_time": "2026-10-02T00:15:00Z",
+        "home_team": "Cleveland Browns",
+        "away_team": "Pittsburgh Steelers"
+      },
+      {
+        "event_id": "c9d8ed8aa4889486eaf10a630138ede0",
+        "commence_time": "2026-10-04T13:30:00Z",
+        "home_team": "Washington Commanders",
+        "away_team": "Indianapolis Colts"
+      },
+      {
+        "event_id": "664e6bda5721dc63be16bcf7d962a436",
+        "commence_time": "2026-10-04T17:00:00Z",
+        "home_team": "New York Giants",
+        "away_team": "Arizona Cardinals"
+      },
+      {
+        "event_id": "f01589b0e7e6dd4f4ac1220a1db81f53",
+        "commence_time": "2026-10-04T17:00:00Z",
+        "home_team": "Baltimore Ravens",
+        "away_team": "Tennessee Titans"
+      },
+      {
+        "event_id": "573cc0ef39631a4f6673ec843a8bedd4",
+        "commence_time": "2026-10-04T17:00:00Z",
+        "home_team": "Buffalo Bills",
+        "away_team": "New England Patriots"
+      },
+      {
+        "event_id": "164e6eb68f31bac190381903c3cccd31",
+        "commence_time": "2026-10-04T17:00:00Z",
+        "home_team": "Chicago Bears",
+        "away_team": "New York Jets"
+      },
+      {
+        "event_id": "2ea94ddf20f66432b9024fe2e2eaba5f",
+        "commence_time": "2026-10-04T17:00:00Z",
+        "home_team": "Cincinnati Bengals",
+        "away_team": "Jacksonville Jaguars"
+      },
+      {
+        "event_id": "daf55e2df5341c007fee5a0fc5bbc2d4",
+        "commence_time": "2026-10-04T17:00:00Z",
+        "home_team": "Houston Texans",
+        "away_team": "Dallas Cowboys"
+      },
+      {
+        "event_id": "99a9bae4dc0dc2590496bd3102b211f2",
+        "commence_time": "2026-10-04T17:00:00Z",
+        "home_team": "Tampa Bay Buccaneers",
+        "away_team": "Green Bay Packers"
+      },
+      {
+        "event_id": "1b4f2e60ce83fa1d63a5dff83769d27c",
+        "commence_time": "2026-10-04T17:00:00Z",
+        "home_team": "Philadelphia Eagles",
+        "away_team": "Los Angeles Rams"
+      },
+      {
+        "event_id": "c327223d76a3b7b0db8c6c104442f44b",
+        "commence_time": "2026-10-04T20:05:00Z",
+        "home_team": "Minnesota Vikings",
+        "away_team": "Miami Dolphins"
+      },
+      {
+        "event_id": "a7e7efb75a9792ac63480ae6328dca18",
+        "commence_time": "2026-10-04T20:25:00Z",
+        "home_team": "San Francisco 49ers",
+        "away_team": "Denver Broncos"
+      },
+      {
+        "event_id": "e0cbd266dcf997089203a1b33ba0333d",
+        "commence_time": "2026-10-04T20:25:00Z",
+        "home_team": "Las Vegas Raiders",
+        "away_team": "Kansas City Chiefs"
+      },
+      {
+        "event_id": "96d2373cda647873b971f268482bced0",
+        "commence_time": "2026-10-04T20:25:00Z",
+        "home_team": "Seattle Seahawks",
+        "away_team": "Los Angeles Chargers"
+      },
+      {
+        "event_id": "a73a76599a4f3422803e57bd8f61b626",
+        "commence_time": "2026-10-05T00:20:00Z",
+        "home_team": "Carolina Panthers",
+        "away_team": "Detroit Lions"
+      },
+      {
+        "event_id": "8bd90781e17e6d97df3941063cedae1e",
+        "commence_time": "2026-10-06T00:15:00Z",
+        "home_team": "New Orleans Saints",
+        "away_team": "Atlanta Falcons"
       }
     ],
     "latest_collector_events_returned": 0,
     "snapshot_rows": 0,
     "remaining_credits": 162,
-    "schedule_updated_at": "2026-09-22T18:03:35.758372+00:00",
+    "schedule_updated_at": "2026-09-22T21:14:59.311397+00:00",
     "collector_updated_at": "2026-09-22T08:05:47.437383+00:00",
-    "updated_at": "2026-09-22T18:03:35.758372+00:00",
+    "updated_at": "2026-09-22T21:14:59.311397+00:00",
     "note": "賽程場數來自免費 /events；盤口僅在 T-30 視窗由 collector 抓取。僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "model_health": {
@@ -9561,10 +9631,10 @@
     "date_taipei": "2026-09-23",
     "target": "T-30m",
     "window": "T-40m to T-20m",
-    "expected_today": 24,
+    "expected_today": 23,
     "collected": 0,
     "missed": 0,
-    "pending": 24,
+    "pending": 23,
     "success_pct": 0.0,
     "latest_run_paid_api_calls": 1,
     "remaining_credits": 162,
@@ -9572,10 +9642,10 @@
     "issues": [],
     "sports": {
       "mlb": {
-        "expected_today": 15,
+        "expected_today": 14,
         "collected": 0,
         "missed": 0,
-        "pending": 15,
+        "pending": 14,
         "success_pct": 0.0,
         "actual_t_minutes_avg": null,
         "actual_t_minutes_min": null,
@@ -9634,9 +9704,9 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T20:30:21.031996+00:00",
-    "source_latest_updated_at": "2026-09-22T20:30:20.872794+00:00",
-    "source_to_payload_lag_seconds": 0,
+    "payload_generated_at": "2026-09-22T22:20:51.008543+00:00",
+    "source_latest_updated_at": "2026-09-22T22:20:30.217352+00:00",
+    "source_to_payload_lag_seconds": 21,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 13
   }
