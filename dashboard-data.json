@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T03:11:28.767041+00:00",
+  "generated_at": "2026-09-22T03:32:55.568774+00:00",
   "mlb": {
     "summary": {
       "predictions": 1,
@@ -4931,6 +4931,70 @@
             "optimizer_all_success": true
           }
         }
+      }
+    }
+  },
+  "collection_health": {
+    "date_taipei": "2026-09-22",
+    "target": "T-30m",
+    "window": "T-40m to T-20m",
+    "expected_today": 10,
+    "collected": 0,
+    "missed": 0,
+    "pending": 10,
+    "success_pct": 0.0,
+    "latest_run_paid_api_calls": 0,
+    "remaining_credits": null,
+    "sports": {
+      "mlb": {
+        "expected_today": 0,
+        "collected": 0,
+        "missed": 0,
+        "pending": 0,
+        "success_pct": null,
+        "actual_t_minutes_avg": null,
+        "actual_t_minutes_min": null,
+        "actual_t_minutes_max": null
+      },
+      "npb": {
+        "expected_today": 6,
+        "collected": 0,
+        "missed": 0,
+        "pending": 6,
+        "success_pct": 0.0,
+        "actual_t_minutes_avg": null,
+        "actual_t_minutes_min": null,
+        "actual_t_minutes_max": null
+      },
+      "kbo": {
+        "expected_today": 4,
+        "collected": 0,
+        "missed": 0,
+        "pending": 4,
+        "success_pct": 0.0,
+        "actual_t_minutes_avg": null,
+        "actual_t_minutes_min": null,
+        "actual_t_minutes_max": null
+      },
+      "nfl": {
+        "expected_today": 0,
+        "collected": 0,
+        "missed": 0,
+        "pending": 0,
+        "success_pct": null,
+        "actual_t_minutes_avg": null,
+        "actual_t_minutes_min": null,
+        "actual_t_minutes_max": null
+      },
+      "football": {
+        "expected_today": 0,
+        "collected": 0,
+        "missed": 0,
+        "pending": 0,
+        "success_pct": null,
+        "actual_t_minutes_avg": null,
+        "actual_t_minutes_min": null,
+        "actual_t_minutes_max": null
       }
     }
   }
