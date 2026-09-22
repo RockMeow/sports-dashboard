@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T05:25:36.361989+00:00",
+  "generated_at": "2026-09-22T05:28:01.000026+00:00",
   "mlb": {
     "summary": {
       "predictions": 1,
@@ -4533,7 +4533,7 @@
     "leagues": [
       {
         "key": "soccer_argentina_primera_division",
-        "name": "🇦🇷 阿根廷甲級聯賽｜Primera División",
+        "name": "🇦🇷 阿根廷甲級聯賽",
         "games": [
           {
             "event_id": "8271594ff99b4850f5d30712ce212291",
@@ -4761,7 +4761,7 @@
       },
       {
         "key": "soccer_austria_bundesliga",
-        "name": "🇦🇹 奧地利甲級聯賽｜Bundesliga",
+        "name": "🇦🇹 奧地利甲級聯賽",
         "games": [
           {
             "event_id": "8a4e9cbf0ed4815740ac95533431aae2",
@@ -4856,7 +4856,7 @@
       },
       {
         "key": "soccer_brazil_campeonato",
-        "name": "🇧🇷 巴西甲級聯賽｜Série A",
+        "name": "🇧🇷 巴西甲級聯賽",
         "games": [
           {
             "event_id": "bf5e804636b32bc84559397755275753",
@@ -4951,7 +4951,7 @@
       },
       {
         "key": "soccer_brazil_serie_b",
-        "name": "🇧🇷 巴西乙級聯賽｜Série B",
+        "name": "🇧🇷 巴西乙級聯賽",
         "games": [
           {
             "event_id": "8674c07c68197a031ffe5e208e162249",
@@ -5039,7 +5039,7 @@
       },
       {
         "key": "soccer_chile_campeonato",
-        "name": "🇨🇱 智利甲級聯賽｜Primera División",
+        "name": "🇨🇱 智利甲級聯賽",
         "games": [
           {
             "event_id": "a05b722e69bbfc375ca80bb9d1426ba4",
@@ -5106,7 +5106,7 @@
       },
       {
         "key": "soccer_conmebol_copa_libertadores",
-        "name": "🌎 南美自由盃｜Copa Libertadores",
+        "name": "🌎 南美自由盃",
         "games": [
           {
             "event_id": "48aad972f5ac58eaaf1835f72a3c3cae",
@@ -5131,7 +5131,7 @@
       },
       {
         "key": "soccer_conmebol_copa_sudamericana",
-        "name": "🌎 南美俱樂部盃｜Copa Sudamericana",
+        "name": "🌎 南美俱樂部盃",
         "games": [
           {
             "event_id": "91a0993b451be4a3a88dd1f1a5af88d3",
@@ -5156,7 +5156,7 @@
       },
       {
         "key": "soccer_denmark_superliga",
-        "name": "🇩🇰 丹麥超級聯賽｜Superliga",
+        "name": "🇩🇰 丹麥超級聯賽",
         "games": [
           {
             "event_id": "f2d2f38aff4f6d166a6c703b1501aa96",
@@ -5209,7 +5209,7 @@
       },
       {
         "key": "soccer_efl_champ",
-        "name": "🏴 英格蘭冠軍聯賽｜Championship",
+        "name": "🏴 英格蘭冠軍聯賽",
         "games": [
           {
             "event_id": "838aaa8567409b87835ad22ed9255e61",
@@ -5304,7 +5304,7 @@
       },
       {
         "key": "soccer_england_league1",
-        "name": "🏴 英格蘭甲級聯賽｜League One",
+        "name": "🏴 英格蘭甲級聯賽",
         "games": [
           {
             "event_id": "e7c997d4a0d52b8bbccc5b8b74d4b427",
@@ -5392,7 +5392,7 @@
       },
       {
         "key": "soccer_england_league2",
-        "name": "🏴 英格蘭乙級聯賽｜League Two",
+        "name": "🏴 英格蘭乙級聯賽",
         "games": [
           {
             "event_id": "a0bbfdf49b4c8a306da63f7801426e95",
@@ -5487,7 +5487,7 @@
       },
       {
         "key": "soccer_epl",
-        "name": "🏴 英格蘭超級聯賽｜Premier League",
+        "name": "🏴 英格蘭超級聯賽",
         "games": [
           {
             "event_id": "b870dcfba5e5920d3f1551a3aa1ea435",
@@ -5638,7 +5638,7 @@
       },
       {
         "key": "soccer_fa_cup",
-        "name": "🏴 英格蘭足總盃｜FA Cup",
+        "name": "🏴 英格蘭足總盃",
         "games": [
           {
             "event_id": "5a99ef18684426edb0cc36277f85f2b5",
@@ -5677,7 +5677,7 @@
       },
       {
         "key": "soccer_france_ligue_one",
-        "name": "🇫🇷 法國甲級聯賽｜Ligue 1",
+        "name": "🇫🇷 法國甲級聯賽",
         "games": [
           {
             "event_id": "17694e68f399fdf9c5030021ec9bb595",
@@ -5814,7 +5814,7 @@
       },
       {
         "key": "soccer_germany_bundesliga",
-        "name": "🇩🇪 德國甲級聯賽｜Bundesliga",
+        "name": "🇩🇪 德國甲級聯賽",
         "games": [
           {
             "event_id": "3fb63658405d468954f57745cd115118",
@@ -5951,7 +5951,7 @@
       },
       {
         "key": "soccer_germany_liga3",
-        "name": "🇩🇪 德國丙級聯賽｜3. Liga",
+        "name": "🇩🇪 德國丙級聯賽",
         "games": [
           {
             "event_id": "b2e00a6bf19300777800e620e8af6115",
@@ -6039,7 +6039,7 @@
       },
       {
         "key": "soccer_greece_super_league",
-        "name": "🇬🇷 希臘超級聯賽｜Super League",
+        "name": "🇬🇷 希臘超級聯賽",
         "games": [
           {
             "event_id": "9f4ec9268f60113db2c80d6ac41b8ca4",
@@ -6148,7 +6148,7 @@
       },
       {
         "key": "soccer_italy_serie_a",
-        "name": "🇮🇹 義大利甲級聯賽｜Serie A",
+        "name": "🇮🇹 義大利甲級聯賽",
         "games": [
           {
             "event_id": "2f8e871a0f7f66ae22938028645e1066",
@@ -6497,7 +6497,7 @@
       },
       {
         "key": "soccer_netherlands_eredivisie",
-        "name": "🇳🇱 荷蘭甲級聯賽｜Eredivisie",
+        "name": "🇳🇱 荷蘭甲級聯賽",
         "games": [
           {
             "event_id": "217aec5dbea235fb2716756cd089c458",
@@ -6638,7 +6638,7 @@
       },
       {
         "key": "soccer_spain_la_liga",
-        "name": "🇪🇸 西班牙甲級聯賽｜La Liga",
+        "name": "🇪🇸 西班牙甲級聯賽",
         "games": [
           {
             "event_id": "4e4c6763037ffc0e1dfe92ed16287b6d",
@@ -6877,7 +6877,7 @@
       },
       {
         "key": "soccer_spl",
-        "name": "🏴 蘇格蘭超級聯賽｜Premiership",
+        "name": "🏴 蘇格蘭超級聯賽",
         "games": [
           {
             "event_id": "2ea2ad084a23df9b8efc76bc9e5d7811",
@@ -7608,7 +7608,7 @@
       },
       {
         "key": "soccer_usa_mls",
-        "name": "🇺🇸 美國職業足球大聯盟｜MLS",
+        "name": "🇺🇸 美國職業足球大聯盟",
         "games": [
           {
             "event_id": "721002a07455851d44ee87a608fbd3e3",
@@ -8522,8 +8522,8 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T05:25:36.379353+00:00",
-    "source_latest_updated_at": "2026-09-22T05:25:36.250573+00:00",
+    "payload_generated_at": "2026-09-22T05:28:01.015813+00:00",
+    "source_latest_updated_at": "2026-09-22T05:28:00.902869+00:00",
     "source_to_payload_lag_seconds": 0,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 11
