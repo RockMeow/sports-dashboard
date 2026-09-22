@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T03:48:51.666187+00:00",
+  "generated_at": "2026-09-22T03:50:30.625538+00:00",
   "mlb": {
     "summary": {
       "predictions": 1,
@@ -5009,5 +5009,12 @@
         "issue_count": 0
       }
     }
+  },
+  "sync_health": {
+    "payload_generated_at": "2026-09-22T03:50:30.641767+00:00",
+    "source_latest_updated_at": "2026-09-22T03:50:30.533702+00:00",
+    "source_to_payload_lag_seconds": 0,
+    "frontend_expected_refresh_seconds": 60,
+    "watched_sources": 11
   }
 }
