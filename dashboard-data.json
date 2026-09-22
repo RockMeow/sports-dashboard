@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T04:01:23.720166+00:00",
+  "generated_at": "2026-09-22T05:01:06.541898+00:00",
   "mlb": {
     "summary": {
       "predictions": 1,
@@ -4838,12 +4838,12 @@
       "review_at": 100,
       "progress_pct": 19.0,
       "forward_calibration": {
-        "n": 19,
+        "n": 16,
         "status": "累積樣本中",
         "review_at": 100,
-        "brier": 0.2504,
-        "log_loss": 0.6962,
-        "calibration_gap_pct": 17.0,
+        "brier": 0.2479,
+        "log_loss": 0.6901,
+        "calibration_gap_pct": 20.7,
         "buckets": [
           {
             "range": "30–40%",
@@ -4865,15 +4865,9 @@
           },
           {
             "range": "60–70%",
-            "n": 5,
-            "avg_model_prob_pct": 62.7,
-            "actual_win_pct": 60.0
-          },
-          {
-            "range": "70–100%",
-            "n": 1,
-            "avg_model_prob_pct": 70.2,
-            "actual_win_pct": 0.0
+            "n": 3,
+            "avg_model_prob_pct": 63.6,
+            "actual_win_pct": 33.3
           }
         ],
         "edge_buckets": [
@@ -4907,7 +4901,24 @@
             "pnl_units": -20.0,
             "roi_pct": -100.0
           }
-        ]
+        ],
+        "scope": "current_production_gate",
+        "excluded_legacy": 3,
+        "gate": {
+          "min_books": 3,
+          "edge_pct": [
+            3,
+            10
+          ],
+          "ev_pct": [
+            2,
+            25
+          ],
+          "model_prob": [
+            0.3,
+            0.7
+          ]
+        }
       },
       "validation": {
         "folds": 4,
@@ -5010,6 +5021,13 @@
         "status": "validated",
         "games": 4129,
         "validation_n": 3829,
+        "production_model": "team_form",
+        "best_candidate": "regularized_compact_starter",
+        "upgrade_allowed": true,
+        "candidate_live_blocked": true,
+        "candidate_brier": 0.2493,
+        "candidate_log_loss": 0.6922,
+        "candidate_roc_auc": 0.5293,
         "brier": 0.2517,
         "log_loss": 0.6969,
         "accuracy_pct": 52.6,
@@ -5036,6 +5054,13 @@
         "status": "validated",
         "games": 3476,
         "validation_n": 3176,
+        "production_model": "team_form",
+        "best_candidate": "regularized_compact_starter",
+        "upgrade_allowed": true,
+        "candidate_live_blocked": true,
+        "candidate_brier": 0.2483,
+        "candidate_log_loss": 0.6915,
+        "candidate_roc_auc": 0.5504,
         "brier": 0.2495,
         "log_loss": 0.7004,
         "accuracy_pct": 54.6,
@@ -5063,6 +5088,30 @@
             }
           ]
         }
+      }
+    },
+    "asia_starter_coverage": {
+      "NPB": {
+        "events": 3,
+        "complete": 0,
+        "missing": 3,
+        "coverage_pct": 0.0,
+        "mapping_matched": 0,
+        "mapping_rejected": 0,
+        "safe_for_live_join": false,
+        "starter_mode": "missing_until_announced_source",
+        "status": "waiting"
+      },
+      "KBO": {
+        "events": 2,
+        "complete": 0,
+        "missing": 2,
+        "coverage_pct": 0.0,
+        "mapping_matched": 0,
+        "mapping_rejected": 0,
+        "safe_for_live_join": false,
+        "starter_mode": "missing_until_announced_source",
+        "status": "waiting"
       }
     }
   },
@@ -5143,8 +5192,8 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T04:01:23.728971+00:00",
-    "source_latest_updated_at": "2026-09-22T04:01:23.636401+00:00",
+    "payload_generated_at": "2026-09-22T05:01:06.548635+00:00",
+    "source_latest_updated_at": "2026-09-22T05:01:06.454118+00:00",
     "source_to_payload_lag_seconds": 0,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 11
