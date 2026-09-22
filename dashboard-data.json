@@ -1,14 +1,8 @@
 {
-  "generated_at": "2026-09-22T17:46:42.972570+00:00",
+  "generated_at": "2026-09-22T19:00:34.303967+00:00",
   "mlb": {
-    "scheduled_events": 16,
+    "scheduled_events": 15,
     "upcoming": [
-      {
-        "event_id": "394e1e2b849c5b4eaf2b5984eaa74b79",
-        "commence_time": "2026-09-22T17:06:00Z",
-        "home_team": "New York Yankees",
-        "away_team": "Tampa Bay Rays"
-      },
       {
         "event_id": "7fafa79a573ac098f38c8c6c4293b93e",
         "commence_time": "2026-09-22T22:36:00Z",
@@ -100,7 +94,7 @@
         "away_team": "San Diego Padres"
       }
     ],
-    "schedule_updated_at": "2026-09-22T14:01:09.065248+00:00",
+    "schedule_updated_at": "2026-09-22T18:03:35.758372+00:00",
     "summary": {
       "predictions": 0,
       "settled": 0,
@@ -5962,6 +5956,13 @@
             "date_taipei": "2026-09-23"
           },
           {
+            "event_id": "b7689a7dd6f68038c8b93ca72ea59b89",
+            "commence_time": "2026-09-22T18:45:00Z",
+            "home_team": "Chippenham Town FC",
+            "away_team": "Yate Town FC",
+            "date_taipei": "2026-09-23"
+          },
+          {
             "event_id": "8de05deeb30c51a937c443b306c7e857",
             "commence_time": "2026-09-22T18:45:00Z",
             "home_team": "Dagenham and Redbridge FC",
@@ -5976,6 +5977,13 @@
             "date_taipei": "2026-09-23"
           },
           {
+            "event_id": "0231c3f686b1c6d82b7bb47c8324adc2",
+            "commence_time": "2026-09-22T18:45:00Z",
+            "home_team": "Wingate and Finchley FC",
+            "away_team": "Hemel Hempstead Town FC",
+            "date_taipei": "2026-09-23"
+          },
+          {
             "event_id": "8ebb8590fd94af1080694d4733de0c34",
             "commence_time": "2026-09-22T18:45:00Z",
             "home_team": "Truro City FC",
@@ -5984,8 +5992,8 @@
           }
         ],
         "modeled": false,
-        "game_count": 4,
-        "today_game_count": 4,
+        "game_count": 6,
+        "today_game_count": 6,
         "stage": "schedule_only",
         "stage_label": "顯示賽程／目前無推薦模型"
       },
@@ -6956,7 +6964,7 @@
           },
           {
             "event_id": "5e4afd22ace0d403c9f3f2facc8d3b0f",
-            "commence_time": "2026-09-26T23:00:00Z",
+            "commence_time": "2026-09-26T22:50:00Z",
             "home_team": "Cruz Azul",
             "away_team": "Toluca",
             "date_taipei": "2026-09-27"
@@ -6970,14 +6978,14 @@
           },
           {
             "event_id": "fe6b519dd3667465d51d0f08720f8931",
-            "commence_time": "2026-09-27T01:00:00Z",
+            "commence_time": "2026-09-27T03:05:00Z",
             "home_team": "Santos Laguna",
             "away_team": "Pachuca",
             "date_taipei": "2026-09-27"
           },
           {
             "event_id": "56165303ebdc2341a4107eee3924cf43",
-            "commence_time": "2026-09-27T01:00:00Z",
+            "commence_time": "2026-09-27T03:10:00Z",
             "home_team": "Tigres",
             "away_team": "Puebla",
             "date_taipei": "2026-09-27"
@@ -7913,20 +7921,6 @@
         "name": "🇪🇺 歐洲女子冠軍聯賽",
         "games": [
           {
-            "event_id": "e3b2e1bc6a1e29253bc6848954a6efba",
-            "commence_time": "2026-09-22T16:45:00Z",
-            "home_team": "Inter Milan",
-            "away_team": "BK Hacken",
-            "date_taipei": "2026-09-23"
-          },
-          {
-            "event_id": "15ca23c3e73a7b48f076c2d195eb198c",
-            "commence_time": "2026-09-22T16:45:00Z",
-            "home_team": "Bayern Munich",
-            "away_team": "Manchester City",
-            "date_taipei": "2026-09-23"
-          },
-          {
             "event_id": "bb1937f4166799c7f39b366e4c3ef4a4",
             "commence_time": "2026-09-22T19:00:00Z",
             "home_team": "Arsenal",
@@ -7977,8 +7971,8 @@
           }
         ],
         "modeled": false,
-        "game_count": 9,
-        "today_game_count": 5,
+        "game_count": 7,
+        "today_game_count": 3,
         "stage": "schedule_only",
         "stage_label": "顯示賽程／目前無推薦模型"
       },
@@ -8874,7 +8868,7 @@
           "away_team": "Tohoku Rakuten Golden Eagles"
         }
       ],
-      "schedule_updated_at": "2026-09-22T14:01:09.065248+00:00",
+      "schedule_updated_at": "2026-09-22T18:03:35.758372+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -9005,7 +8999,7 @@
           "away_team": "NC Dinos"
         }
       ],
-      "schedule_updated_at": "2026-09-22T14:01:09.065248+00:00",
+      "schedule_updated_at": "2026-09-22T18:03:35.758372+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -9274,9 +9268,9 @@
     "latest_collector_events_returned": 0,
     "snapshot_rows": 0,
     "remaining_credits": 162,
-    "schedule_updated_at": "2026-09-22T14:01:09.065248+00:00",
+    "schedule_updated_at": "2026-09-22T18:03:35.758372+00:00",
     "collector_updated_at": "2026-09-22T08:05:47.437383+00:00",
-    "updated_at": "2026-09-22T14:01:09.065248+00:00",
+    "updated_at": "2026-09-22T18:03:35.758372+00:00",
     "note": "賽程場數來自免費 /events；盤口僅在 T-30 視窗由 collector 抓取。僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "model_health": {
@@ -9567,10 +9561,10 @@
     "date_taipei": "2026-09-23",
     "target": "T-30m",
     "window": "T-40m to T-20m",
-    "expected_today": 25,
+    "expected_today": 24,
     "collected": 0,
     "missed": 0,
-    "pending": 25,
+    "pending": 24,
     "success_pct": 0.0,
     "latest_run_paid_api_calls": 1,
     "remaining_credits": 162,
@@ -9578,10 +9572,10 @@
     "issues": [],
     "sports": {
       "mlb": {
-        "expected_today": 16,
+        "expected_today": 15,
         "collected": 0,
         "missed": 0,
-        "pending": 16,
+        "pending": 15,
         "success_pct": 0.0,
         "actual_t_minutes_avg": null,
         "actual_t_minutes_min": null,
@@ -9640,9 +9634,9 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T17:46:42.993035+00:00",
-    "source_latest_updated_at": "2026-09-22T17:46:42.864037+00:00",
-    "source_to_payload_lag_seconds": 0,
+    "payload_generated_at": "2026-09-22T19:00:34.339782+00:00",
+    "source_latest_updated_at": "2026-09-22T19:00:13.302488+00:00",
+    "source_to_payload_lag_seconds": 21,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 13
   }
