@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T03:48:32.527475+00:00",
+  "generated_at": "2026-09-22T03:48:51.666187+00:00",
   "mlb": {
     "summary": {
       "predictions": 1,
@@ -4828,7 +4828,7 @@
     "events": 0,
     "snapshot_rows": 0,
     "remaining_credits": null,
-    "updated_at": "2026-09-22T02:54:46.986395+00:00",
+    "updated_at": "2026-09-22T03:48:07.295521+00:00",
     "note": "僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "model_health": {
@@ -4945,6 +4945,8 @@
     "success_pct": 0.0,
     "latest_run_paid_api_calls": 0,
     "remaining_credits": null,
+    "issue_count": 0,
+    "issues": [],
     "sports": {
       "mlb": {
         "expected_today": 0,
@@ -4954,7 +4956,9 @@
         "success_pct": null,
         "actual_t_minutes_avg": null,
         "actual_t_minutes_min": null,
-        "actual_t_minutes_max": null
+        "actual_t_minutes_max": null,
+        "issues": [],
+        "issue_count": 0
       },
       "npb": {
         "expected_today": 6,
@@ -4964,7 +4968,9 @@
         "success_pct": 0.0,
         "actual_t_minutes_avg": null,
         "actual_t_minutes_min": null,
-        "actual_t_minutes_max": null
+        "actual_t_minutes_max": null,
+        "issues": [],
+        "issue_count": 0
       },
       "kbo": {
         "expected_today": 4,
@@ -4974,7 +4980,9 @@
         "success_pct": 0.0,
         "actual_t_minutes_avg": null,
         "actual_t_minutes_min": null,
-        "actual_t_minutes_max": null
+        "actual_t_minutes_max": null,
+        "issues": [],
+        "issue_count": 0
       },
       "nfl": {
         "expected_today": 0,
@@ -4984,7 +4992,9 @@
         "success_pct": null,
         "actual_t_minutes_avg": null,
         "actual_t_minutes_min": null,
-        "actual_t_minutes_max": null
+        "actual_t_minutes_max": null,
+        "issues": [],
+        "issue_count": 0
       },
       "football": {
         "expected_today": 0,
@@ -4994,7 +5004,9 @@
         "success_pct": null,
         "actual_t_minutes_avg": null,
         "actual_t_minutes_min": null,
-        "actual_t_minutes_max": null
+        "actual_t_minutes_max": null,
+        "issues": [],
+        "issue_count": 0
       }
     }
   }
