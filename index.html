@@ -17,7 +17,7 @@
 @media(max-width:700px){.today-row{grid-template-columns:58px 82px 1fr}.today-row .tag{grid-column:2/4;width:max-content}.app{padding:10px}.brand{align-items:start;flex-direction:column}.brand h1{font-size:20px}.grid,.matchcards{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}.card{padding:12px}.schedule-row{grid-template-columns:60px 90px 1fr}.sportnav{margin-left:-2px;margin-right:-2px}}
 </style></head>
 <body><main class="app">
-<header class="topbar"><div class="brand"><div><h1>賽事儀表板</h1><div class="muted">多球種模型・賽程・模擬推薦</div></div><div id="updated" class="muted">資料載入中…</div></div>
+<header class="topbar"><div class="brand"><div><h1>賽事儀表板</h1><div class="muted">多球種模型・賽程・模擬推薦</div></div><div><div id="updated" class="muted">資料載入中…</div><div id="sync-health" class="muted" style="font-size:12px;margin-top:3px">同步狀態：檢查中…</div></div></div>
 <nav class="sportnav"><button class="navbtn active" data-view="overview">總覽</button><button class="navbtn" data-view="mlb">⚾ 美職</button><button class="navbtn" data-view="asia">🌏 日職 / 韓職</button><button class="navbtn" data-view="football">⚽ 足球</button><button class="navbtn" data-view="nfl">🏈 美足</button><button class="navbtn" data-view="history">📚 紀錄</button></nav></header>
 
 <section class="view active" id="view-overview">
@@ -36,4 +36,4 @@
 <section class="view" id="view-nfl"><div class="section-title"><h2>🏈 美足</h2><span class="muted">勝負・大小分</span></div><div id="nfl-status"></div></section>
 
 <section class="view" id="view-history"><div class="section-title"><h2>📚 歷史預測紀錄</h2></div><section class="card"><div class="legend"><button class="pill filter active" data-sport="mlb">⚾ 美職</button><button class="pill filter" data-sport="football">⚽ 足球</button><button class="pill status active" data-status="all">全部</button><button class="pill status" data-status="open">待結算</button><button class="pill status" data-status="settled">已結算</button></div><div class="matchcards section-gap" id="history-picks"></div></section></section>
-</main><script src="dashboard.js?v=20260921-football7"></script></body></html>
+</main><script src="dashboard.js?v=20260922-sync-health1"></script></body></html>
