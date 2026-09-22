@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T08:52:08.308741+00:00",
+  "generated_at": "2026-09-22T10:08:09.949884+00:00",
   "mlb": {
     "scheduled_events": 16,
     "upcoming": [
@@ -8492,16 +8492,50 @@
       "starter_features_deferred": true,
       "training_population": "full",
       "summary": {
-        "today_recommendations": 0,
-        "total_bets": 2,
+        "today_recommendations": 2,
+        "total_bets": 4,
         "open": 0,
-        "settled": 2,
+        "settled": 4,
         "wins": 0,
         "losses": 2,
         "pnl_units": -2.0,
         "roi": -1.0
       },
       "picks": [
+        {
+          "event_id": "0a32868adfbbb959e4a229111a36788a",
+          "time": "2026-09-22T09:30:00Z",
+          "home": "SSG Landers",
+          "away": "KT Wiz",
+          "side": "away",
+          "selection": "KT Wiz",
+          "odds": 2.23,
+          "model_prob_pct": 48.4,
+          "market_prob_pct": 43.8,
+          "edge_pct": 4.6,
+          "ev_pct": 7.8,
+          "stake_units": 1.0,
+          "status": "PUSH",
+          "result": "PUSH",
+          "pnl_units": 0.0
+        },
+        {
+          "event_id": "303dcd32488274d8032c2084aadcf99f",
+          "time": "2026-09-22T09:30:00Z",
+          "home": "Hanwha Eagles",
+          "away": "Lotte Giants",
+          "side": "away",
+          "selection": "Lotte Giants",
+          "odds": 2.4,
+          "model_prob_pct": 48.4,
+          "market_prob_pct": 42.0,
+          "edge_pct": 6.4,
+          "ev_pct": 16.1,
+          "stake_units": 1.0,
+          "status": "PUSH",
+          "result": "PUSH",
+          "pnl_units": 0.0
+        },
         {
           "event_id": "d37f412782121e0e429de35cba1ecbd4",
           "time": "2026-09-20T05:00:57Z",
@@ -8538,6 +8572,40 @@
         }
       ],
       "history": [
+        {
+          "event_id": "0a32868adfbbb959e4a229111a36788a",
+          "time": "2026-09-22T09:30:00Z",
+          "home": "SSG Landers",
+          "away": "KT Wiz",
+          "side": "away",
+          "selection": "KT Wiz",
+          "odds": 2.23,
+          "model_prob_pct": 48.4,
+          "market_prob_pct": 43.8,
+          "edge_pct": 4.6,
+          "ev_pct": 7.8,
+          "stake_units": 1.0,
+          "status": "PUSH",
+          "result": "PUSH",
+          "pnl_units": 0.0
+        },
+        {
+          "event_id": "303dcd32488274d8032c2084aadcf99f",
+          "time": "2026-09-22T09:30:00Z",
+          "home": "Hanwha Eagles",
+          "away": "Lotte Giants",
+          "side": "away",
+          "selection": "Lotte Giants",
+          "odds": 2.4,
+          "model_prob_pct": 48.4,
+          "market_prob_pct": 42.0,
+          "edge_pct": 6.4,
+          "ev_pct": 16.1,
+          "stake_units": 1.0,
+          "status": "PUSH",
+          "result": "PUSH",
+          "pnl_units": 0.0
+        },
         {
           "event_id": "d37f412782121e0e429de35cba1ecbd4",
           "time": "2026-09-20T05:00:57Z",
@@ -8957,9 +9025,9 @@
         "status": "waiting"
       },
       "KBO": {
-        "events": 2,
+        "events": 4,
         "complete": 0,
-        "missing": 2,
+        "missing": 4,
         "coverage_pct": 0.0,
         "mapping_matched": 0,
         "mapping_rejected": 0,
@@ -8974,11 +9042,11 @@
     "target": "T-30m",
     "window": "T-40m to T-20m",
     "expected_today": 9,
-    "collected": 0,
+    "collected": 4,
     "missed": 0,
-    "pending": 9,
-    "success_pct": 0.0,
-    "latest_run_paid_api_calls": 1,
+    "pending": 5,
+    "success_pct": 44.4,
+    "latest_run_paid_api_calls": 2,
     "remaining_credits": 162,
     "issue_count": 0,
     "issues": [],
@@ -9009,13 +9077,13 @@
       },
       "kbo": {
         "expected_today": 4,
-        "collected": 0,
+        "collected": 4,
         "missed": 0,
-        "pending": 4,
-        "success_pct": 0.0,
-        "actual_t_minutes_avg": null,
-        "actual_t_minutes_min": null,
-        "actual_t_minutes_max": null,
+        "pending": 0,
+        "success_pct": 100.0,
+        "actual_t_minutes_avg": 23.2,
+        "actual_t_minutes_min": 23.2,
+        "actual_t_minutes_max": 23.2,
         "issues": [],
         "issue_count": 0
       },
@@ -9046,9 +9114,9 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T08:52:08.324903+00:00",
-    "source_latest_updated_at": "2026-09-22T08:51:46.504541+00:00",
-    "source_to_payload_lag_seconds": 22,
+    "payload_generated_at": "2026-09-22T10:08:09.967699+00:00",
+    "source_latest_updated_at": "2026-09-22T10:07:50.546219+00:00",
+    "source_to_payload_lag_seconds": 19,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 13
   }
