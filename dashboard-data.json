@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T06:32:07.686120+00:00",
+  "generated_at": "2026-09-22T07:02:43.781705+00:00",
   "mlb": {
     "scheduled_events": 16,
     "upcoming": [
@@ -8622,7 +8622,7 @@
     "missed": 0,
     "pending": 10,
     "success_pct": 0.0,
-    "latest_run_paid_api_calls": 0,
+    "latest_run_paid_api_calls": 1,
     "remaining_credits": 197,
     "issue_count": 0,
     "issues": [],
@@ -8690,10 +8690,10 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T06:32:07.694530+00:00",
-    "source_latest_updated_at": "2026-09-22T06:32:07.636203+00:00",
+    "payload_generated_at": "2026-09-22T07:02:43.800951+00:00",
+    "source_latest_updated_at": "2026-09-22T07:02:43.674884+00:00",
     "source_to_payload_lag_seconds": 0,
     "frontend_expected_refresh_seconds": 60,
-    "watched_sources": 12
+    "watched_sources": 13
   }
 }
