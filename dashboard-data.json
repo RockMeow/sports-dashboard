@@ -1,6 +1,106 @@
 {
-  "generated_at": "2026-09-22T05:30:04.747436+00:00",
+  "generated_at": "2026-09-22T05:33:15.658099+00:00",
   "mlb": {
+    "scheduled_events": 16,
+    "upcoming": [
+      {
+        "event_id": "394e1e2b849c5b4eaf2b5984eaa74b79",
+        "commence_time": "2026-09-22T17:06:00Z",
+        "home_team": "New York Yankees",
+        "away_team": "Tampa Bay Rays"
+      },
+      {
+        "event_id": "7fafa79a573ac098f38c8c6c4293b93e",
+        "commence_time": "2026-09-22T22:36:00Z",
+        "home_team": "Baltimore Orioles",
+        "away_team": "Toronto Blue Jays"
+      },
+      {
+        "event_id": "e1693becb4cbacb4b30e46c1c960d9a5",
+        "commence_time": "2026-09-22T22:41:00Z",
+        "home_team": "Detroit Tigers",
+        "away_team": "Washington Nationals"
+      },
+      {
+        "event_id": "2ec6c946384087513c61f58aad6e082f",
+        "commence_time": "2026-09-22T22:41:00Z",
+        "home_team": "Philadelphia Phillies",
+        "away_team": "Milwaukee Brewers"
+      },
+      {
+        "event_id": "388cb001ef45b493163b9d37cf60f606",
+        "commence_time": "2026-09-22T22:41:00Z",
+        "home_team": "Pittsburgh Pirates",
+        "away_team": "St. Louis Cardinals"
+      },
+      {
+        "event_id": "3b4ceeb7bb4bee993b6876fead12eeba",
+        "commence_time": "2026-09-22T22:46:00Z",
+        "home_team": "Boston Red Sox",
+        "away_team": "Cleveland Guardians"
+      },
+      {
+        "event_id": "574050c10d1acc2da7baf72384eeaa11",
+        "commence_time": "2026-09-22T23:06:00Z",
+        "home_team": "New York Yankees",
+        "away_team": "Tampa Bay Rays"
+      },
+      {
+        "event_id": "0c17c76059d99e5bb249df6a7c540127",
+        "commence_time": "2026-09-22T23:16:00Z",
+        "home_team": "Atlanta Braves",
+        "away_team": "Cincinnati Reds"
+      },
+      {
+        "event_id": "82b37a47daa08ef041c888d37b999303",
+        "commence_time": "2026-09-22T23:40:00Z",
+        "home_team": "Chicago Cubs",
+        "away_team": "Miami Marlins"
+      },
+      {
+        "event_id": "ebb664c5095200280fa1b15540c2c88b",
+        "commence_time": "2026-09-22T23:41:00Z",
+        "home_team": "Kansas City Royals",
+        "away_team": "Chicago White Sox"
+      },
+      {
+        "event_id": "1cfde197827ecee7feb17929bf32793b",
+        "commence_time": "2026-09-23T00:05:00Z",
+        "home_team": "Texas Rangers",
+        "away_team": "New York Mets"
+      },
+      {
+        "event_id": "afbac30624ec674873fd96ac159f69ad",
+        "commence_time": "2026-09-23T00:41:00Z",
+        "home_team": "Colorado Rockies",
+        "away_team": "Arizona Diamondbacks"
+      },
+      {
+        "event_id": "0ae15942e1f4c4657b06458868afbf96",
+        "commence_time": "2026-09-23T01:41:00Z",
+        "home_team": "Athletics",
+        "away_team": "Los Angeles Angels"
+      },
+      {
+        "event_id": "a5e0deb6f51b7edebbd82d0eaf966294",
+        "commence_time": "2026-09-23T01:41:00Z",
+        "home_team": "Seattle Mariners",
+        "away_team": "Houston Astros"
+      },
+      {
+        "event_id": "81f539754930db6ffbd116ca2d30ee9c",
+        "commence_time": "2026-09-23T01:46:00Z",
+        "home_team": "San Francisco Giants",
+        "away_team": "Minnesota Twins"
+      },
+      {
+        "event_id": "85b75fcab1b69e0a4e414382b9f1cc7e",
+        "commence_time": "2026-09-23T02:11:00Z",
+        "home_team": "Los Angeles Dodgers",
+        "away_team": "San Diego Padres"
+      }
+    ],
+    "schedule_updated_at": "2026-09-22T03:30:41.096782+00:00",
     "summary": {
       "predictions": 1,
       "settled": 1,
@@ -7859,6 +7959,46 @@
       "status": "模擬推薦運行中",
       "mode": "paper_only",
       "real_money": false,
+      "scheduled_events": 6,
+      "upcoming": [
+        {
+          "event_id": "16b96e9c3ed199d5f38a611cde84b98d",
+          "commence_time": "2026-09-22T06:00:00Z",
+          "home_team": "Hiroshima Toyo Carp",
+          "away_team": "Yomiuri Giants"
+        },
+        {
+          "event_id": "743c3d239fcdabdae36f9ef00880151a",
+          "commence_time": "2026-09-22T09:00:00Z",
+          "home_team": "Chiba Lotte Marines",
+          "away_team": "Orix Buffaloes"
+        },
+        {
+          "event_id": "e5a0b5e37f6b22271890419938f45f3a",
+          "commence_time": "2026-09-22T09:00:00Z",
+          "home_team": "Yokohama DeNA BayStars",
+          "away_team": "Chunichi Dragons"
+        },
+        {
+          "event_id": "47e3fcdae95d7646a5247d5c926e45e5",
+          "commence_time": "2026-09-22T09:00:00Z",
+          "home_team": "Fukuoka SoftBank Hawks",
+          "away_team": "Saitama Seibu Lions"
+        },
+        {
+          "event_id": "258c639a2ecb2735ebea22820b797388",
+          "commence_time": "2026-09-22T09:00:00Z",
+          "home_team": "Tokyo Yakult Swallows",
+          "away_team": "Hanshin Tigers"
+        },
+        {
+          "event_id": "5c9eb6d1ce70353ecd152d6722337792",
+          "commence_time": "2026-09-22T09:00:00Z",
+          "home_team": "Hokkaido Nippon-Ham Fighters",
+          "away_team": "Tohoku Rakuten Golden Eagles"
+        }
+      ],
+      "schedule_updated_at": "2026-09-22T03:30:41.096782+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -7968,6 +8108,34 @@
       "status": "模擬推薦運行中",
       "mode": "paper_only",
       "real_money": false,
+      "scheduled_events": 4,
+      "upcoming": [
+        {
+          "event_id": "5ba47fd293fdf39b0ddd5b4163a78f60",
+          "commence_time": "2026-09-22T09:30:00Z",
+          "home_team": "Kiwoom Heroes",
+          "away_team": "Doosan Bears"
+        },
+        {
+          "event_id": "303dcd32488274d8032c2084aadcf99f",
+          "commence_time": "2026-09-22T09:30:00Z",
+          "home_team": "Hanwha Eagles",
+          "away_team": "Lotte Giants"
+        },
+        {
+          "event_id": "0a32868adfbbb959e4a229111a36788a",
+          "commence_time": "2026-09-22T09:30:00Z",
+          "home_team": "SSG Landers",
+          "away_team": "KT Wiz"
+        },
+        {
+          "event_id": "47596c71d50973b825cc689e4b13ee41",
+          "commence_time": "2026-09-22T09:30:00Z",
+          "home_team": "Samsung Lions",
+          "away_team": "NC Dinos"
+        }
+      ],
+      "schedule_updated_at": "2026-09-22T03:30:41.096782+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -8522,8 +8690,8 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T05:30:04.768747+00:00",
-    "source_latest_updated_at": "2026-09-22T05:30:04.632243+00:00",
+    "payload_generated_at": "2026-09-22T05:33:15.680408+00:00",
+    "source_latest_updated_at": "2026-09-22T05:33:15.521827+00:00",
     "source_to_payload_lag_seconds": 0,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 11
