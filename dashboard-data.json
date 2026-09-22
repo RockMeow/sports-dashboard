@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:37:58.989717+00:00",
+  "generated_at": "2026-09-22T13:38:56.515517+00:00",
   "mlb": {
     "scheduled_events": 16,
     "upcoming": [
@@ -9114,8 +9114,8 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T13:37:59.013038+00:00",
-    "source_latest_updated_at": "2026-09-22T13:37:58.820515+00:00",
+    "payload_generated_at": "2026-09-22T13:38:56.539298+00:00",
+    "source_latest_updated_at": "2026-09-22T13:38:56.410035+00:00",
     "source_to_payload_lag_seconds": 0,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 13
