@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T05:28:01.000026+00:00",
+  "generated_at": "2026-09-22T05:30:04.747436+00:00",
   "mlb": {
     "summary": {
       "predictions": 1,
@@ -6299,7 +6299,7 @@
       },
       {
         "key": "soccer_italy_serie_b",
-        "name": "Serie B - Italy",
+        "name": "🇮🇹 義大利乙級聯賽",
         "games": [
           {
             "event_id": "22ce0c24a7181089c924cf68110e2203",
@@ -6380,7 +6380,7 @@
       },
       {
         "key": "soccer_korea_kleague1",
-        "name": "K League 1",
+        "name": "🇰🇷 韓國K聯賽1",
         "games": [
           {
             "event_id": "b65746d83e387b502fe7265271abbd44",
@@ -6398,7 +6398,7 @@
       },
       {
         "key": "soccer_league_of_ireland",
-        "name": "League of Ireland",
+        "name": "🇮🇪 愛爾蘭超級聯賽",
         "games": [
           {
             "event_id": "1af3c45efc067218eed9a695f1c3e49d",
@@ -6423,7 +6423,7 @@
       },
       {
         "key": "soccer_mexico_ligamx",
-        "name": "Liga MX",
+        "name": "🇲🇽 墨西哥甲級聯賽",
         "games": [
           {
             "event_id": "4fbefac3123d4ff451f2e10eb66e0371",
@@ -6571,7 +6571,7 @@
       },
       {
         "key": "soccer_norway_eliteserien",
-        "name": "Eliteserien - Norway",
+        "name": "🇳🇴 挪威超級聯賽",
         "games": [
           {
             "event_id": "0e00da6db42ec635e847caa414af6db4",
@@ -6789,7 +6789,7 @@
       },
       {
         "key": "soccer_spain_segunda_division",
-        "name": "La Liga 2 - Spain",
+        "name": "🇪🇸 西班牙乙級聯賽",
         "games": [
           {
             "event_id": "2b0afd76c5108b81ce762450d53ca18f",
@@ -6930,7 +6930,7 @@
       },
       {
         "key": "soccer_uefa_champs_league",
-        "name": "UEFA Champions League",
+        "name": "🇪🇺 歐洲冠軍聯賽",
         "games": [
           {
             "event_id": "2b0a946cac613732fcbf57ce931490a1",
@@ -7067,7 +7067,7 @@
       },
       {
         "key": "soccer_uefa_champs_league_women",
-        "name": "UEFA Champions League Women",
+        "name": "🇪🇺 歐洲女子冠軍聯賽",
         "games": [
           {
             "event_id": "e3b2e1bc6a1e29253bc6848954a6efba",
@@ -7141,7 +7141,7 @@
       },
       {
         "key": "soccer_uefa_europa_conference_league",
-        "name": "UEFA Europa Conference League",
+        "name": "🇪🇺 歐洲協會聯賽",
         "games": [
           {
             "event_id": "c88779b8088f864930fe423c5e0523ce",
@@ -7278,7 +7278,7 @@
       },
       {
         "key": "soccer_uefa_europa_league",
-        "name": "UEFA Europa League",
+        "name": "🇪🇺 歐洲聯賽",
         "games": [
           {
             "event_id": "da3a8db9ad8d25b73789727f7dde009d",
@@ -7296,7 +7296,7 @@
       },
       {
         "key": "soccer_uefa_nations_league",
-        "name": "UEFA Nations League",
+        "name": "🇪🇺 歐洲國家聯賽",
         "games": [
           {
             "event_id": "8164f21d418a879733dd141cab8dfb14",
@@ -8522,8 +8522,8 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T05:28:01.015813+00:00",
-    "source_latest_updated_at": "2026-09-22T05:28:00.902869+00:00",
+    "payload_generated_at": "2026-09-22T05:30:04.768747+00:00",
+    "source_latest_updated_at": "2026-09-22T05:30:04.632243+00:00",
     "source_to_payload_lag_seconds": 0,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 11
