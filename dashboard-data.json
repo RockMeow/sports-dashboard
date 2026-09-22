@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T15:04:27.805686+00:00",
+  "generated_at": "2026-09-22T17:09:43.309988+00:00",
   "mlb": {
     "scheduled_events": 16,
     "upcoming": [
@@ -102,18 +102,18 @@
     ],
     "schedule_updated_at": "2026-09-22T14:01:09.065248+00:00",
     "summary": {
-      "predictions": 1,
-      "settled": 1,
+      "predictions": 0,
+      "settled": 0,
       "open": 0,
-      "wins": 1,
+      "wins": 0,
       "losses": 0,
-      "hit_rate_pct": 100.0,
+      "hit_rate_pct": null,
       "current_gate": {
-        "predictions": 1,
-        "settled": 1,
-        "wins": 1,
+        "predictions": 0,
+        "settled": 0,
+        "wins": 0,
         "losses": 0,
-        "hit_rate_pct": 100.0
+        "hit_rate_pct": null
       },
       "legacy_or_blocked": {
         "predictions": 0,
@@ -4627,9 +4627,9 @@
     ]
   },
   "football_leagues": {
-    "date_taipei": "2026-09-22",
+    "date_taipei": "2026-09-23",
     "total_games": 533,
-    "today_games": 0,
+    "today_games": 10,
     "leagues": [
       {
         "key": "soccer_argentina_primera_division",
@@ -5347,7 +5347,7 @@
         ],
         "modeled": false,
         "game_count": 21,
-        "today_game_count": 0,
+        "today_game_count": 1,
         "stage": "schedule_only",
         "stage_label": "顯示賽程／目前無推薦模型"
       },
@@ -5985,7 +5985,7 @@
         ],
         "modeled": false,
         "game_count": 4,
-        "today_game_count": 0,
+        "today_game_count": 4,
         "stage": "schedule_only",
         "stage_label": "顯示賽程／目前無推薦模型"
       },
@@ -7978,7 +7978,7 @@
         ],
         "modeled": false,
         "game_count": 9,
-        "today_game_count": 0,
+        "today_game_count": 5,
         "stage": "schedule_only",
         "stage_label": "顯示賽程／目前無推薦模型"
       },
@@ -9012,7 +9012,7 @@
       "starter_features_deferred": true,
       "training_population": "full",
       "summary": {
-        "today_recommendations": 2,
+        "today_recommendations": 0,
         "total_bets": 4,
         "open": 0,
         "settled": 4,
@@ -9564,25 +9564,25 @@
     }
   },
   "collection_health": {
-    "date_taipei": "2026-09-22",
+    "date_taipei": "2026-09-23",
     "target": "T-30m",
     "window": "T-40m to T-20m",
-    "expected_today": 0,
+    "expected_today": 25,
     "collected": 0,
     "missed": 0,
-    "pending": 0,
-    "success_pct": null,
+    "pending": 25,
+    "success_pct": 0.0,
     "latest_run_paid_api_calls": 1,
     "remaining_credits": 162,
     "issue_count": 0,
     "issues": [],
     "sports": {
       "mlb": {
-        "expected_today": 0,
+        "expected_today": 16,
         "collected": 0,
         "missed": 0,
-        "pending": 0,
-        "success_pct": null,
+        "pending": 16,
+        "success_pct": 0.0,
         "actual_t_minutes_avg": null,
         "actual_t_minutes_min": null,
         "actual_t_minutes_max": null,
@@ -9590,11 +9590,11 @@
         "issue_count": 0
       },
       "npb": {
-        "expected_today": 0,
+        "expected_today": 6,
         "collected": 0,
         "missed": 0,
-        "pending": 0,
-        "success_pct": null,
+        "pending": 6,
+        "success_pct": 0.0,
         "actual_t_minutes_avg": null,
         "actual_t_minutes_min": null,
         "actual_t_minutes_max": null,
@@ -9602,11 +9602,11 @@
         "issue_count": 0
       },
       "kbo": {
-        "expected_today": 0,
+        "expected_today": 3,
         "collected": 0,
         "missed": 0,
-        "pending": 0,
-        "success_pct": null,
+        "pending": 3,
+        "success_pct": 0.0,
         "actual_t_minutes_avg": null,
         "actual_t_minutes_min": null,
         "actual_t_minutes_max": null,
@@ -9640,9 +9640,9 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-22T15:04:27.818932+00:00",
-    "source_latest_updated_at": "2026-09-22T15:04:09.635219+00:00",
-    "source_to_payload_lag_seconds": 18,
+    "payload_generated_at": "2026-09-22T17:09:43.326400+00:00",
+    "source_latest_updated_at": "2026-09-22T17:09:43.229639+00:00",
+    "source_to_payload_lag_seconds": 0,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 13
   }
