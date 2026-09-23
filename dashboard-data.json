@@ -1,38 +1,8 @@
 {
-  "generated_at": "2026-09-23T05:21:40.880071+00:00",
+  "generated_at": "2026-09-23T06:36:27.395864+00:00",
   "mlb": {
-    "scheduled_events": 17,
+    "scheduled_events": 15,
     "upcoming": [
-      {
-        "event_id": "afbac30624ec674873fd96ac159f69ad",
-        "commence_time": "2026-09-23T00:41:00Z",
-        "home_team": "Colorado Rockies",
-        "away_team": "Arizona Diamondbacks"
-      },
-      {
-        "event_id": "0ae15942e1f4c4657b06458868afbf96",
-        "commence_time": "2026-09-23T01:41:00Z",
-        "home_team": "Athletics",
-        "away_team": "Los Angeles Angels"
-      },
-      {
-        "event_id": "a5e0deb6f51b7edebbd82d0eaf966294",
-        "commence_time": "2026-09-23T01:41:00Z",
-        "home_team": "Seattle Mariners",
-        "away_team": "Houston Astros"
-      },
-      {
-        "event_id": "81f539754930db6ffbd116ca2d30ee9c",
-        "commence_time": "2026-09-23T01:46:00Z",
-        "home_team": "San Francisco Giants",
-        "away_team": "Minnesota Twins"
-      },
-      {
-        "event_id": "85b75fcab1b69e0a4e414382b9f1cc7e",
-        "commence_time": "2026-09-23T02:11:00Z",
-        "home_team": "Los Angeles Dodgers",
-        "away_team": "San Diego Padres"
-      },
       {
         "event_id": "ad00c94ceb671349678549cf07c393d5",
         "commence_time": "2026-09-23T17:11:00Z",
@@ -56,6 +26,12 @@
         "commence_time": "2026-09-23T22:41:00Z",
         "home_team": "Philadelphia Phillies",
         "away_team": "Milwaukee Brewers"
+      },
+      {
+        "event_id": "7a8ac2f452e72170b3aef83e4cb8e28b",
+        "commence_time": "2026-09-23T22:41:00Z",
+        "home_team": "Pittsburgh Pirates",
+        "away_team": "St. Louis Cardinals"
       },
       {
         "event_id": "8a7f796244408c6c830bfc2be2edb9a9",
@@ -88,6 +64,12 @@
         "away_team": "Chicago White Sox"
       },
       {
+        "event_id": "6ae37d18d4a5fb4d9c92a8aee3f54186",
+        "commence_time": "2026-09-24T00:06:00Z",
+        "home_team": "Texas Rangers",
+        "away_team": "New York Mets"
+      },
+      {
         "event_id": "4e1d4c17ae27eeb2388a146c248b5fb6",
         "commence_time": "2026-09-24T00:41:00Z",
         "home_team": "Colorado Rockies",
@@ -100,13 +82,19 @@
         "away_team": "Los Angeles Angels"
       },
       {
+        "event_id": "7d11a20c7ec2247d0ce57f87cda008ca",
+        "commence_time": "2026-09-24T02:11:00Z",
+        "home_team": "Seattle Mariners",
+        "away_team": "Houston Astros"
+      },
+      {
         "event_id": "1cc251b3308daacf4f549c56ad233607",
         "commence_time": "2026-09-24T02:11:00Z",
         "home_team": "Los Angeles Dodgers",
         "away_team": "San Diego Padres"
       }
     ],
-    "schedule_updated_at": "2026-09-23T00:26:59.019984+00:00",
+    "schedule_updated_at": "2026-09-23T05:55:20.103567+00:00",
     "summary": {
       "predictions": 0,
       "settled": 0,
@@ -4634,7 +4622,7 @@
   },
   "football_leagues": {
     "date_taipei": "2026-09-23",
-    "total_games": 523,
+    "total_games": 526,
     "today_games": 0,
     "leagues": [
       {
@@ -4861,6 +4849,38 @@
         ],
         "modeled": false,
         "game_count": 31,
+        "today_game_count": 0,
+        "stage": "schedule_only",
+        "stage_label": "顯示賽程／目前無推薦模型"
+      },
+      {
+        "key": "soccer_australia_aleague",
+        "name": "A-League",
+        "games": [
+          {
+            "event_id": "f09ad77e6051b74975f2e59873980559",
+            "commence_time": "2026-10-17T04:00:00Z",
+            "home_team": "Auckland FC",
+            "away_team": "Melbourne City",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "2b1292bc9c4f8c1f615f158269c54db0",
+            "commence_time": "2026-10-17T08:40:00Z",
+            "home_team": "Central Coast Mariners",
+            "away_team": "Newcastle Jets FC",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "7c8d86b22b8748b46a1c00486f125966",
+            "commence_time": "2026-10-18T02:00:00Z",
+            "home_team": "Wellington Phoenix FC",
+            "away_team": "Melbourne Victory",
+            "date_taipei": "2026-10-18"
+          }
+        ],
+        "modeled": false,
+        "game_count": 3,
         "today_game_count": 0,
         "stage": "schedule_only",
         "stage_label": "顯示賽程／目前無推薦模型"
@@ -8751,7 +8771,7 @@
       }
     ],
     "validated_models": 10,
-    "configured_leagues": 41,
+    "configured_leagues": 42,
     "display_scope": "all_active_soccer_competitions",
     "recommendation_scope": "modeled_leagues_only"
   },
@@ -8760,20 +8780,8 @@
       "status": "模擬推薦運行中",
       "mode": "paper_only",
       "real_money": false,
-      "scheduled_events": 6,
+      "scheduled_events": 4,
       "upcoming": [
-        {
-          "event_id": "9886dfb4fbf73a40b0e11025c8a8ff20",
-          "commence_time": "2026-09-23T05:00:00Z",
-          "home_team": "Fukuoka SoftBank Hawks",
-          "away_team": "Saitama Seibu Lions"
-        },
-        {
-          "event_id": "a329faa871bb8d2cc4d0fd7c5b1c7746",
-          "commence_time": "2026-09-23T05:00:00Z",
-          "home_team": "Tokyo Yakult Swallows",
-          "away_team": "Hanshin Tigers"
-        },
         {
           "event_id": "3dee821844f062a961405944a92ce765",
           "commence_time": "2026-09-23T06:00:00Z",
@@ -8799,7 +8807,7 @@
           "away_team": "Tohoku Rakuten Golden Eagles"
         }
       ],
-      "schedule_updated_at": "2026-09-23T00:26:59.019984+00:00",
+      "schedule_updated_at": "2026-09-23T05:55:20.103567+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -8930,7 +8938,7 @@
           "away_team": "NC Dinos"
         }
       ],
-      "schedule_updated_at": "2026-09-23T00:26:59.019984+00:00",
+      "schedule_updated_at": "2026-09-23T05:55:20.103567+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -9295,9 +9303,9 @@
     "latest_collector_events_returned": 0,
     "snapshot_rows": 0,
     "remaining_credits": 162,
-    "schedule_updated_at": "2026-09-23T00:26:59.019984+00:00",
+    "schedule_updated_at": "2026-09-23T05:55:20.103567+00:00",
     "collector_updated_at": "2026-09-22T08:05:47.437383+00:00",
-    "updated_at": "2026-09-23T00:26:59.019984+00:00",
+    "updated_at": "2026-09-23T05:55:20.103567+00:00",
     "note": "賽程場數來自免費 /events；盤口僅在 T-30 視窗由 collector 抓取。僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "decisions": {
