@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-23T10:10:14.518582+00:00",
+  "generated_at": "2026-09-23T12:15:50.254261+00:00",
   "mlb": {
-    "scheduled_events": 15,
+    "scheduled_events": 16,
     "upcoming": [
       {
         "event_id": "ad00c94ceb671349678549cf07c393d5",
@@ -20,6 +20,12 @@
         "commence_time": "2026-09-23T19:46:00Z",
         "home_team": "San Francisco Giants",
         "away_team": "Minnesota Twins"
+      },
+      {
+        "event_id": "94d0c4d70e74a3ca8f70abe5a0859ea1",
+        "commence_time": "2026-09-23T22:36:00Z",
+        "home_team": "Baltimore Orioles",
+        "away_team": "Toronto Blue Jays"
       },
       {
         "event_id": "6de7fdec72dbabadc09e788561c89a32",
@@ -94,7 +100,7 @@
         "away_team": "San Diego Padres"
       }
     ],
-    "schedule_updated_at": "2026-09-23T05:55:20.103567+00:00",
+    "schedule_updated_at": "2026-09-23T11:28:35.812383+00:00",
     "summary": {
       "predictions": 0,
       "settled": 0,
@@ -4622,7 +4628,7 @@
   },
   "football_leagues": {
     "date_taipei": "2026-09-23",
-    "total_games": 526,
+    "total_games": 528,
     "today_games": 0,
     "leagues": [
       {
@@ -4858,10 +4864,24 @@
         "name": "A-League",
         "games": [
           {
+            "event_id": "f3b6d9ee5669fbf72d965f8ce83a908a",
+            "commence_time": "2026-10-16T09:00:00Z",
+            "home_team": "Sydney FC",
+            "away_team": "Western Sydney Wanderers",
+            "date_taipei": "2026-10-16"
+          },
+          {
             "event_id": "f09ad77e6051b74975f2e59873980559",
             "commence_time": "2026-10-17T04:00:00Z",
             "home_team": "Auckland FC",
             "away_team": "Melbourne City",
+            "date_taipei": "2026-10-17"
+          },
+          {
+            "event_id": "ad786839e8f5784173d73a761448dc56",
+            "commence_time": "2026-10-17T06:00:00Z",
+            "home_team": "Macarthur FC",
+            "away_team": "Perth Glory",
             "date_taipei": "2026-10-17"
           },
           {
@@ -4880,7 +4900,7 @@
           }
         ],
         "modeled": false,
-        "game_count": 3,
+        "game_count": 5,
         "today_game_count": 0,
         "stage": "schedule_only",
         "stage_label": "顯示賽程／目前無推薦模型"
@@ -5193,10 +5213,10 @@
           },
           {
             "event_id": "c9cf254a4db6e34abb9d3e0fb36893cc",
-            "commence_time": "2026-10-11T22:30:00Z",
+            "commence_time": "2026-10-12T19:00:00Z",
             "home_team": "Coritiba",
             "away_team": "Botafogo",
-            "date_taipei": "2026-10-12"
+            "date_taipei": "2026-10-13"
           },
           {
             "event_id": "2d643e9113e7d929c27231e97e84f798",
@@ -8780,34 +8800,9 @@
       "status": "模擬推薦運行中",
       "mode": "paper_only",
       "real_money": false,
-      "scheduled_events": 4,
-      "upcoming": [
-        {
-          "event_id": "3dee821844f062a961405944a92ce765",
-          "commence_time": "2026-09-23T06:00:00Z",
-          "home_team": "Hiroshima Toyo Carp",
-          "away_team": "Yomiuri Giants"
-        },
-        {
-          "event_id": "20bc90fab7a4001b0f5fe684e0e351d0",
-          "commence_time": "2026-09-23T08:00:00Z",
-          "home_team": "Chiba Lotte Marines",
-          "away_team": "Orix Buffaloes"
-        },
-        {
-          "event_id": "8c076d06e941ddd7cc4e123afc1d62ce",
-          "commence_time": "2026-09-23T09:00:00Z",
-          "home_team": "Yokohama DeNA BayStars",
-          "away_team": "Chunichi Dragons"
-        },
-        {
-          "event_id": "6929257c09dc25cb98e5d1a076cdcc1d",
-          "commence_time": "2026-09-23T09:00:00Z",
-          "home_team": "Hokkaido Nippon-Ham Fighters",
-          "away_team": "Tohoku Rakuten Golden Eagles"
-        }
-      ],
-      "schedule_updated_at": "2026-09-23T05:55:20.103567+00:00",
+      "scheduled_events": 0,
+      "upcoming": [],
+      "schedule_updated_at": "2026-09-23T11:28:35.812383+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -8917,28 +8912,9 @@
       "status": "模擬推薦運行中",
       "mode": "paper_only",
       "real_money": false,
-      "scheduled_events": 3,
-      "upcoming": [
-        {
-          "event_id": "673244194388385ee4022172827da8a5",
-          "commence_time": "2026-09-23T09:30:00Z",
-          "home_team": "Doosan Bears",
-          "away_team": "Kia Tigers"
-        },
-        {
-          "event_id": "74b4eb01e1a3378267a320a7a4f5eee8",
-          "commence_time": "2026-09-23T09:30:00Z",
-          "home_team": "Hanwha Eagles",
-          "away_team": "Lotte Giants"
-        },
-        {
-          "event_id": "4f52e9669a370aa4f58cef7394416284",
-          "commence_time": "2026-09-23T09:30:00Z",
-          "home_team": "KT Wiz",
-          "away_team": "NC Dinos"
-        }
-      ],
-      "schedule_updated_at": "2026-09-23T05:55:20.103567+00:00",
+      "scheduled_events": 0,
+      "upcoming": [],
+      "schedule_updated_at": "2026-09-23T11:28:35.812383+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -9303,9 +9279,9 @@
     "latest_collector_events_returned": 0,
     "snapshot_rows": 0,
     "remaining_credits": 162,
-    "schedule_updated_at": "2026-09-23T05:55:20.103567+00:00",
+    "schedule_updated_at": "2026-09-23T11:28:35.812383+00:00",
     "collector_updated_at": "2026-09-22T08:05:47.437383+00:00",
-    "updated_at": "2026-09-23T05:55:20.103567+00:00",
+    "updated_at": "2026-09-23T11:28:35.812383+00:00",
     "note": "賽程場數來自免費 /events；盤口僅在 T-30 視窗由 collector 抓取。僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "decisions": {
