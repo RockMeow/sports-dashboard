@@ -33,7 +33,7 @@ function renderTodayCenter(d){
  const rows=[],today=d.football_leagues?.date_taipei;
  const key=(time,away,home)=>[time,away,home].join("|");
  const decisions=new Map();
- const analyzed=new Map((d.decisions?.mlb||[]).map(x=>[key(x.time,x.away,x.home),x]));
+ const analyzed=new Map(); ["mlb","npb","kbo","football","nfl"].forEach(s=>(d.decisions?.[s]||[]).forEach(x=>analyzed.set(key(x.time,x.away,x.home),x)));
  const addPick=(x,sport)=>{if(!x)return;decisions.set(key(x.time||x.commence_time,x.away||x.away_team,x.home||x.home_team),{sport,pick:x.selection||x.pick||"推薦",odds:x.odds,edge:x.edge_pct,prob:x.model_prob_pct})};
  (d.mlb?.picks||[]).filter(x=>x.status==="OPEN").forEach(x=>addPick(x,"mlb"));
  (d.asia_baseball?.npb?.picks||[]).filter(x=>x.status==="OPEN").forEach(x=>addPick(x,"npb"));
@@ -44,8 +44,9 @@ function renderTodayCenter(d){
   if(!time|| (today&&taipeiDate(time)!==today))return;
   const k=key(time,away,home),p=decisions.get(k),a=analyzed.get(k);
   const mins=(new Date(time)-Date.now())/60000;
-  const decision=p?"可下注":a?.decision|| (mins>40?"等待分析":"不下注");
-  const detail=p?[`模型 ${p.prob??"—"}%`,`Edge +${p.edge??"—"}%`,p.odds?`賠率 ${p.odds}`:""].filter(Boolean).join("｜"):a?.reason||(decision==="等待分析"?"尚未到賽前分析時間":"目前沒有符合下注條件");
+  const nflWaiting=group==="nfl"&&!p&&!a;
+  const decision=p?"可下注":a?.decision||(nflWaiting?"等待分析":mins>40?"等待分析":"不下注");
+  const detail=p?[`模型 ${p.prob??"—"}%`,`Edge +${p.edge??"—"}%`,p.odds?`賠率 ${p.odds}`:""].filter(Boolean).join("｜"):a?.reason||(nflWaiting?"NFL 模型尚未完成驗證，目前不產生下注建議":decision==="等待分析"?"尚未到賽前分析時間":"目前沒有符合下注條件");
   rows.push({time,sport,label,match:away+" vs "+home,group,decision,detail,pick:p?.pick});
  };
  const sched=(arr,sport,label,group)=>(arr||[]).forEach(x=>add(x.commence_time,sport,label,x.away_team||"",x.home_team||"",group));
