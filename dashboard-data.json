@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:07:43.654382+00:00",
+  "generated_at": "2026-09-23T17:12:56.665861+00:00",
   "mlb": {
     "scheduled_events": 16,
     "upcoming": [
@@ -100,7 +100,7 @@
         "away_team": "San Diego Padres"
       }
     ],
-    "schedule_updated_at": "2026-09-23T11:28:35.812383+00:00",
+    "schedule_updated_at": "2026-09-23T16:52:00.920635+00:00",
     "summary": {
       "predictions": 0,
       "settled": 0,
@@ -4627,9 +4627,9 @@
     ]
   },
   "football_leagues": {
-    "date_taipei": "2026-09-23",
-    "total_games": 528,
-    "today_games": 0,
+    "date_taipei": "2026-09-24",
+    "total_games": 524,
+    "today_games": 3,
     "leagues": [
       {
         "key": "soccer_argentina_primera_division",
@@ -4685,6 +4685,13 @@
             "date_taipei": "2026-10-04"
           },
           {
+            "event_id": "749e8411ef525544e603a1671bae0097",
+            "commence_time": "2026-10-04T16:45:00Z",
+            "home_team": "Sarmiento de Junin",
+            "away_team": "River Plate",
+            "date_taipei": "2026-10-05"
+          },
+          {
             "event_id": "b572ad6feac72764dd496ddd90f019ce",
             "commence_time": "2026-10-04T20:00:00Z",
             "home_team": "Talleres",
@@ -4696,13 +4703,6 @@
             "commence_time": "2026-10-04T22:15:00Z",
             "home_team": "Boca Juniors",
             "away_team": "Union Santa Fe",
-            "date_taipei": "2026-10-05"
-          },
-          {
-            "event_id": "749e8411ef525544e603a1671bae0097",
-            "commence_time": "2026-10-04T22:45:00Z",
-            "home_team": "Sarmiento de Junin",
-            "away_team": "River Plate",
             "date_taipei": "2026-10-05"
           },
           {
@@ -5462,22 +5462,29 @@
         "name": "🌎 南美自由盃",
         "games": [
           {
-            "event_id": "48aad972f5ac58eaaf1835f72a3c3cae",
-            "commence_time": "2026-10-13T20:00:00Z",
-            "home_team": "Fluminense-RJ",
-            "away_team": "Palmeiras-SP",
+            "event_id": "05f3cafa07170b29202bdf2c603c9fdc",
+            "commence_time": "2026-10-13T22:00:00Z",
+            "home_team": "Estudiantes La Plata",
+            "away_team": "Flamengo-RJ",
             "date_taipei": "2026-10-14"
           },
           {
+            "event_id": "48aad972f5ac58eaaf1835f72a3c3cae",
+            "commence_time": "2026-10-15T00:30:00Z",
+            "home_team": "Fluminense-RJ",
+            "away_team": "Palmeiras-SP",
+            "date_taipei": "2026-10-15"
+          },
+          {
             "event_id": "d02dc730313f4d3454742acf7971179b",
-            "commence_time": "2026-10-14T20:00:00Z",
+            "commence_time": "2026-10-16T00:30:00Z",
             "home_team": "Estudiantes La Plata",
             "away_team": "Flamengo-RJ",
-            "date_taipei": "2026-10-15"
+            "date_taipei": "2026-10-16"
           }
         ],
         "modeled": false,
-        "game_count": 2,
+        "game_count": 3,
         "today_game_count": 0,
         "stage": "schedule_only",
         "stage_label": "顯示賽程／目前無推薦模型"
@@ -5695,20 +5702,6 @@
             "date_taipei": "2026-09-26"
           },
           {
-            "event_id": "1d6d0283e3f4343a768e94337da62879",
-            "commence_time": "2026-09-26T14:00:00Z",
-            "home_team": "Doncaster Rovers",
-            "away_team": "Oxford United",
-            "date_taipei": "2026-09-26"
-          },
-          {
-            "event_id": "082db2c914da0c3bbc15e9a1137522b0",
-            "commence_time": "2026-09-26T14:00:00Z",
-            "home_team": "Huddersfield Town",
-            "away_team": "Luton",
-            "date_taipei": "2026-09-26"
-          },
-          {
             "event_id": "92f5b48ed87d23cbb6268ea1f78e58f8",
             "commence_time": "2026-09-26T14:00:00Z",
             "home_team": "Mansfield Town",
@@ -5738,7 +5731,7 @@
           }
         ],
         "modeled": false,
-        "game_count": 11,
+        "game_count": 9,
         "today_game_count": 0,
         "stage": "schedule_only",
         "stage_label": "顯示賽程／目前無推薦模型"
@@ -6921,17 +6914,10 @@
             "home_team": "Galway United",
             "away_team": "Shelbourne Dublin",
             "date_taipei": "2026-09-26"
-          },
-          {
-            "event_id": "3f96a0843c99ea1f8a73ddf238683755",
-            "commence_time": "2026-10-12T19:00:00Z",
-            "home_team": "Shamrock Rovers",
-            "away_team": "Bohemians",
-            "date_taipei": "2026-10-13"
           }
         ],
         "modeled": false,
-        "game_count": 2,
+        "game_count": 1,
         "today_game_count": 0,
         "stage": "schedule_only",
         "stage_label": "顯示賽程／目前無推薦模型"
@@ -6998,7 +6984,7 @@
           },
           {
             "event_id": "84024442d39419a738d8c2382d3ff73e",
-            "commence_time": "2026-09-28T03:00:00Z",
+            "commence_time": "2026-09-28T03:10:00Z",
             "home_team": "Necaxa",
             "away_team": "América",
             "date_taipei": "2026-09-28"
@@ -7913,20 +7899,6 @@
         "name": "🇪🇺 歐洲女子冠軍聯賽",
         "games": [
           {
-            "event_id": "ed1e48c3198923dec3e3990c3c8b899a",
-            "commence_time": "2026-09-23T16:45:00Z",
-            "home_team": "Leuven",
-            "away_team": "AS Roma",
-            "date_taipei": "2026-09-24"
-          },
-          {
-            "event_id": "991d2c4cdf265760e934411832b9e3c9",
-            "commence_time": "2026-09-23T16:45:00Z",
-            "home_team": "Servette FC",
-            "away_team": "Lyon",
-            "date_taipei": "2026-09-24"
-          },
-          {
             "event_id": "e6efaffaa764a10c373238fd4dd3ed86",
             "commence_time": "2026-09-23T19:00:00Z",
             "home_team": "Chelsea",
@@ -7942,8 +7914,8 @@
           }
         ],
         "modeled": false,
-        "game_count": 4,
-        "today_game_count": 0,
+        "game_count": 2,
+        "today_game_count": 2,
         "stage": "schedule_only",
         "stage_label": "顯示賽程／目前無推薦模型"
       },
@@ -8785,7 +8757,7 @@
         ],
         "modeled": true,
         "game_count": 33,
-        "today_game_count": 0,
+        "today_game_count": 1,
         "stage": "paper_model",
         "stage_label": "有模型／依條件產生推薦"
       }
@@ -8800,9 +8772,22 @@
       "status": "模擬推薦運行中",
       "mode": "paper_only",
       "real_money": false,
-      "scheduled_events": 0,
-      "upcoming": [],
-      "schedule_updated_at": "2026-09-23T11:28:35.812383+00:00",
+      "scheduled_events": 2,
+      "upcoming": [
+        {
+          "event_id": "097ef92f82b35241cc247d289c26f266",
+          "commence_time": "2026-09-24T09:00:00Z",
+          "home_team": "Hiroshima Toyo Carp",
+          "away_team": "Yomiuri Giants"
+        },
+        {
+          "event_id": "a20371b286aead1c9327537d44856bb3",
+          "commence_time": "2026-09-24T09:00:00Z",
+          "home_team": "Hokkaido Nippon-Ham Fighters",
+          "away_team": "Tohoku Rakuten Golden Eagles"
+        }
+      ],
+      "schedule_updated_at": "2026-09-23T16:52:00.920635+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -8912,9 +8897,28 @@
       "status": "模擬推薦運行中",
       "mode": "paper_only",
       "real_money": false,
-      "scheduled_events": 0,
-      "upcoming": [],
-      "schedule_updated_at": "2026-09-23T11:28:35.812383+00:00",
+      "scheduled_events": 3,
+      "upcoming": [
+        {
+          "event_id": "97b3f2ba31074d1404199eb30fcff059",
+          "commence_time": "2026-09-24T08:00:00Z",
+          "home_team": "KT Wiz",
+          "away_team": "NC Dinos"
+        },
+        {
+          "event_id": "8a3ca0c8e3620b012366f8bbebb31fd1",
+          "commence_time": "2026-09-24T08:00:00Z",
+          "home_team": "LG Twins",
+          "away_team": "Lotte Giants"
+        },
+        {
+          "event_id": "065a20ab50ce5d942226a420479897f6",
+          "commence_time": "2026-09-24T08:00:00Z",
+          "home_team": "SSG Landers",
+          "away_team": "Samsung Lions"
+        }
+      ],
+      "schedule_updated_at": "2026-09-23T16:52:00.920635+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -9279,9 +9283,9 @@
     "latest_collector_events_returned": 0,
     "snapshot_rows": 0,
     "remaining_credits": 162,
-    "schedule_updated_at": "2026-09-23T11:28:35.812383+00:00",
+    "schedule_updated_at": "2026-09-23T16:52:00.920635+00:00",
     "collector_updated_at": "2026-09-22T08:05:47.437383+00:00",
-    "updated_at": "2026-09-23T11:28:35.812383+00:00",
+    "updated_at": "2026-09-23T16:52:00.920635+00:00",
     "note": "賽程場數來自免費 /events；盤口僅在 T-30 視窗由 collector 抓取。僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "decisions": {
