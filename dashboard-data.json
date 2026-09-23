@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T01:00:19.549592+00:00",
+  "generated_at": "2026-09-23T01:01:27.937583+00:00",
   "mlb": {
     "scheduled_events": 16,
     "upcoming": [
@@ -4640,26 +4640,54 @@
     "target": "T-30m",
     "window": "T-40m to T-20m",
     "expected_today": 13,
-    "collected": 0,
+    "collected": 2,
     "missed": 0,
-    "pending": 13,
-    "success_pct": 0.0,
-    "latest_run_paid_api_calls": 0,
+    "pending": 11,
+    "success_pct": 15.4,
+    "latest_run_paid_api_calls": 1,
     "remaining_credits": null,
-    "issue_count": 0,
-    "issues": [],
+    "issue_count": 2,
+    "issues": [
+      {
+        "event_id": "0ae15942e1f4c4657b06458868afbf96",
+        "commence_time": "2026-09-23T01:41:00Z",
+        "type": "processing",
+        "reason": "盤口已抓取，但模型未完成處理",
+        "sport": "mlb"
+      },
+      {
+        "event_id": "a5e0deb6f51b7edebbd82d0eaf966294",
+        "commence_time": "2026-09-23T01:41:00Z",
+        "type": "processing",
+        "reason": "盤口已抓取，但模型未完成處理",
+        "sport": "mlb"
+      }
+    ],
     "sports": {
       "mlb": {
         "expected_today": 4,
-        "collected": 0,
+        "collected": 2,
         "missed": 0,
-        "pending": 4,
-        "success_pct": 0.0,
-        "actual_t_minutes_avg": null,
-        "actual_t_minutes_min": null,
-        "actual_t_minutes_max": null,
-        "issues": [],
-        "issue_count": 0
+        "pending": 2,
+        "success_pct": 50.0,
+        "actual_t_minutes_avg": 39.6,
+        "actual_t_minutes_min": 39.6,
+        "actual_t_minutes_max": 39.6,
+        "issues": [
+          {
+            "event_id": "0ae15942e1f4c4657b06458868afbf96",
+            "commence_time": "2026-09-23T01:41:00Z",
+            "type": "processing",
+            "reason": "盤口已抓取，但模型未完成處理"
+          },
+          {
+            "event_id": "a5e0deb6f51b7edebbd82d0eaf966294",
+            "commence_time": "2026-09-23T01:41:00Z",
+            "type": "processing",
+            "reason": "盤口已抓取，但模型未完成處理"
+          }
+        ],
+        "issue_count": 2
       },
       "npb": {
         "expected_today": 6,
@@ -4712,10 +4740,10 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-23T01:00:19.613872+00:00",
-    "source_latest_updated_at": "2026-09-23T01:00:15.236549+00:00",
-    "source_to_payload_lag_seconds": 4,
+    "payload_generated_at": "2026-09-23T01:01:28.017328+00:00",
+    "source_latest_updated_at": "2026-09-23T01:01:27.393375+00:00",
+    "source_to_payload_lag_seconds": 1,
     "frontend_expected_refresh_seconds": 60,
-    "watched_sources": 3
+    "watched_sources": 5
   }
 }
