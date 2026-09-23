@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T01:16:10.574416+00:00",
+  "generated_at": "2026-09-23T01:17:53.288510+00:00",
   "mlb": {
     "scheduled_events": 16,
     "upcoming": [
@@ -102,6 +102,8 @@
     ],
     "schedule_updated_at": "2026-09-23T00:48:11.446502+00:00",
     "summary": {
+      "games_today": 4,
+      "model_predictions": 0,
       "predictions": 0,
       "settled": 0,
       "open": 0,
@@ -4753,9 +4755,9 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-23T01:16:10.630456+00:00",
-    "source_latest_updated_at": "2026-09-23T01:16:00.611770+00:00",
-    "source_to_payload_lag_seconds": 10,
+    "payload_generated_at": "2026-09-23T01:17:53.350204+00:00",
+    "source_latest_updated_at": "2026-09-23T01:17:49.129252+00:00",
+    "source_to_payload_lag_seconds": 4,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 5
   }
