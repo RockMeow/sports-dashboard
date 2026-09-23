@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T01:05:57.969564+00:00",
+  "generated_at": "2026-09-23T01:07:06.556087+00:00",
   "mlb": {
     "scheduled_events": 16,
     "upcoming": [
@@ -4640,13 +4640,13 @@
     "target": "T-30m",
     "window": "T-40m to T-20m",
     "expected_today": 13,
-    "collected": 2,
+    "collected": 3,
     "missed": 0,
-    "pending": 11,
-    "success_pct": 15.4,
+    "pending": 10,
+    "success_pct": 23.1,
     "latest_run_paid_api_calls": 1,
     "remaining_credits": null,
-    "issue_count": 2,
+    "issue_count": 3,
     "issues": [
       {
         "event_id": "0ae15942e1f4c4657b06458868afbf96",
@@ -4661,17 +4661,24 @@
         "type": "processing",
         "reason": "盤口已抓取，但模型未完成處理",
         "sport": "mlb"
+      },
+      {
+        "event_id": "81f539754930db6ffbd116ca2d30ee9c",
+        "commence_time": "2026-09-23T01:46:00Z",
+        "type": "processing",
+        "reason": "盤口已抓取，但模型未完成處理",
+        "sport": "mlb"
       }
     ],
     "sports": {
       "mlb": {
         "expected_today": 4,
-        "collected": 2,
+        "collected": 3,
         "missed": 0,
-        "pending": 2,
-        "success_pct": 50.0,
-        "actual_t_minutes_avg": 39.6,
-        "actual_t_minutes_min": 39.6,
+        "pending": 1,
+        "success_pct": 75.0,
+        "actual_t_minutes_avg": 39.4,
+        "actual_t_minutes_min": 38.9,
         "actual_t_minutes_max": 39.6,
         "issues": [
           {
@@ -4685,9 +4692,15 @@
             "commence_time": "2026-09-23T01:41:00Z",
             "type": "processing",
             "reason": "盤口已抓取，但模型未完成處理"
+          },
+          {
+            "event_id": "81f539754930db6ffbd116ca2d30ee9c",
+            "commence_time": "2026-09-23T01:46:00Z",
+            "type": "processing",
+            "reason": "盤口已抓取，但模型未完成處理"
           }
         ],
-        "issue_count": 2
+        "issue_count": 3
       },
       "npb": {
         "expected_today": 6,
@@ -4740,9 +4753,9 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-23T01:05:58.033228+00:00",
-    "source_latest_updated_at": "2026-09-23T01:05:53.838071+00:00",
-    "source_to_payload_lag_seconds": 4,
+    "payload_generated_at": "2026-09-23T01:07:06.624418+00:00",
+    "source_latest_updated_at": "2026-09-23T01:07:05.978360+00:00",
+    "source_to_payload_lag_seconds": 1,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 5
   }
