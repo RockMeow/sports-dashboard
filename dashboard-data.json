@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T01:13:50.290757+00:00",
+  "generated_at": "2026-09-23T01:14:57.612615+00:00",
   "mlb": {
     "scheduled_events": 16,
     "upcoming": [
@@ -4753,8 +4753,8 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-23T01:13:50.349244+00:00",
-    "source_latest_updated_at": "2026-09-23T01:13:46.188623+00:00",
+    "payload_generated_at": "2026-09-23T01:14:57.674005+00:00",
+    "source_latest_updated_at": "2026-09-23T01:14:53.348515+00:00",
     "source_to_payload_lag_seconds": 4,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 5
