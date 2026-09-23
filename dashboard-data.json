@@ -1,26 +1,8 @@
 {
-  "generated_at": "2026-09-23T01:47:18.380677+00:00",
+  "generated_at": "2026-09-23T01:49:02.470221+00:00",
   "mlb": {
-    "scheduled_events": 16,
+    "scheduled_events": 13,
     "upcoming": [
-      {
-        "event_id": "0ae15942e1f4c4657b06458868afbf96",
-        "commence_time": "2026-09-23T01:41:00Z",
-        "home_team": "Athletics",
-        "away_team": "Los Angeles Angels"
-      },
-      {
-        "event_id": "a5e0deb6f51b7edebbd82d0eaf966294",
-        "commence_time": "2026-09-23T01:41:00Z",
-        "home_team": "Seattle Mariners",
-        "away_team": "Houston Astros"
-      },
-      {
-        "event_id": "81f539754930db6ffbd116ca2d30ee9c",
-        "commence_time": "2026-09-23T01:46:00Z",
-        "home_team": "San Francisco Giants",
-        "away_team": "Minnesota Twins"
-      },
       {
         "event_id": "85b75fcab1b69e0a4e414382b9f1cc7e",
         "commence_time": "2026-09-23T02:11:00Z",
@@ -100,9 +82,9 @@
         "away_team": "San Diego Padres"
       }
     ],
-    "schedule_updated_at": "2026-09-23T00:48:11.446502+00:00",
+    "schedule_updated_at": "2026-09-23T01:48:21.838126+00:00",
     "summary": {
-      "games_today": 4,
+      "games_today": 1,
       "model_predictions": 0,
       "predictions": 0,
       "settled": 0,
@@ -126,7 +108,7 @@
     "picks": []
   },
   "baseball_summary": {
-    "games_today": 13,
+    "games_today": 10,
     "model_predictions": 0,
     "open": 0,
     "settled": 0
@@ -4319,7 +4301,7 @@
           "away_team": "Tohoku Rakuten Golden Eagles"
         }
       ],
-      "schedule_updated_at": "2026-09-23T00:48:11.446502+00:00",
+      "schedule_updated_at": "2026-09-23T01:48:21.838126+00:00",
       "model": null,
       "model_features": null,
       "live_feature_compatible": null,
@@ -4363,7 +4345,7 @@
           "away_team": "NC Dinos"
         }
       ],
-      "schedule_updated_at": "2026-09-23T00:48:11.446502+00:00",
+      "schedule_updated_at": "2026-09-23T01:48:21.838126+00:00",
       "model": null,
       "model_features": null,
       "live_feature_compatible": null,
@@ -4590,9 +4572,9 @@
     "latest_collector_events_returned": 0,
     "snapshot_rows": 0,
     "remaining_credits": null,
-    "schedule_updated_at": "2026-09-23T00:48:11.446502+00:00",
+    "schedule_updated_at": "2026-09-23T01:48:21.838126+00:00",
     "collector_updated_at": null,
-    "updated_at": "2026-09-23T00:48:11.446502+00:00",
+    "updated_at": "2026-09-23T01:48:21.838126+00:00",
     "note": "賽程場數來自免費 /events；盤口僅在 T-30 視窗由 collector 抓取。僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "model_health": {
@@ -4647,37 +4629,16 @@
     "date_taipei": "2026-09-23",
     "target": "T-30m",
     "window": "T-40m to T-20m",
-    "expected_today": 13,
-    "collected": 4,
+    "expected_today": 10,
+    "collected": 1,
     "missed": 0,
     "pending": 9,
-    "success_pct": 30.8,
+    "success_pct": 10.0,
     "latest_run_paid_api_calls": 1,
     "remaining_credits": null,
-    "issue_count": 4,
+    "issue_count": 1,
     "fetch_issues": [],
     "processing_issues": [
-      {
-        "event_id": "0ae15942e1f4c4657b06458868afbf96",
-        "commence_time": "2026-09-23T01:41:00Z",
-        "type": "processing",
-        "reason": "盤口已抓取，但模型未完成處理",
-        "sport": "mlb"
-      },
-      {
-        "event_id": "a5e0deb6f51b7edebbd82d0eaf966294",
-        "commence_time": "2026-09-23T01:41:00Z",
-        "type": "processing",
-        "reason": "盤口已抓取，但模型未完成處理",
-        "sport": "mlb"
-      },
-      {
-        "event_id": "81f539754930db6ffbd116ca2d30ee9c",
-        "commence_time": "2026-09-23T01:46:00Z",
-        "type": "processing",
-        "reason": "盤口已抓取，但模型未完成處理",
-        "sport": "mlb"
-      },
       {
         "event_id": "85b75fcab1b69e0a4e414382b9f1cc7e",
         "commence_time": "2026-09-23T02:11:00Z",
@@ -4688,27 +4649,6 @@
     ],
     "issues": [
       {
-        "event_id": "0ae15942e1f4c4657b06458868afbf96",
-        "commence_time": "2026-09-23T01:41:00Z",
-        "type": "processing",
-        "reason": "盤口已抓取，但模型未完成處理",
-        "sport": "mlb"
-      },
-      {
-        "event_id": "a5e0deb6f51b7edebbd82d0eaf966294",
-        "commence_time": "2026-09-23T01:41:00Z",
-        "type": "processing",
-        "reason": "盤口已抓取，但模型未完成處理",
-        "sport": "mlb"
-      },
-      {
-        "event_id": "81f539754930db6ffbd116ca2d30ee9c",
-        "commence_time": "2026-09-23T01:46:00Z",
-        "type": "processing",
-        "reason": "盤口已抓取，但模型未完成處理",
-        "sport": "mlb"
-      },
-      {
         "event_id": "85b75fcab1b69e0a4e414382b9f1cc7e",
         "commence_time": "2026-09-23T02:11:00Z",
         "type": "processing",
@@ -4718,33 +4658,15 @@
     ],
     "sports": {
       "mlb": {
-        "expected_today": 4,
-        "collected": 4,
+        "expected_today": 1,
+        "collected": 1,
         "missed": 0,
         "pending": 0,
         "success_pct": 100.0,
-        "actual_t_minutes_avg": 39.3,
-        "actual_t_minutes_min": 38.9,
-        "actual_t_minutes_max": 39.6,
+        "actual_t_minutes_avg": 39.1,
+        "actual_t_minutes_min": 39.1,
+        "actual_t_minutes_max": 39.1,
         "issues": [
-          {
-            "event_id": "0ae15942e1f4c4657b06458868afbf96",
-            "commence_time": "2026-09-23T01:41:00Z",
-            "type": "processing",
-            "reason": "盤口已抓取，但模型未完成處理"
-          },
-          {
-            "event_id": "a5e0deb6f51b7edebbd82d0eaf966294",
-            "commence_time": "2026-09-23T01:41:00Z",
-            "type": "processing",
-            "reason": "盤口已抓取，但模型未完成處理"
-          },
-          {
-            "event_id": "81f539754930db6ffbd116ca2d30ee9c",
-            "commence_time": "2026-09-23T01:46:00Z",
-            "type": "processing",
-            "reason": "盤口已抓取，但模型未完成處理"
-          },
           {
             "event_id": "85b75fcab1b69e0a4e414382b9f1cc7e",
             "commence_time": "2026-09-23T02:11:00Z",
@@ -4752,7 +4674,7 @@
             "reason": "盤口已抓取，但 MLB 賽程配對失敗"
           }
         ],
-        "issue_count": 4
+        "issue_count": 1
       },
       "npb": {
         "expected_today": 6,
@@ -4805,8 +4727,8 @@
     }
   },
   "sync_health": {
-    "payload_generated_at": "2026-09-23T01:47:18.397411+00:00",
-    "source_latest_updated_at": "2026-09-23T01:47:13.955910+00:00",
+    "payload_generated_at": "2026-09-23T01:49:02.485845+00:00",
+    "source_latest_updated_at": "2026-09-23T01:48:58.226533+00:00",
     "source_to_payload_lag_seconds": 4,
     "frontend_expected_refresh_seconds": 60,
     "watched_sources": 5
