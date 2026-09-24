@@ -1,55 +1,19 @@
 {
-  "generated_at": "2026-09-24T01:37:30.259065+00:00",
+  "generated_at": "2026-09-24T05:37:51.804296+00:00",
   "mlb": {
-    "scheduled_events": 13,
+    "scheduled_events": 11,
     "upcoming": [
-      {
-        "event_id": "abd20077e0d7c1491fcc361d264cbc3d",
-        "commence_time": "2026-09-23T23:41:00Z",
-        "home_team": "Chicago Cubs",
-        "away_team": "Miami Marlins"
-      },
-      {
-        "event_id": "67a95b403897bde4e3f38d5448f9c94c",
-        "commence_time": "2026-09-23T23:41:00Z",
-        "home_team": "Kansas City Royals",
-        "away_team": "Chicago White Sox"
-      },
-      {
-        "event_id": "6ae37d18d4a5fb4d9c92a8aee3f54186",
-        "commence_time": "2026-09-24T00:06:00Z",
-        "home_team": "Texas Rangers",
-        "away_team": "New York Mets"
-      },
-      {
-        "event_id": "4e1d4c17ae27eeb2388a146c248b5fb6",
-        "commence_time": "2026-09-24T00:41:00Z",
-        "home_team": "Colorado Rockies",
-        "away_team": "Arizona Diamondbacks"
-      },
-      {
-        "event_id": "9537e2c00a118edc54c7b2b5ed0c6f55",
-        "commence_time": "2026-09-24T01:41:00Z",
-        "home_team": "Athletics",
-        "away_team": "Los Angeles Angels"
-      },
-      {
-        "event_id": "7d11a20c7ec2247d0ce57f87cda008ca",
-        "commence_time": "2026-09-24T02:11:00Z",
-        "home_team": "Seattle Mariners",
-        "away_team": "Houston Astros"
-      },
-      {
-        "event_id": "1cc251b3308daacf4f549c56ad233607",
-        "commence_time": "2026-09-24T02:11:00Z",
-        "home_team": "Los Angeles Dodgers",
-        "away_team": "San Diego Padres"
-      },
       {
         "event_id": "ca2c6af9c65d99ec92728e8b8c76fae9",
         "commence_time": "2026-09-24T16:36:00Z",
         "home_team": "Pittsburgh Pirates",
         "away_team": "St. Louis Cardinals"
+      },
+      {
+        "event_id": "f8c72a46effedf3f04b037fb99849fe6",
+        "commence_time": "2026-09-24T18:11:00Z",
+        "home_team": "Kansas City Royals",
+        "away_team": "Chicago White Sox"
       },
       {
         "event_id": "1b1dbd4e7d948a1910402a33850d77c8",
@@ -58,10 +22,28 @@
         "away_team": "Miami Marlins"
       },
       {
+        "event_id": "132107ced3ea1aec8e5cc920a6c36c02",
+        "commence_time": "2026-09-24T18:36:00Z",
+        "home_team": "Texas Rangers",
+        "away_team": "New York Mets"
+      },
+      {
         "event_id": "c862b8f01d10ebafd1c1ee08cf8ba9ce",
         "commence_time": "2026-09-24T19:11:00Z",
         "home_team": "Colorado Rockies",
         "away_team": "Arizona Diamondbacks"
+      },
+      {
+        "event_id": "73db56fa7f40cff18d189c5d7dc7d903",
+        "commence_time": "2026-09-24T22:06:00Z",
+        "home_team": "Philadelphia Phillies",
+        "away_team": "Milwaukee Brewers"
+      },
+      {
+        "event_id": "d0e9c7cf726e88320154be5ef2ccf0a1",
+        "commence_time": "2026-09-24T22:46:00Z",
+        "home_team": "Boston Red Sox",
+        "away_team": "Cleveland Guardians"
       },
       {
         "event_id": "db3b790ee721c10b3644dbeef61f370c",
@@ -76,13 +58,19 @@
         "away_team": "Cincinnati Reds"
       },
       {
+        "event_id": "4984d3511b9db396e1a2c120b9623bbb",
+        "commence_time": "2026-09-25T01:41:00Z",
+        "home_team": "Seattle Mariners",
+        "away_team": "Los Angeles Angels"
+      },
+      {
         "event_id": "a44be11545d471429fd459d4c5740006",
         "commence_time": "2026-09-25T02:11:00Z",
         "home_team": "Los Angeles Dodgers",
         "away_team": "San Diego Padres"
       }
     ],
-    "schedule_updated_at": "2026-09-23T23:39:03.697263+00:00",
+    "schedule_updated_at": "2026-09-24T04:42:01.486559+00:00",
     "summary": {
       "predictions": 0,
       "settled": 0,
@@ -4610,8 +4598,8 @@
   },
   "football_leagues": {
     "date_taipei": "2026-09-24",
-    "total_games": 523,
-    "today_games": 1,
+    "total_games": 522,
+    "today_games": 0,
     "leagues": [
       {
         "key": "soccer_argentina_primera_division",
@@ -8488,13 +8476,6 @@
         "name": "🇺🇸 美國職業足球大聯盟",
         "games": [
           {
-            "event_id": "721002a07455851d44ee87a608fbd3e3",
-            "commence_time": "2026-09-24T01:30:00Z",
-            "home_team": "Seattle Sounders FC",
-            "away_team": "Real Salt Lake",
-            "date_taipei": "2026-09-24"
-          },
-          {
             "event_id": "fc27ddecdbf725e6878b23d2fbac96d9",
             "commence_time": "2026-09-26T23:30:00Z",
             "home_team": "Atlanta United FC",
@@ -8720,8 +8701,8 @@
           }
         ],
         "modeled": true,
-        "game_count": 33,
-        "today_game_count": 1,
+        "game_count": 32,
+        "today_game_count": 0,
         "stage": "paper_model",
         "stage_label": "有模型／依條件產生推薦"
       }
@@ -8751,7 +8732,7 @@
           "away_team": "Tohoku Rakuten Golden Eagles"
         }
       ],
-      "schedule_updated_at": "2026-09-23T23:39:03.697263+00:00",
+      "schedule_updated_at": "2026-09-24T04:42:01.486559+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -8882,7 +8863,7 @@
           "away_team": "Samsung Lions"
         }
       ],
-      "schedule_updated_at": "2026-09-23T23:39:03.697263+00:00",
+      "schedule_updated_at": "2026-09-24T04:42:01.486559+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -9247,9 +9228,9 @@
     "latest_collector_events_returned": 0,
     "snapshot_rows": 0,
     "remaining_credits": 162,
-    "schedule_updated_at": "2026-09-23T23:39:03.697263+00:00",
+    "schedule_updated_at": "2026-09-24T04:42:01.486559+00:00",
     "collector_updated_at": "2026-09-22T08:05:47.437383+00:00",
-    "updated_at": "2026-09-23T23:39:03.697263+00:00",
+    "updated_at": "2026-09-24T04:42:01.486559+00:00",
     "note": "賽程場數來自免費 /events；盤口僅在 T-30 視窗由 collector 抓取。僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "decisions": {
