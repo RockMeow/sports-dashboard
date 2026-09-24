@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T07:04:39.870440+00:00",
+  "generated_at": "2026-09-24T10:41:35.220339+00:00",
   "mlb": {
-    "scheduled_events": 11,
+    "scheduled_events": 12,
     "upcoming": [
       {
         "event_id": "ca2c6af9c65d99ec92728e8b8c76fae9",
@@ -58,6 +58,12 @@
         "away_team": "Cincinnati Reds"
       },
       {
+        "event_id": "d1094cf64d0cccf98c76920fd2548c38",
+        "commence_time": "2026-09-25T01:41:00Z",
+        "home_team": "Athletics",
+        "away_team": "Houston Astros"
+      },
+      {
         "event_id": "4984d3511b9db396e1a2c120b9623bbb",
         "commence_time": "2026-09-25T01:41:00Z",
         "home_team": "Seattle Mariners",
@@ -70,7 +76,7 @@
         "away_team": "San Diego Padres"
       }
     ],
-    "schedule_updated_at": "2026-09-24T04:42:01.486559+00:00",
+    "schedule_updated_at": "2026-09-24T09:56:42.056378+00:00",
     "summary": {
       "predictions": 0,
       "settled": 0,
@@ -8717,22 +8723,9 @@
       "status": "模擬推薦運行中",
       "mode": "paper_only",
       "real_money": false,
-      "scheduled_events": 2,
-      "upcoming": [
-        {
-          "event_id": "097ef92f82b35241cc247d289c26f266",
-          "commence_time": "2026-09-24T09:00:00Z",
-          "home_team": "Hiroshima Toyo Carp",
-          "away_team": "Yomiuri Giants"
-        },
-        {
-          "event_id": "a20371b286aead1c9327537d44856bb3",
-          "commence_time": "2026-09-24T09:00:00Z",
-          "home_team": "Hokkaido Nippon-Ham Fighters",
-          "away_team": "Tohoku Rakuten Golden Eagles"
-        }
-      ],
-      "schedule_updated_at": "2026-09-24T04:42:01.486559+00:00",
+      "scheduled_events": 0,
+      "upcoming": [],
+      "schedule_updated_at": "2026-09-24T09:56:42.056378+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -8842,28 +8835,9 @@
       "status": "模擬推薦運行中",
       "mode": "paper_only",
       "real_money": false,
-      "scheduled_events": 3,
-      "upcoming": [
-        {
-          "event_id": "97b3f2ba31074d1404199eb30fcff059",
-          "commence_time": "2026-09-24T08:00:00Z",
-          "home_team": "KT Wiz",
-          "away_team": "NC Dinos"
-        },
-        {
-          "event_id": "8a3ca0c8e3620b012366f8bbebb31fd1",
-          "commence_time": "2026-09-24T08:00:00Z",
-          "home_team": "LG Twins",
-          "away_team": "Lotte Giants"
-        },
-        {
-          "event_id": "065a20ab50ce5d942226a420479897f6",
-          "commence_time": "2026-09-24T08:00:00Z",
-          "home_team": "SSG Landers",
-          "away_team": "Samsung Lions"
-        }
-      ],
-      "schedule_updated_at": "2026-09-24T04:42:01.486559+00:00",
+      "scheduled_events": 0,
+      "upcoming": [],
+      "schedule_updated_at": "2026-09-24T09:56:42.056378+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -9228,9 +9202,9 @@
     "latest_collector_events_returned": 0,
     "snapshot_rows": 0,
     "remaining_credits": 162,
-    "schedule_updated_at": "2026-09-24T04:42:01.486559+00:00",
+    "schedule_updated_at": "2026-09-24T09:56:42.056378+00:00",
     "collector_updated_at": "2026-09-22T08:05:47.437383+00:00",
-    "updated_at": "2026-09-24T04:42:01.486559+00:00",
+    "updated_at": "2026-09-24T09:56:42.056378+00:00",
     "note": "賽程場數來自免費 /events；盤口僅在 T-30 視窗由 collector 抓取。僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "decisions": {
