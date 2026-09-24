@@ -1,44 +1,8 @@
 {
-  "generated_at": "2026-09-23T23:28:24.352372+00:00",
+  "generated_at": "2026-09-24T00:38:15.416153+00:00",
   "mlb": {
-    "scheduled_events": 18,
+    "scheduled_events": 13,
     "upcoming": [
-      {
-        "event_id": "94d0c4d70e74a3ca8f70abe5a0859ea1",
-        "commence_time": "2026-09-23T22:36:00Z",
-        "home_team": "Baltimore Orioles",
-        "away_team": "Toronto Blue Jays"
-      },
-      {
-        "event_id": "6de7fdec72dbabadc09e788561c89a32",
-        "commence_time": "2026-09-23T22:41:00Z",
-        "home_team": "Philadelphia Phillies",
-        "away_team": "Milwaukee Brewers"
-      },
-      {
-        "event_id": "7a8ac2f452e72170b3aef83e4cb8e28b",
-        "commence_time": "2026-09-23T22:41:00Z",
-        "home_team": "Pittsburgh Pirates",
-        "away_team": "St. Louis Cardinals"
-      },
-      {
-        "event_id": "8a7f796244408c6c830bfc2be2edb9a9",
-        "commence_time": "2026-09-23T23:06:00Z",
-        "home_team": "New York Yankees",
-        "away_team": "Tampa Bay Rays"
-      },
-      {
-        "event_id": "c2e9498aaeb076eb5c7ec70719c85b49",
-        "commence_time": "2026-09-23T23:11:00Z",
-        "home_team": "Boston Red Sox",
-        "away_team": "Cleveland Guardians"
-      },
-      {
-        "event_id": "24e2844ddd06b300f6491b2912fa652c",
-        "commence_time": "2026-09-23T23:16:00Z",
-        "home_team": "Atlanta Braves",
-        "away_team": "Cincinnati Reds"
-      },
       {
         "event_id": "abd20077e0d7c1491fcc361d264cbc3d",
         "commence_time": "2026-09-23T23:41:00Z",
@@ -88,6 +52,12 @@
         "away_team": "St. Louis Cardinals"
       },
       {
+        "event_id": "1b1dbd4e7d948a1910402a33850d77c8",
+        "commence_time": "2026-09-24T18:21:00Z",
+        "home_team": "Chicago Cubs",
+        "away_team": "Miami Marlins"
+      },
+      {
         "event_id": "c862b8f01d10ebafd1c1ee08cf8ba9ce",
         "commence_time": "2026-09-24T19:11:00Z",
         "home_team": "Colorado Rockies",
@@ -112,7 +82,7 @@
         "away_team": "San Diego Padres"
       }
     ],
-    "schedule_updated_at": "2026-09-23T20:17:45.843421+00:00",
+    "schedule_updated_at": "2026-09-23T23:39:03.697263+00:00",
     "summary": {
       "predictions": 0,
       "settled": 0,
@@ -8781,7 +8751,7 @@
           "away_team": "Tohoku Rakuten Golden Eagles"
         }
       ],
-      "schedule_updated_at": "2026-09-23T20:17:45.843421+00:00",
+      "schedule_updated_at": "2026-09-23T23:39:03.697263+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -8912,7 +8882,7 @@
           "away_team": "Samsung Lions"
         }
       ],
-      "schedule_updated_at": "2026-09-23T20:17:45.843421+00:00",
+      "schedule_updated_at": "2026-09-23T23:39:03.697263+00:00",
       "model": "team_form",
       "model_features": 26,
       "live_feature_compatible": true,
@@ -9277,9 +9247,9 @@
     "latest_collector_events_returned": 0,
     "snapshot_rows": 0,
     "remaining_credits": 162,
-    "schedule_updated_at": "2026-09-23T20:17:45.843421+00:00",
+    "schedule_updated_at": "2026-09-23T23:39:03.697263+00:00",
     "collector_updated_at": "2026-09-22T08:05:47.437383+00:00",
-    "updated_at": "2026-09-23T20:17:45.843421+00:00",
+    "updated_at": "2026-09-23T23:39:03.697263+00:00",
     "note": "賽程場數來自免費 /events；盤口僅在 T-30 視窗由 collector 抓取。僅 NFL 勝負盤與大小分；不含讓分盤。"
   },
   "decisions": {
