@@ -1,7 +1,5 @@
 name: 發布繁體中文 Dashboard
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
